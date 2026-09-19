@@ -1,20 +1,20 @@
 # Hugging Face distribution
 
 The trained v0.3 model is published at
-[IamBusy/OpenJev-Branch-v0.3](https://huggingface.co/IamBusy/OpenJev-Branch-v0.3).
+[IamBusy/OpenJev-0.6B](https://huggingface.co/IamBusy/OpenJev-0.6B).
 The model parameters are the same development-selected checkpoint as the original
-GitHub v0.3.0 release. OpenJev package v0.3.1 adds the Hub loading entry point.
+GitHub v0.3.0 release. OpenJev package v0.3.2 provides the stable public name and loading entry point.
 
 ## Load the trained decision model
 
 ```bash
-pip install 'openjev[qwen] @ git+https://github.com/IamBusy/OpenJev.git@v0.3.1'
+pip install 'openjev[qwen] @ git+https://github.com/IamBusy/OpenJev.git@v0.3.2'
 ```
 
 ```python
-from openjev.branch_model import BranchDecision
+from openjev import OpenJevModel
 
-model = BranchDecision.from_pretrained("IamBusy/OpenJev-Branch-v0.3")
+model = OpenJevModel.from_pretrained("IamBusy/OpenJev-0.6B")
 result = model.predict(
     state="The recorded color is red.",
     questions={
@@ -36,7 +36,7 @@ working directory or manually arranged base-model folder is required. Use
 
 The loader verifies the bundle's file manifest. It automatically applies the
 published calibration; pass `temperatures={}` to request uncalibrated output.
-Calibration remains specific to the measured dataset mixture. The older direct
+Calibration remains specific to the measured dataset mixture. The direct
 constructor retains its explicit calibration behavior.
 
 ## Why an adapter release is complete for this training method
@@ -56,3 +56,5 @@ adapter with a generic text-generation loader does not reproduce OpenJev.
 The Hub layout puts `adapter_model.safetensors` and `adapter_config.json` at the
 repository root; the older GitHub ZIP keeps them under `adapter/`. Both layouts
 contain identical trained tensor bytes and are supported by OpenJev v0.3.1.
+
+Public model names and compatibility aliases are defined in [NAMING.md](NAMING.md).

@@ -3,7 +3,7 @@ message: "If you use OpenJev, cite the repository version and the upstream data/
 title: "OpenJev: Local typed probabilistic decision experiments"
 authors:
   - name: "OpenJev contributors"
-version: 0.3.1
+version: 0.3.2
 date-released: 2026-09-19
 url: "https://github.com/IamBusy/OpenJev"
 license: Apache-2.0

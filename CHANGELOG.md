@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.2 — 2026-09-19
+
+- Standardize the public model name as `OpenJev-0.6B`; track training and software
+  versions separately from the model name. The trained tensor bytes are unchanged.
+- Add the public `OpenJevModel` SDK export and `openjev-model` command, retaining
+  existing implementation imports, old commands and local checkpoint fallback.
+- Rename the Hugging Face repository with redirects and update model cards,
+  examples, download metadata and the release bundle.
+
 ## 0.3.1 — 2026-09-19
 
 - Publish the existing v0.3 trained adapter and scalar head on Hugging Face.

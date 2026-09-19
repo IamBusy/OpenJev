@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "openjev"
-version = "0.3.1"
+version = "0.3.2"
 description = "An independent, reproducible experiment in typed probabilistic decisions"
 readme = "README.md"
 license = "Apache-2.0"
@@ -37,6 +37,7 @@ Issues = "https://github.com/IamBusy/OpenJev/issues"
 
 [project.scripts]
 openjev = "openjev.cli:main"
+openjev-model = "openjev.branch_cli:main"
 openjev-qwen = "openjev.qwen_cli:main"
 openjev-branch = "openjev.branch_cli:main"
 

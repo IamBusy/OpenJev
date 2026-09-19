@@ -4,6 +4,8 @@ import shutil
 from pathlib import Path
 from threading import Lock
 
+from . import __version__
+from .identity import MODEL_ID, MODEL_VERSION, default_checkpoint
 from .io import sha256, write_json
 
 
@@ -19,6 +21,8 @@ def export_branch(root, output):
     write_json(output / "adapter/adapter_config.json", adapter_config)
     cfg = json.loads((output / "openjev_config.json").read_text())
     cfg["architecture"] = "SharedStateCandidateBranches"
+    cfg["model_id"] = MODEL_ID
+    cfg["model_version"] = MODEL_VERSION
     write_json(output / "openjev_config.json", cfg)
     manifest = {
         "base_model": selection["config"]["model_name"],
@@ -41,11 +45,15 @@ def create_branch_app(root, checkpoint):
     calibration = checkpoint / "calibration-v03.json"
     temperatures = json.loads(calibration.read_text()) if calibration.exists() else None
     lock = Lock()
-    app = FastAPI(title="OpenJev shared-state scorer", version="0.3.0")
+    app = FastAPI(title="OpenJev model API", version=__version__)
 
     @app.get("/health")
     def health():
-        return {"status": "ok", "model": "OpenJev-Branch-v0.3"}
+        return {
+            "status": "ok",
+            "model": model.config.get("model_id", MODEL_ID),
+            "model_version": model.config.get("model_version", MODEL_VERSION),
+        }
 
     @app.post("/v1/decide")
     def decide(request: Request):
@@ -59,7 +67,7 @@ def create_branch_app(root, checkpoint):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="OpenJev shared-state candidate scorer")
+    parser = argparse.ArgumentParser(description="OpenJev model training and inference")
     parser.add_argument("--root", type=Path, default=Path.cwd())
     commands = parser.add_subparsers(dest="command", required=True)
     download = commands.add_parser("download", help="Download pinned base and release weights")
@@ -119,9 +127,9 @@ def main():
         if args.checkpoint:
             checkpoint = full(args.checkpoint)
         else:
-            checkpoint = root / "artifacts/openjev-branch-v0.3"
+            checkpoint = default_checkpoint(root)
         if not (checkpoint / "openjev_config.json").is_file():
-            parser.error("Checkpoint missing. Run openjev-branch download or pass --checkpoint.")
+            parser.error("Checkpoint missing. Run openjev-model download or pass --checkpoint.")
         if args.command == "serve":
             import uvicorn
 

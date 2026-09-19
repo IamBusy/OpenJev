@@ -10,10 +10,10 @@ splits and run names are rejected rather than silently overwritten.
 After installing with `uv sync --frozen --extra qwen --extra dev`, run in order:
 
 ```bash
-uv run --no-sync openjev-branch download --base-only
+uv run --no-sync openjev-model download --base-only
 uv run --no-sync openjev prepare
 uv run --no-sync openjev-qwen prepare
-uv run --no-sync openjev-branch prepare
+uv run --no-sync openjev-model prepare
 ```
 
 The first data stage downloads pinned BANKING77, CLINC and TweetEval sources.
@@ -31,7 +31,7 @@ Compare the generated `data/v03/processed/manifest.json` with the published
 The reference is an intentional subset of fresh test, not another held-out set.
 The older 448-question regression pack stays separate.
 
-`openjev-branch prepare --replay-rendering` is an optional **local historical**
+`openjev-model prepare --replay-rendering` is an optional **local historical**
 workflow requiring private saved provider responses. It is not needed for public
 reproduction. `--live-rendering` explicitly calls DeepSeek, consumes provider
 credits and may produce different narratives; it requires `DEEPSEEK_API_KEY`.
@@ -43,10 +43,10 @@ The full cross-version evaluation needs both Qwen runs:
 
 ```bash
 uv run --no-sync openjev-qwen train --run qwen-reproduction
-uv run --no-sync openjev-branch train --run branch-reproduction
-uv run --no-sync openjev-branch evaluate
+uv run --no-sync openjev-model train --run branch-reproduction
+uv run --no-sync openjev-model evaluate
 uv run --no-sync python scripts/report_v03.py
-uv run --no-sync openjev-branch export --output artifacts/my-branch-model
+uv run --no-sync openjev-model export --output artifacts/my-branch-model
 ```
 
 Configuration files pin the model revision, seeds, optimization and context
@@ -54,7 +54,7 @@ limits. Training selects checkpoints by development NLL, including the initial
 checkpoint. Evaluation fits temperatures on calibration data and then evaluates
 fresh/regression tests. It also runs structural diagnostics and cache timing.
 Reference results already recorded in the repository are retained; invoking
-`openjev-branch reference` makes new paid provider calls and is optional.
+`openjev-model reference` makes new paid provider calls and is optional.
 
 The original branch training took about 636 seconds on an M3 Pro with 36 GB RAM.
 This is one measured run, not a minimum hardware requirement. CPU training is

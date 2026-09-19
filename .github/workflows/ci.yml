@@ -24,5 +24,6 @@ jobs:
       - run: uv run --no-sync ruff format --check src tests scripts
       - run: uv run --no-sync pytest -q -ra
       - run: uv run --no-sync python scripts/check_repository.py
+      - run: uv run --no-sync openjev-model --help
       - run: uv run --no-sync openjev-branch --help
       - run: uv build

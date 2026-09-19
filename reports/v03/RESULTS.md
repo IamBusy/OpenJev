@@ -123,8 +123,8 @@ M3 Pro、BF16、4 个 CPU 线程，预热 2 次、每条路径计时 8 次，三
 
 ~~~bash
 uv sync --frozen --extra dev --extra qwen
-uv run --no-sync openjev-branch predict --input examples/refund.json
-uv run --no-sync openjev-branch serve --port 8081
+uv run --no-sync openjev-model predict --input examples/refund.json
+uv run --no-sync openjev-model serve --port 8081
 ~~~
 
 接口为本机 /v1/decide。共享前缀只在一个请求内复用。代码、数据版本、校准参数、训练日志及权重哈希均已保存。

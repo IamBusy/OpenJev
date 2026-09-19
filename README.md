@@ -2,9 +2,10 @@
 
 [![Checks](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml/badge.svg)](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml)
 
-[Hugging Face model](https://huggingface.co/IamBusy/OpenJev-Branch-v0.3) · [中文](README.zh-CN.md) · [Results](reports/v03/RESULTS.md) · [Reproduce](docs/REPRODUCING.md) · [Model card](docs/MODEL_CARD.md)
+[Hugging Face model](https://huggingface.co/IamBusy/OpenJev-0.6B) · [中文](README.zh-CN.md) · [Results](reports/v03/RESULTS.md) · [Reproduce](docs/REPRODUCING.md) · [Model card](docs/MODEL_CARD.md)
 
-**Small, local models for typed probabilistic decisions.** Give OpenJev a state,
+**Small, local models for typed probabilistic decisions.** The published model is
+**OpenJev-0.6B**; model revisions and software releases are tracked separately. Give OpenJev a state,
 questions and candidate descriptions. It returns probabilities for `choice`,
 `noul` (probability of truth), and ordinal `score`, without decoding answer tokens.
 
@@ -49,8 +50,8 @@ space and RAM; the separately downloaded base weights are about 1.2 GB.
 git clone https://github.com/IamBusy/OpenJev.git
 cd OpenJev
 uv sync --frozen --extra qwen --extra dev
-uv run --no-sync openjev-branch download
-uv run --no-sync openjev-branch predict --input examples/refund.json
+uv run --no-sync openjev-model download
+uv run --no-sync openjev-model predict --input examples/refund.json
 ```
 
 `download` fetches a pinned Qwen base from Hugging Face and the small OpenJev
@@ -61,10 +62,10 @@ before the subcommand. Existing model files are verified rather than replaced.
 
 ```python
 from pathlib import Path
-from openjev.branch_model import BranchDecision
+from openjev import OpenJevModel
 
 root = Path.cwd()
-model = BranchDecision(root, checkpoint=root / "artifacts/openjev-branch-v0.3")
+model = OpenJevModel(root, checkpoint=root / "artifacts/openjev-0.6b")
 result = model.predict(
     state="The recorded color is red.",
     questions={
@@ -87,8 +88,8 @@ not a guarantee for a new domain.
 After installing the Qwen extra, no checkout-specific model directories are needed:
 
 ```python
-from openjev.branch_model import BranchDecision
-model = BranchDecision.from_pretrained("IamBusy/OpenJev-Branch-v0.3")
+from openjev import OpenJevModel
+model = OpenJevModel.from_pretrained("IamBusy/OpenJev-0.6B")
 ```
 
 This loads the trained LoRA, custom scoring head, calibration and pinned base.
@@ -132,7 +133,7 @@ with Jev. See [all task results and regressions](reports/v03/RESULTS.md).
 ## Local service
 
 ```bash
-uv run --no-sync openjev-branch serve --port 8081
+uv run --no-sync openjev-model serve --port 8081
 curl http://127.0.0.1:8081/v1/decide \
   -H 'Content-Type: application/json' --data-binary @examples/refund.json
 ```
@@ -156,7 +157,7 @@ when local artifacts are present and otherwise skip explicitly. Rebuilding the
 frozen data needs public source downloads but no provider credentials; see the
 [complete reproduction guide](docs/REPRODUCING.md).
 
-- [Contributing](CONTRIBUTING.md), [security](SECURITY.md), [changelog](CHANGELOG.md)
+- [Names and versions](docs/NAMING.md), [Contributing](CONTRIBUTING.md), [security](SECURITY.md), [changelog](CHANGELOG.md)
 - [Data examples](docs/DATA_WALKTHROUGH.md), [source attribution](THIRD_PARTY.md)
 - [v0.3 protocol](docs/V03_PROTOCOL.md), [v0.2 report](reports/v02/RESULTS.md), [v0.1 report](reports/RESULTS.md)
 
