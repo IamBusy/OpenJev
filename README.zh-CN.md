@@ -1,6 +1,6 @@
 # OpenJev
 
-[English](README.md) · [实验结果](reports/v03/RESULTS.md) · [复现说明](docs/REPRODUCING.md)
+[Hugging Face 模型](https://huggingface.co/IamBusy/OpenJev-Branch-v0.3) · [English](README.md) · [实验结果](reports/v03/RESULTS.md) · [复现说明](docs/REPRODUCING.md)
 
 OpenJev 是一个研究型开源项目：输入状态、问题和候选描述，直接得到结构化概率，
 无需生成答案文本。支持 `choice`（候选选择）、`noul`（命题为真的概率）和
@@ -56,3 +56,14 @@ uv build
 
 代码使用 Apache-2.0。公共数据保留各自许可证，详见[来源与署名](THIRD_PARTY.md)。
 [模型说明](docs/MODEL_CARD.md) · [贡献指南](CONTRIBUTING.md) · [安全说明](SECURITY.md)
+
+## 从 Hugging Face 直接加载
+
+```python
+from openjev.branch_model import BranchDecision
+model = BranchDecision.from_pretrained("IamBusy/OpenJev-Branch-v0.3")
+```
+
+会自动下载训练后的 LoRA、独立评分头、校准参数和固定版本基模，无需手动安排
+文件目录。模型参数与原 v0.3 实验一致；这个加载入口从代码版本 v0.3.1 起提供。
+详见[发布形式与加载说明](docs/HUGGING_FACE.md)。

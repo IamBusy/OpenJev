@@ -2,7 +2,7 @@
 
 [![Checks](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml/badge.svg)](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml)
 
-[中文](README.zh-CN.md) · [Results](reports/v03/RESULTS.md) · [Reproduce](docs/REPRODUCING.md) · [Model card](docs/MODEL_CARD.md)
+[Hugging Face model](https://huggingface.co/IamBusy/OpenJev-Branch-v0.3) · [中文](README.zh-CN.md) · [Results](reports/v03/RESULTS.md) · [Reproduce](docs/REPRODUCING.md) · [Model card](docs/MODEL_CARD.md)
 
 **Small, local models for typed probabilistic decisions.** Give OpenJev a state,
 questions and candidate descriptions. It returns probabilities for `choice`,
@@ -81,6 +81,18 @@ print(result["answers"]["color"])
 The Python example uses uncalibrated probabilities. The CLI loads the delivered
 calibration file automatically. Calibration is specific to the measured mixture,
 not a guarantee for a new domain.
+
+## Load from Hugging Face
+
+After installing the Qwen extra, no checkout-specific model directories are needed:
+
+```python
+from openjev.branch_model import BranchDecision
+model = BranchDecision.from_pretrained("IamBusy/OpenJev-Branch-v0.3")
+```
+
+This loads the trained LoRA, custom scoring head, calibration and pinned base.
+See [Hub usage and adapter versus merged weights](docs/HUGGING_FACE.md).
 
 ## Contract
 

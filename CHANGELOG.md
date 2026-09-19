@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.1 — 2026-09-19
+
+- Publish the existing v0.3 trained adapter and scalar head on Hugging Face.
+- Add `BranchDecision.from_pretrained` with pinned base download, file verification
+  and automatic calibration; support the standard root-level PEFT layout.
+- Preserve the original trained weights and the GitHub v0.3.0 release.
+
 ## 0.3.0 — 2026-09-19
 
 First public experimental release.

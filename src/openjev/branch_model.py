@@ -91,15 +91,56 @@ def score_token_branches(
 
 
 class BranchDecision:
-    def __init__(self, root: Path, config=None, checkpoint=None, training=False):
-        self.root = root
+    @classmethod
+    def from_pretrained(
+        cls, model_id, *, revision=None, local_files_only=False, base_model_path=None
+    ):
+        """Load the complete decision model (adapter, head, calibration and pinned base)."""
+        from huggingface_hub import snapshot_download
+
+        from .download import verify_bundle
+
+        checkpoint = Path(model_id)
+        if not checkpoint.is_dir():
+            checkpoint = Path(
+                snapshot_download(
+                    str(model_id),
+                    revision=revision,
+                    local_files_only=local_files_only,
+                    allow_patterns=["*.json", "*.safetensors", "*.md", "LICENSE"],
+                )
+            )
+        verify_bundle(checkpoint)
+        config = json.loads((checkpoint / "openjev_config.json").read_text())
+        if base_model_path is None:
+            base_model_path = snapshot_download(
+                config["model_name"],
+                revision=config["model_revision"],
+                local_files_only=local_files_only,
+                allow_patterns=["*.json", "*.safetensors", "*.txt", "LICENSE", "README.md"],
+            )
+        model = cls(Path.cwd(), checkpoint=checkpoint, base_model_path=base_model_path)
+        calibration = checkpoint / "calibration-v03.json"
+        if calibration.exists():
+            model.default_temperatures = json.loads(calibration.read_text())
+        return model
+
+    def __init__(
+        self, root: Path, config=None, checkpoint=None, training=False, base_model_path=None
+    ):
+        self.root = root = Path(root)
+        self.default_temperatures = None
         if checkpoint:
             config = json.loads((Path(checkpoint) / "openjev_config.json").read_text())
         self.config = config
         torch.set_num_threads(config.get("torch_threads", 4))
         self.device = "mps" if torch.backends.mps.is_available() else "cpu"
         dtype = torch.bfloat16 if self.device == "mps" else torch.float32
-        base = root / "artifacts/base/qwen3-0.6b"
+        base = (
+            Path(base_model_path)
+            if base_model_path is not None
+            else root / "artifacts/base/qwen3-0.6b"
+        )
         if not (base / "config.json").is_file():
             raise FileNotFoundError("Base model missing. Run openjev-branch download --base-only.")
         self.tokenizer = AutoTokenizer.from_pretrained(base)
@@ -115,9 +156,10 @@ class BranchDecision:
             embedding = self.lm.get_output_embeddings().weight
             self.head.weight.copy_((embedding[yes[0]] - embedding[no[0]]).float()[None, :])
         if checkpoint:
-            self.lm = PeftModel.from_pretrained(
-                self.lm, str(Path(checkpoint) / "adapter"), is_trainable=False
-            )
+            adapter = Path(checkpoint) / "adapter"
+            if not (adapter / "adapter_config.json").is_file():
+                adapter = Path(checkpoint)
+            self.lm = PeftModel.from_pretrained(self.lm, str(adapter), is_trainable=False)
             self.head.load_state_dict(load_file(str(Path(checkpoint) / "head.safetensors")))
         elif training:
             seed_everything(config["seed"])
@@ -198,6 +240,8 @@ class BranchDecision:
         write_json(path / "openjev_config.json", {**self.config, **metadata})
 
     def predict(self, state, questions, temperatures=None, cached=True):
+        if temperatures is None:
+            temperatures = self.default_temperatures
         request = Request(state=state, questions=questions)
         self.set_training(False)
         started = time.perf_counter()

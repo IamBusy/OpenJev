@@ -76,6 +76,8 @@ see `THIRD_PARTY.md`. The model bundle includes no raw benchmark corpus, private
 provider traces or credentials. No legal conclusion about downstream use is
 implied by model behavior.
 
-GitHub Releases is the initial model distribution. No Hugging Face model or
-dataset upload is claimed. The archive SHA-256 is pinned in
-`src/openjev/release_assets.json`; `MANIFEST.json` records hashes inside the bundle.
+The trained adapter and scalar head are available on
+[Hugging Face](https://huggingface.co/IamBusy/OpenJev-Branch-v0.3) and in the original
+GitHub Release ZIP. Both use identical trained tensor bytes. See
+[Hub loading instructions](HUGGING_FACE.md). The original ZIP SHA-256 is pinned in
+`src/openjev/release_assets.json`; each bundle has its own file manifest.

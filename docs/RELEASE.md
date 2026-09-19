@@ -3,7 +3,8 @@
 The initial public distribution is `IamBusy/OpenJev` on GitHub. Version v0.3.0 is
 an experimental release with source archives, Python packages and the small
 OpenJev-Branch adapter/head ZIP. Qwen base weights download separately from their
-pinned upstream revision. No Hugging Face model/dataset publication is claimed.
+pinned upstream revision. The identical trained adapter/head also has a Hugging Face model repository;
+see [Hub distribution](HUGGING_FACE.md). No dataset upload is claimed.
 
 Before a release:
 
