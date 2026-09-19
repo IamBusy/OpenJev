@@ -169,15 +169,15 @@ def main():
         "",
         "~~~bash",
         "uv sync --frozen --extra dev --extra qwen",
-        "uv run --no-sync openjev-branch predict --input examples/refund.json",
-        "uv run --no-sync openjev-branch serve --port 8081",
+        "uv run --no-sync openjev-model predict --input examples/refund.json",
+        "uv run --no-sync openjev-model serve --port 8081",
         "~~~",
         "",
         "接口为本机 /v1/decide。共享前缀只在一个请求内复用。"
         "代码、数据版本、校准参数、训练日志及权重哈希均已保存。",
     ]
     (ROOT / "reports/v03/RESULTS.md").write_text("\n".join(rows) + "\n")
-    output = ROOT / "artifacts/openjev-branch-v0.3"
+    output = ROOT / "artifacts/openjev-0.6b"
     if output.exists():
         shutil.copy2(ROOT / "reports/v03/RESULTS.md", output / "RESULTS.md")
         card = [
@@ -189,7 +189,7 @@ def main():
             "- experimental",
             "- candidate-scoring",
             "---",
-            "# OpenJev-Branch-v0.3",
+            "# OpenJev-0.6B",
             "",
             "Experimental Qwen3-0.6B LoRA plus a 1024-parameter scalar candidate head.",
             "A shared state prefix and isolated candidate branches replace A–Z label logits.",

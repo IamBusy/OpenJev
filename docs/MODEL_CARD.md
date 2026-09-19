@@ -1,4 +1,4 @@
-# OpenJev-Branch-v0.3 model card
+# OpenJev-0.6B model card
 
 **Status:** experimental research checkpoint, released 2026-09-19.
 [Code](https://github.com/IamBusy/OpenJev) ·
@@ -10,7 +10,7 @@ The checkpoint contains a Qwen3-0.6B attention-projection LoRA (1,146,880 traina
 parameters), an independent 1,024-parameter scalar head and per-primitive
 calibration. The base model is separate, pinned to revision
 `c1899de289a04d12100db370d81485cdf75e47ca` of `Qwen/Qwen3-0.6B`.
-Use OpenJev's `BranchDecision` loader; this is not a standalone Transformers
+Use OpenJev's `OpenJevModel` loader; this is not a standalone Transformers
 `AutoModel` or a normal text-generation LoRA. The scalar head is required.
 
 The head starts from the pretrained Yes-minus-No embedding direction and is
@@ -77,7 +77,7 @@ provider traces or credentials. No legal conclusion about downstream use is
 implied by model behavior.
 
 The trained adapter and scalar head are available on
-[Hugging Face](https://huggingface.co/IamBusy/OpenJev-Branch-v0.3) and in the original
+[Hugging Face](https://huggingface.co/IamBusy/OpenJev-0.6B) and in the original
 GitHub Release ZIP. Both use identical trained tensor bytes. See
 [Hub loading instructions](HUGGING_FACE.md). The original ZIP SHA-256 is pinned in
 `src/openjev/release_assets.json`; each bundle has its own file manifest.

@@ -4,7 +4,10 @@
 公开图像、原创合成概率数据、可下载的训练权重，以及
 [未见组合上的完整结果和失败案例](reports/vision-v01/RESULTS.md)。
 
-[Hugging Face 模型](https://huggingface.co/IamBusy/OpenJev-Branch-v0.3) · [English](README.md) · [实验结果](reports/v03/RESULTS.md) · [复现说明](docs/REPRODUCING.md)
+[Hugging Face 模型](https://huggingface.co/IamBusy/OpenJev-0.6B) · [English](README.md) · [实验结果](reports/v03/RESULTS.md) · [复现说明](docs/REPRODUCING.md)
+
+项目名称为 **OpenJev**，公开模型名称为 **OpenJev-0.6B**。训练版本和软件版本
+单独管理，详见[命名与版本规则](docs/NAMING.md)。
 
 OpenJev 是一个研究型开源项目：输入状态、问题和候选描述，直接得到结构化概率，
 无需生成答案文本。支持 `choice`（候选选择）、`noul`（命题为真的概率）和
@@ -23,9 +26,9 @@ OpenJev 是一个研究型开源项目：输入状态、问题和候选描述，
 git clone https://github.com/IamBusy/OpenJev.git
 cd OpenJev
 uv sync --frozen --extra qwen --extra dev
-uv run --no-sync openjev-branch download
-uv run --no-sync openjev-branch predict --input examples/refund.json
-uv run --no-sync openjev-branch serve --port 8081
+uv run --no-sync openjev-model download
+uv run --no-sync openjev-model predict --input examples/refund.json
+uv run --no-sync openjev-model serve --port 8081
 ```
 
 下载命令会取得固定版本的 Qwen 基模，以及 GitHub Release 上的 LoRA、评分头和
@@ -64,10 +67,10 @@ uv build
 ## 从 Hugging Face 直接加载
 
 ```python
-from openjev.branch_model import BranchDecision
-model = BranchDecision.from_pretrained("IamBusy/OpenJev-Branch-v0.3")
+from openjev import OpenJevModel
+model = OpenJevModel.from_pretrained("IamBusy/OpenJev-0.6B")
 ```
 
 会自动下载训练后的 LoRA、独立评分头、校准参数和固定版本基模，无需手动安排
-文件目录。模型参数与原 v0.3 实验一致；这个加载入口从代码版本 v0.3.1 起提供。
+文件目录。模型参数与原 v0.3 实验一致；当前公开入口由代码版本 v0.3.2 提供，旧接口继续兼容。
 详见[发布形式与加载说明](docs/HUGGING_FACE.md)。

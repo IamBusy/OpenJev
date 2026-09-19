@@ -13,6 +13,7 @@ from torch import nn
 from transformers import AutoModelForCausalLM, AutoTokenizer, DynamicCache
 from transformers.cache_utils import DynamicLayer
 
+from .identity import MODEL_ID, MODEL_VERSION
 from .io import seed_everything, write_json
 from .schema import Request, state_text
 
@@ -142,7 +143,7 @@ class BranchDecision:
             else root / "artifacts/base/qwen3-0.6b"
         )
         if not (base / "config.json").is_file():
-            raise FileNotFoundError("Base model missing. Run openjev-branch download --base-only.")
+            raise FileNotFoundError("Base model missing. Run openjev-model download --base-only.")
         self.tokenizer = AutoTokenizer.from_pretrained(base)
         self.lm = AutoModelForCausalLM.from_pretrained(
             base, dtype=dtype, attn_implementation="sdpa"
@@ -276,7 +277,8 @@ class BranchDecision:
                     answer["legend"] = descriptions
             answers[name] = answer
         return {
-            "model": "OpenJev-Branch-v0.3",
+            "model": self.config.get("model_id", MODEL_ID),
+            "model_version": self.config.get("model_version", MODEL_VERSION),
             "answers": answers,
             "usage": {
                 **usage,

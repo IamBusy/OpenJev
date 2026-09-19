@@ -10,6 +10,7 @@ from pathlib import Path, PurePosixPath
 
 import httpx
 
+from .identity import CHECKPOINT_DIRECTORY
 from .io import sha256
 
 
@@ -73,7 +74,7 @@ def download_branch(root, base_only=False):
     result = {"base": str(base), "base_revision": metadata["base_revision"]}
     if base_only:
         return result
-    destination = root / "artifacts/openjev-branch-v0.3"
+    destination = root / CHECKPOINT_DIRECTORY
     if destination.exists():
         verify_bundle(destination)
     else:

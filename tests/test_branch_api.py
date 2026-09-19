@@ -20,6 +20,9 @@ def test_branch_api_reuses_state_and_validates_output_offline(monkeypatch):
     response = client.post("/v1/decide", json=request)
     assert response.status_code == 200
     result = response.json()
+    assert result["model"] == "OpenJev-0.6B"
+    assert result["model_version"] == "0.3.0"
+    assert client.get("/health").json()["model"] == result["model"]
     assert result["usage"]["prefix_evaluations"] == 1
     assert result["usage"]["questions"] == 3
     assert result["usage"]["candidate_branches"] == 9
