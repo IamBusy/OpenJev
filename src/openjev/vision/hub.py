@@ -6,7 +6,7 @@ from pathlib import Path
 
 from .data import sha256, write_json
 
-DEFAULT_REPO = "IamBusy/OpenJev-Vision-v0.1"
+DEFAULT_REPO = "IamBusy/OpenJev-Vision"
 DEFAULT_REVISION = "8cf6cbd39a7dc72840c9b52810a3f672786566b0"
 
 
@@ -74,7 +74,7 @@ The separate DINOv2 backbone is not redistributed here and retains its own Apach
     (output / "README.md").write_text("""---
 license: other
 license_name: source-specific-research-licenses
-license_link: https://huggingface.co/IamBusy/OpenJev-Vision-v0.1/blob/main/LICENSES.md
+license_link: https://huggingface.co/IamBusy/OpenJev-Vision/blob/main/LICENSES.md
 library_name: openjev
 tags:
 - openjev

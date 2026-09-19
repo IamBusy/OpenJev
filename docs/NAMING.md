@@ -2,6 +2,12 @@
 
 Keep the project, model, software version and training revision distinct.
 
+The multimodal research bundle uses the stable name **OpenJev-Vision**
+and repository **IamBusy/OpenJev-Vision**. It contains several small experimental
+readouts, not one fixed-size foundation model. Its initial trained revision is
+0.1.0; the download pins the exact Hub commit and verifies component hashes.
+The original version-suffixed repository redirects to this canonical name.
+
 | Item | Public name / example | Meaning |
 | --- | --- | --- |
 | Project and GitHub repository | OpenJev | Research toolkit and source code |

@@ -63,9 +63,14 @@ def main():
         "download", help="Download and verify experimental visual weights"
     )
     download.add_argument("--output", default="artifacts/openjev-vision-v0.1")
-    download.add_argument("--repo", default="IamBusy/OpenJev-Vision-v0.1")
+    download.add_argument("--repo", default="IamBusy/OpenJev-Vision")
     download.add_argument("--revision")
     download.add_argument("--backbone", action="store_true")
+    timing = commands.add_parser("benchmark", help="Measure matched shared versus repeated encoding")
+    timing.add_argument("--checkpoint", default="runs/vision-v01/joint-17/checkpoint")
+    timing.add_argument("--data", default="data/vision/synthetic")
+    timing.add_argument("--output", default="reports/vision-v01/latency.json")
+    timing.add_argument("--device", default="auto")
     args = parser.parse_args()
     if args.command == "generate":
         from .data import generate
@@ -134,6 +139,10 @@ def main():
         from .hub import download_models
 
         result = download_models(args.output, args.repo, args.revision, backbone=args.backbone)
+    elif args.command == "benchmark":
+        from .evaluate import benchmark
+
+        result = benchmark(args.checkpoint, args.data, args.output, args.device)
     elif args.command == "public-predict":
         from PIL import Image
 
@@ -157,7 +166,8 @@ def main():
         p = model.posterior(image, prior)
         questions = json.loads(Path(args.questions).read_text())
         result = {
-            "model": "OpenJev-Vision-v0.1/" + model.config["variant"],
+            "model": "OpenJev-Vision/" + model.config["variant"],
+            "model_version": "0.1.0",
             "scope": "Controlled three-slot scenes and declared event semantics.",
             "answers": answer_questions(p, questions),
             "top_world": describe_world(p.argmax()),

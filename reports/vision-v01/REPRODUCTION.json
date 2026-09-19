@@ -1,0 +1,11 @@
+{
+  "synthetic_split_bytes_match": {
+    "train": true,
+    "dev": true,
+    "calibration": true,
+    "test_id": true,
+    "test_topology": true,
+    "test_appearance": true
+  },
+  "note": "Regenerated all split archives using release source; source text formatting hashes can differ from the earlier training snapshot."
+}

@@ -115,7 +115,8 @@ class PublicVisionModel:
     def predict(self, image, questions):
         p = self.posterior(image)
         return {
-            "model": f"OpenJev-Vision-v0.1/{self.config['dataset']}/{self.config['variant']}",
+            "model": f"OpenJev-Vision/{self.config['dataset']}/{self.config['variant']}",
+            "model_version": "0.1.0",
             "answers": answer_public(p, questions, self.worlds),
             "posterior": p.tolist(),
             "worlds": self.worlds,

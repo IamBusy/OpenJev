@@ -1,7 +1,7 @@
 # OpenJev 多模态视觉后验研究
 
 [数据集](https://huggingface.co/datasets/IamBusy/OpenJev-Vision-Research-v0.1) ·
-[实验权重](https://huggingface.co/IamBusy/OpenJev-Vision-v0.1) ·
+[实验权重](https://huggingface.co/IamBusy/OpenJev-Vision) ·
 [完整结果](../reports/vision-v01/RESULTS.md) · [英文复现指南](VISION.md)
 
 目标是让多个视觉判断共享一个概率表示，并研究它在遮挡、依赖关系变化和未见组合下

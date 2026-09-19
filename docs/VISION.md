@@ -2,7 +2,7 @@
 
 [中文](VISION.zh-CN.md) ·
 [Data](https://huggingface.co/datasets/IamBusy/OpenJev-Vision-Research-v0.1) ·
-[Weights](https://huggingface.co/IamBusy/OpenJev-Vision-v0.1) ·
+[Weights](https://huggingface.co/IamBusy/OpenJev-Vision) ·
 [Results](../reports/vision-v01/RESULTS.md)
 
 **Encode an image once, retain a distribution, ask several compositional questions.**
@@ -108,6 +108,7 @@ so earlier runs are not silently overwritten.
 uv run --no-sync openjev-vision generate
 uv run --no-sync openjev-vision train
 uv run --no-sync openjev-vision evaluate
+uv run --no-sync openjev-vision benchmark
 uv run --no-sync openjev-vision prepare-public
 uv run --no-sync openjev-vision train-public --dataset pets
 uv run --no-sync openjev-vision train-public --dataset clevr4
@@ -120,6 +121,7 @@ CLEVR-4 ZIP members; it does not need the complete 3.8 GB CLEVR archive.
 Allow several GB of working disk space. Hugging Face's public sources require no
 model-service key. MPS is the measured image-training device; CPU and CUDA code
 paths are available but their performance was not benchmarked in this release.
+Run timing separately from other GPU workloads.
 
 The full synthetic experiment uses 3 variants × 3 seeds. The public experiment
 uses 1 Pet readout and 3 CLEVR-4 readouts × 3 seeds. The fixed seed-17 bundles
