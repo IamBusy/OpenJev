@@ -66,7 +66,9 @@ def main():
     download.add_argument("--repo", default="IamBusy/OpenJev-Vision")
     download.add_argument("--revision")
     download.add_argument("--backbone", action="store_true")
-    timing = commands.add_parser("benchmark", help="Measure matched shared versus repeated encoding")
+    timing = commands.add_parser(
+        "benchmark", help="Measure matched shared versus repeated encoding"
+    )
     timing.add_argument("--checkpoint", default="runs/vision-v01/joint-17/checkpoint")
     timing.add_argument("--data", default="data/vision/synthetic")
     timing.add_argument("--output", default="reports/vision-v01/latency.json")
