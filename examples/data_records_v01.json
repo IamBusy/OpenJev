@@ -1,0 +1,117 @@
+[
+  {
+    "id": "banking77:train/139:intent_choice",
+    "group_id": "9c076e2164f94939f0f72ecd47b09c1c297867a29e6475a2ddbde895775a7f3a",
+    "source": "banking77",
+    "source_id": "train/139",
+    "split": "train",
+    "task": "intent_choice",
+    "state": "Can you tell me if I can track the card you sent me?",
+    "question": {
+      "type": "choice",
+      "instructions": "Which service best matches the customer's request?",
+      "criteria": {
+        "declined_transfer": "The customer is asking about declined transfer.",
+        "card_arrival": "The customer is asking about card arrival.",
+        "other": "None of the offered services matches the customer's request.",
+        "fiat_currency_support": "The customer is asking about fiat currency support.",
+        "topping_up_by_card": "The customer is asking about topping up by card."
+      }
+    },
+    "target": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "label": "card_arrival",
+    "provenance": {
+      "original_label": "card_arrival",
+      "candidate_protocol": "subset_train_full_pool_eval"
+    }
+  },
+  {
+    "id": "banking77:train/6366:intent_verification",
+    "group_id": "78f099dab90c074f6349db31db2ccaae7c8f1603db6e0d5aab6a511773655db3",
+    "source": "banking77",
+    "source_id": "train/6366",
+    "split": "train",
+    "task": "intent_verification",
+    "state": "I have been charged two times for one transaction.",
+    "question": {
+      "type": "noul",
+      "instructions": "The customer is asking about passcode forgotten.",
+      "criteria": {
+        "false": "The customer is not asking about passcode forgotten.",
+        "true": "The customer is asking about passcode forgotten."
+      }
+    },
+    "target": [
+      1.0,
+      0.0
+    ],
+    "label": "False",
+    "provenance": {
+      "original_label": "transaction_charged_twice",
+      "proposition_label": "passcode_forgotten"
+    }
+  },
+  {
+    "id": "tweeteval_sentiment:train/22093:sentiment_score",
+    "group_id": "b9dc423ad5ece37cf4df495647edde494ed6e659afbb7e3418caf898541254da",
+    "source": "tweeteval_sentiment",
+    "source_id": "train/22093",
+    "split": "train",
+    "task": "sentiment_score",
+    "state": "\"I had a \\\"\"\"\"nightmare\\\"\"\"\" last night where I missed the 2nd rd of my #FantasyBasketball draft and they autodrafted me JR Smith. #truestory lol\" ",
+    "question": {
+      "type": "score",
+      "instructions": "Rate the sentiment from negative to positive.",
+      "criteria": [
+        "The text expresses negative sentiment.",
+        "The text expresses neutral sentiment.",
+        "The text expresses positive sentiment."
+      ]
+    },
+    "target": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "label": "0",
+    "provenance": {
+      "original_split": "train",
+      "label_source": "human annotation"
+    }
+  },
+  {
+    "id": "urn_simulator:train/1662:known_probability",
+    "group_id": "b813c76910e489861d3083d7d4a538ffe8999b81c450e14fe29a5ce8a7bbfed9",
+    "source": "urn_simulator",
+    "source_id": "train/1662",
+    "split": "train",
+    "task": "known_probability",
+    "state": "A bag contains 11 yellow, 7 white, 21 red balls. One ball is drawn uniformly at random.",
+    "question": {
+      "type": "choice",
+      "instructions": "What color will the randomly drawn ball be?",
+      "criteria": {
+        "yellow": "The drawn ball is yellow.",
+        "white": "The drawn ball is white.",
+        "red": "The drawn ball is red."
+      }
+    },
+    "target": [
+      0.28205128205128205,
+      0.1794871794871795,
+      0.5384615384615384
+    ],
+    "label": "red",
+    "provenance": {
+      "generator": "urn-v1",
+      "seed": 17,
+      "target_source": "exact counts / total"
+    }
+  }
+]

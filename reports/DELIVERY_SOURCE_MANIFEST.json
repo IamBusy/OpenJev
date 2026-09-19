@@ -1,0 +1,20 @@
+{
+  "src/openjev/__init__.py": "d7e4190a18b1519998ef014aa42e5a3f812fcd7f09f94dec87d772126531be61",
+  "src/openjev/audit.py": "2ff309d20ffb2f72dc38bccc82883e1773d70574a28a955a769903be7f6f5840",
+  "src/openjev/benchmark.py": "85aa2e4c94741972b2afcfefa1e8c02fa2141b6c5d0bd0b5cf3bfe7235718012",
+  "src/openjev/cli.py": "4452a3e1d71dd997f805f940404920fc97906f3b75e9b309f21eaf87e764ed77",
+  "src/openjev/data.py": "2fa6779e6070999773af555d5d61f4118ed317c0300cf1f3e8f0bb8fdadb1b89",
+  "src/openjev/evaluate.py": "657f0edbe09718e9f42b6354eb7c1ec3d2fd724a12f0c5dd2a8eb7d8fda5ad34",
+  "src/openjev/io.py": "eb0fda0cf84c040dd127138fe5c362ab0f7fe18fddb48ca667ba1b82b401ac56",
+  "src/openjev/metrics.py": "83bb97d3df490468fe34e2d27f3d4752eacb461ef304dcdc832b1e75ad92dff2",
+  "src/openjev/model.py": "1132a236db012965d06ab569ebfcb0e9e5d612cc9885fa919f49103f9fd79423",
+  "src/openjev/release.py": "4848f894308cb12e98be91cfd6806d93d02dcc725e369dc52dd9bc450beece67",
+  "src/openjev/schema.py": "7149f1f19b688adb53af6b16bdb5b8c59c2d19f6ea0b43e7c1975b7a5dfd7b34",
+  "src/openjev/server.py": "2d53aeea8ad760dfda5c75d166ab0871a8b73738b99be84e74903b44fca299e1",
+  "src/openjev/synthesize.py": "b281b708fca00899cd738d904cc706d08fb4f9b4e57e705a79d9b6f7ae0215ed",
+  "src/openjev/train.py": "05656d980d67bb818acc52a86a6f10545946ee4edbe78cf0517c700f245fef2f",
+  "scripts/build_report.py": "c5cb7bb00361b79dc63559a9aef0ca0ef2ed81489675dd4675fe794d6f2abc31",
+  "scripts/run_local.py": "ca8dfd7c3e4170eeb6099405e78b00a7ed48113aabbf2aef7fd70bce794bab9a",
+  "uv.lock": "c48eaf2d95b10e70726896f3f237f173e57016b9357a374fb7cae426bf50a99d",
+  "pyproject.toml": "df27c54c28aa7877110f97ef80b07b038b6c817fc502754540e109c7c80bd07f"
+}

@@ -1,0 +1,99 @@
+{
+  "version": "OpenJev-v0.3",
+  "seed": 43,
+  "splits": {
+    "train": {
+      "records": 725,
+      "state_groups": 486,
+      "tasks": {
+        "sentiment_score": 64,
+        "incident_escalate": 42,
+        "banking_choice": 64,
+        "refund_opened": 60,
+        "arc_easy": 128,
+        "refund_failures": 35,
+        "refund_request": 60,
+        "incident_owner": 42,
+        "boolq": 128,
+        "incident_severity": 42,
+        "refund_eligibility": 60
+      },
+      "sha256": "e88968e5e899c9319763760da6c45d95aca2f453d1b9d79d9157915c6908716c"
+    },
+    "dev": {
+      "records": 176,
+      "state_groups": 120,
+      "tasks": {
+        "incident_severity": 9,
+        "incident_escalate": 9,
+        "refund_eligibility": 15,
+        "refund_opened": 15,
+        "banking_choice": 16,
+        "arc_easy": 32,
+        "boolq": 32,
+        "incident_owner": 9,
+        "sentiment_score": 16,
+        "refund_failures": 8,
+        "refund_request": 15
+      },
+      "sha256": "dc02d5cf68b8935f61c0c55ddfee9b826e1655b7454fa73956523a7fdfdbfa0e"
+    },
+    "calibration": {
+      "records": 167,
+      "state_groups": 117,
+      "tasks": {
+        "arc_easy": 32,
+        "incident_owner": 9,
+        "sentiment_score": 16,
+        "refund_opened": 12,
+        "refund_eligibility": 12,
+        "boolq": 32,
+        "incident_escalate": 9,
+        "banking_choice": 16,
+        "refund_request": 12,
+        "refund_failures": 8,
+        "incident_severity": 9
+      },
+      "sha256": "fef4e94d864687c776f4820fea04b18ef9c66a164e5dd2f20344bd7ffc075b9a"
+    },
+    "test_fresh": {
+      "records": 405,
+      "state_groups": 214,
+      "tasks": {
+        "boolq": 64,
+        "refund_opened": 33,
+        "arc_easy": 64,
+        "shipping_lateness": 20,
+        "shipping_action": 20,
+        "refund_request": 33,
+        "refund_eligibility": 33,
+        "incident_severity": 18,
+        "shipping_shipped": 20,
+        "incident_escalate": 18,
+        "access_active": 15,
+        "refund_failures": 19,
+        "access_gap": 15,
+        "access_action": 15,
+        "incident_owner": 18
+      },
+      "sha256": "678c4e46d037c1e7f4718949903b80f6033041af931d487fc7f9ad48bf3fdfd2"
+    },
+    "reference": {
+      "records": 60,
+      "sha256": "e15ef42cae0e2c4ceaff5c41111bf4c6f563184f77f647af6a55d1de35f34733",
+      "relation": "intentional subset of fresh test"
+    }
+  },
+  "source_lock_sha256": "d11ef32933252c6431f96168671907e69fa4b9718f2fc00347f139d837eed460",
+  "worlds_plan_sha256": "e8b779ff578f0f67db2199e535fcab519aff944e08c00a0914f23d13198eadff",
+  "balanced_worlds_sha256": "3ea62f103d2078e77b5cb509ce6ba45fcf7205a678442c4651808cfd97d92e99",
+  "balance_protocol": "Supplement primary outcome classes using exact-rule templates before final training; independent context on all worlds",
+  "old_regression_sha256": "f2fe278bc4a3c8a6000206f62906a9cb6ed31442dc4517626a6c5fbabd28bd0e",
+  "new_family_holdouts": [
+    "access",
+    "shipping"
+  ],
+  "unknown_policy": "Explicit insufficient-information choice; no fabricated 0.5 targets",
+  "gold_sources": "public annotations and executable rules, never teacher confidence",
+  "limits": "Bounded pilot; public pretraining contamination and template specificity remain."
+}

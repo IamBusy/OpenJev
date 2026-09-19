@@ -1,0 +1,1 @@
+These preliminary results are superseded. Loading a frozen encoder while building a missing feature cache consumed training RNG state. The corrected implementation resets RNG after feature extraction. All v0.1 reported runs are rerun with the same fixed data and hyperparameters; no test-driven hyperparameter changes were made. Original artifacts are retained for audit.

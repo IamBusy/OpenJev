@@ -1,0 +1,32 @@
+{
+  "state": "I used my debit card yesterday, but the merchant charged the same payment twice. Please help me recover the duplicate payment.",
+  "questions": {
+    "department": {
+      "type": "choice",
+      "instructions": "Which service best matches the customer's request?",
+      "criteria": {
+        "duplicate_payment": "The customer is asking about a card payment charged twice.",
+        "cash_withdrawal": "The customer is asking about cash withdrawal at an ATM.",
+        "card_delivery": "The customer is asking about the arrival of a new card.",
+        "pin_change": "The customer is asking about changing a card PIN."
+      }
+    },
+    "duplicate_charge": {
+      "type": "noul",
+      "instructions": "The customer is asking about a card payment charged twice.",
+      "criteria": {
+        "false": "The customer is not asking about a card payment charged twice.",
+        "true": "The customer is asking about a card payment charged twice."
+      }
+    },
+    "sentiment": {
+      "type": "score",
+      "instructions": "Rate the sentiment from negative to positive.",
+      "criteria": [
+        "The text expresses negative sentiment.",
+        "The text expresses neutral sentiment.",
+        "The text expresses positive sentiment."
+      ]
+    }
+  }
+}

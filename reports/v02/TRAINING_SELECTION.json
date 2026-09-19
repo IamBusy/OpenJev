@@ -1,0 +1,47 @@
+{
+  "model_name": "Qwen/Qwen3-0.6B",
+  "model_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "config": {
+    "model_name": "Qwen/Qwen3-0.6B",
+    "model_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+    "max_length": 768,
+    "train_batch_size": 2,
+    "eval_batch_size": 4,
+    "gradient_accumulation_steps": 4,
+    "learning_rate": 0.0001,
+    "epochs": 1,
+    "seed": 29,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "weight_decay": 0.01,
+    "torch_threads": 4,
+    "thinking": false,
+    "training_objective": "cross-entropy over runtime candidate label token logits"
+  },
+  "train_records": 768,
+  "dev_records": 96,
+  "trainable_parameters": 1146880,
+  "total_parameters_including_lora": 597196800,
+  "selected_update": 96,
+  "selected_adapter": "runs/qwen-v02-seed29/checkpoint-96",
+  "selection_rule": "minimum development NLL including the untrained baseline",
+  "best_dev_nll": 0.6669507331081386,
+  "training_seconds": 191.18057104200125,
+  "precision": "bfloat16 base; PEFT adapter precision as configured by library",
+  "hardware": {
+    "platform": "macOS-15.7.9-arm64-arm-64bit",
+    "processor": "arm",
+    "python": "3.12.10",
+    "torch": "2.14.0",
+    "mps_available": true,
+    "cuda_available": false,
+    "timestamp_utc": "2026-09-19T06:03:02Z"
+  },
+  "data_manifest_sha256": "943f69c66a809f32bdfa65463722bbda266eafaea478584411866578dcdea4a8",
+  "adapter_sha256": "77899f2903b7c08fd422128e37e8ce847aa2e32f81abc070484dac32e59a8965"
+}

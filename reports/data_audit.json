@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "records": 47079,
+  "groups": 35678,
+  "records_by_effective_split": {
+    "calibration": 3399,
+    "dev": 3331,
+    "train": 19527,
+    "test_id": 17229,
+    "test_simulator": 600,
+    "test_transfer": 1799,
+    "test_unseen": 1194
+  },
+  "failures": [],
+  "checks": [
+    "source checksums",
+    "prepared split checksums",
+    "unique record IDs",
+    "normalized text split isolation",
+    "source lineage split isolation",
+    "synthetic training-only parentage",
+    "held-out label isolation"
+  ]
+}

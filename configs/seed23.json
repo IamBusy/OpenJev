@@ -1,0 +1,16 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "max_seq_length": 192,
+  "encoder_batch_size": 96,
+  "hidden_dim": 128,
+  "dropout": 0.1,
+  "base_scale": 20.0,
+  "epochs": 12,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "patience": 3,
+  "seed": 23,
+  "train_encoder": false
+}

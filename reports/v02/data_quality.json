@@ -1,0 +1,1235 @@
+{
+  "records_scanned": 19527,
+  "flags_by_source": {
+    "tweeteval_sentiment": 167,
+    "deepseek_synthetic": 8
+  },
+  "flags": [
+    {
+      "id": "tweeteval_sentiment:train/39533:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/42451:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/26042:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/37085:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/5298:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/23150:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/38596:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/35433:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/26846:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/8640:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/4834:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/42901:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/45263:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/44247:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/2729:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/21493:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/18009:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/42858:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/33010:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/112:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/19012:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/12408:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/41048:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/8229:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/3445:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/31592:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/11977:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/4690:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/19302:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/554:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/39534:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/30524:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/31539:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/16195:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/14373:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/840:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/18547:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/30257:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/16145:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/8529:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/1679:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/1303:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/32840:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/29314:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/34675:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/10282:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/28975:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/26588:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/3837:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/30684:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/31001:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/43161:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/8782:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/9132:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/38998:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/41882:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/26017:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/9767:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/1385:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/25063:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/35658:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/5161:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/33241:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/26555:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/38086:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/15526:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/37207:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/13924:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/18075:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "email_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/21221:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/36243:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/26912:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/40991:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/26698:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/44148:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/43483:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/7383:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/17914:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/552:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/1432:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/13729:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/36463:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/8929:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/32995:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/18138:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/27426:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/4383:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/33427:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/331:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/11350:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/37434:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/29325:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/17806:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/18174:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/10079:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/33054:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "email_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/15300:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/14220:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/13860:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/28882:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/37447:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/2309:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/45320:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/40781:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/25980:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/106:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/22321:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/42457:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/36835:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/39845:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/42887:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/10481:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/562:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/5441:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/35249:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/23880:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/28847:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/44943:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/15970:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/38350:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/37375:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/35912:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/19803:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/27846:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/6287:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/15175:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/25086:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/26651:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/6856:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/42082:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/15245:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/41484:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/29454:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/35010:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/8212:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/24262:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/13243:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/18545:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/985:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/9787:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/44093:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/20789:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/7256:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/36218:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/2022:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/12234:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/39874:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/42693:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/38637:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/44937:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/18716:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/1369:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/24942:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/24284:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/27678:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/2290:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/28347:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/8995:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/39183:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/31418:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/19779:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/36943:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/45103:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/41222:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/19135:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/19477:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "tweeteval_sentiment:train/9482:sentiment_score",
+      "source": "tweeteval_sentiment",
+      "reasons": [
+        "excessive_escape_characters"
+      ]
+    },
+    {
+      "id": "deepseek:00a3a718d2a9bc55/0:sentiment_score",
+      "source": "deepseek_synthetic",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "deepseek:00a3a718d2a9bc55/1:sentiment_score",
+      "source": "deepseek_synthetic",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "deepseek:00a3a718d2a9bc55/2:sentiment_score",
+      "source": "deepseek_synthetic",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "deepseek:00a3a718d2a9bc55/3:sentiment_score",
+      "source": "deepseek_synthetic",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "deepseek:00a3a718d2a9bc55/4:sentiment_score",
+      "source": "deepseek_synthetic",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "deepseek:00a3a718d2a9bc55/5:sentiment_score",
+      "source": "deepseek_synthetic",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "deepseek:00a3a718d2a9bc55/6:sentiment_score",
+      "source": "deepseek_synthetic",
+      "reasons": [
+        "phone_like_text"
+      ]
+    },
+    {
+      "id": "deepseek:00a3a718d2a9bc55/7:sentiment_score",
+      "source": "deepseek_synthetic",
+      "reasons": [
+        "phone_like_text"
+      ]
+    }
+  ],
+  "scope": "Pattern flags are not proof of real personal information; flagged text is not reproduced in this report. V0.1 snapshots remain unchanged."
+}

@@ -1,0 +1,82 @@
+{
+  "version": "openjev-eval-v0.2",
+  "seed": 29,
+  "splits": {
+    "train": {
+      "records": 768,
+      "source_groups": 766,
+      "tasks": {
+        "banking_choice": 256,
+        "sentiment_score": 256,
+        "banking_verify": 256
+      },
+      "sha256": "b5079a5d0c57bbadfd29722ffdbf8ff7fbc090dc3a743322f0072363e0a3805f"
+    },
+    "dev": {
+      "records": 96,
+      "source_groups": 95,
+      "tasks": {
+        "banking_choice": 32,
+        "sentiment_score": 32,
+        "banking_verify": 32
+      },
+      "sha256": "bea24d9fb5ac6b62deb3d5b58fa519b2ff3fe67fe218133aba1afdc32f6a65d2"
+    },
+    "calibration": {
+      "records": 96,
+      "source_groups": 95,
+      "tasks": {
+        "banking_choice": 32,
+        "sentiment_score": 32,
+        "banking_verify": 32
+      },
+      "sha256": "eec835ff148b34c05cdd1fb9592363a63d7ac92dbfe368c4377399815665b818"
+    },
+    "test": {
+      "records": 448,
+      "source_groups": 448,
+      "tasks": {
+        "rubric_en": 32,
+        "rubric_zh": 32,
+        "arc_easy": 64,
+        "banking_seen_choice": 64,
+        "banking_unseen_choice": 64,
+        "banking_seen_verify": 64,
+        "boolq": 64,
+        "sentiment_score": 64
+      },
+      "sha256": "f2fe278bc4a3c8a6000206f62906a9cb6ed31442dc4517626a6c5fbabd28bd0e"
+    },
+    "reference": {
+      "records": 64,
+      "sha256": "bb0a003a02221403eb349de7150323b01da2c36d24abc545cc5f282a462f022b",
+      "relation": "paired subset of test, intentionally overlapping"
+    }
+  },
+  "frozen_before_model_selection": true,
+  "primary_train_records": 768,
+  "all_v01_synthetic_excluded": true,
+  "training_sources": [
+    "BANKING77",
+    "TweetEval sentiment"
+  ],
+  "new_tasks_not_used_for_training": [
+    "ARC-Easy",
+    "BoolQ",
+    "rubric_en",
+    "rubric_zh"
+  ],
+  "shared_input_rule": "No input truncation: Qwen prompt <=768 tokens and MiniLM query/candidates <=192 tokens",
+  "banking_candidate_count": 8,
+  "context_rejection_counts": {
+    "contact_or_escape_pattern": 1034,
+    "exceeds_shared_context": 559
+  },
+  "reference_budget": "8 preselected records per task; no more than 64 DeepSeek calls",
+  "limitations": [
+    "Small local subsets, not official leaderboard scores.",
+    "Old banking/sentiment test slices are regression checks, not newly blinded tests.",
+    "Public benchmark contamination of pretrained models cannot be excluded.",
+    "English/Chinese rubric records are exact programmatic diagnostics."
+  ]
+}

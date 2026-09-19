@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "f7aca65c5409e16a6584",
+    "group_id": "f7aca65c5409e16a658411325330e3faca2744208a97840724cc82d0034b3a70",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 11,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "9f30e8d91116c226b54c",
+    "group_id": "9f30e8d91116c226b54c97cf23cda0cf0452223625e7c9f0f5a25e1c11c63bbd",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 42,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "9b3a69f12129102afae5",
+    "group_id": "9b3a69f12129102afae5f25fc77b12ab9fe58552550c5cd6aa2ef7662cf3ec9c",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 30,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "62119bc9632d22a8f2b8",
+    "group_id": "62119bc9632d22a8f2b82f6b83145ef9c2469f547682763af0c19e4941f8b6aa",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 24,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "160b7f8997cb56a55c1d",
+    "group_id": "160b7f8997cb56a55c1db46bd600240fa01908e3dc97991f92cf073cf24095dd",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 49,
+      "return_window_days": 7,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "334f85bcb517c1c82e5c",
+    "group_id": "334f85bcb517c1c82e5c5e23cbd6e2de4bcb0a6ef866f3d03965350126520c80",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 24,
+      "return_window_days": 30,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "172cf2f70bd10f56007e",
+    "group_id": "172cf2f70bd10f56007e983e8bc51ff9c6751779714189b55719070a13ffea9a",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 20,
+      "return_window_days": 7,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "210accbef8491d4d9db9",
+    "group_id": "210accbef8491d4d9db9fe92f1d7737175a6b63426d9307cad5b363bc807ee90",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 24,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "79056ea7e4e6dec795ca",
+    "group_id": "79056ea7e4e6dec795ca2b9402b6f9c02156057f59d2e96c3af8f5c94215b19a",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 4,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "132aee8f13d0b2c61ccb",
+    "group_id": "132aee8f13d0b2c61ccba2ccddb0c6e83ca92c4a6f601fb0bc79dc92bfe550d0",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 23,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "c5810c38241e58642b28",
+    "group_id": "c5810c38241e58642b288d15e704929453be628a58c13a1259bf332cca159dd9",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 26,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "5b6d3e2791b288d75995",
+    "group_id": "5b6d3e2791b288d75995eab604618ce9d9f06555e369554fc3b2d01fa1b5f5f9",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 27,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "a9c10d23d909540f73ea",
+    "group_id": "a9c10d23d909540f73ea4c88533ead1929a7d47c4b30d5e60d56ba0fe418d1a4",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 20,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "62b501606c68a62dc9b6",
+    "group_id": "62b501606c68a62dc9b6b06e2b0faec7e7457a87dcf50a4c2652c3a4fd48a80f",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 48,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "23e002a37348303ad2ef",
+    "group_id": "23e002a37348303ad2ef6be1c8a0bf0130056a1af6e756d548c28b069254e3db",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 27,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "fa7568883dbffd92516e",
+    "group_id": "fa7568883dbffd92516ec18b3d642091b0b7aff55e4287c913be495a8c73071f",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 1,
+      "return_window_days": 30,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "05ad9e96b8e07307daae",
+    "group_id": "05ad9e96b8e07307daae83565e15acdae77dace31fc1c2a063a7cc7760943e4e",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 17,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "791ab5277c6ad6c6dcc6",
+    "group_id": "791ab5277c6ad6c6dcc66aa832cdf5c18e225a296c028e54df9fb61216c51afa",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 26,
+      "return_window_days": 21,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "3c9f9f977a0ae5c0be8f",
+    "group_id": "3c9f9f977a0ae5c0be8f5f0812bfb3dc2d1deb9b6a41768d96bca39bda0afd93",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "f8005d7a463968cd3675",
+    "group_id": "f8005d7a463968cd3675439143363ff6bbad0e7f50ba0173564ec0548d616c17",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 30,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "d19d6fa430b0072eee22",
+    "group_id": "d19d6fa430b0072eee226334a5bdf1d4e4e466eac72cdc258004a62ff5cceb7a",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 13,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "79c675f78222d029b579",
+    "group_id": "79c675f78222d029b579a8f3466de8121f13e7544899f1955653c18099bd060a",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 7,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "d8d932aee0b2a453b80f",
+    "group_id": "d8d932aee0b2a453b80f0371b47f5e63abd4e5655793afb0a2b81f770002cfc5",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 23,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "772a0e81b646571de92f",
+    "group_id": "772a0e81b646571de92f5287de495a458c7b0e55376c544ed3ce5decc5ab3bb6",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 35,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "f5fcfec89b287c86861e",
+    "group_id": "f5fcfec89b287c86861efb2f8aeaee832b03be6e783bebc105e3820dd59ef721",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "login"
+    }
+  },
+  {
+    "id": "a1e796278f03237964b1",
+    "group_id": "a1e796278f03237964b1a69daa80a52c42d13a4a71966f54e1997ac671d7af0b",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 10,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "c398765802066a7c5e9b",
+    "group_id": "c398765802066a7c5e9b3452cdb9fa0df1e80b0b19cd39e7a1245c5296820efb",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 85,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "d93593a4f158df3307d6",
+    "group_id": "d93593a4f158df3307d68cc6dee8582206224fa2585dea9b713dafae1089cf47",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "export"
+    }
+  },
+  {
+    "id": "8e8e7c018e7c82fe3bec",
+    "group_id": "8e8e7c018e7c82fe3bec83945f5d7c61d90b6fbbed6a875221b0e607e43f711b",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 106,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "2241d70c02df5e891818",
+    "group_id": "2241d70c02df5e891818b766a0a3016c5c6a80db79bcc0d9820c07f7ef6d2083",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "37b7aadf68e70aae1d33",
+    "group_id": "37b7aadf68e70aae1d33a7efc9fbbb70d635a2851b52de114552f9620738d18a",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "b18cb4ec67ed61133cee",
+    "group_id": "b18cb4ec67ed61133ceee2c8252d39761bc64bf182d8fa6b3527c858403cb416",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 107,
+      "workaround": false,
+      "service": "export"
+    }
+  },
+  {
+    "id": "870d748546304ef719b5",
+    "group_id": "870d748546304ef719b5cf815c8fc3c588c0035507dd362db6ae553c4f9f236c",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 65,
+      "workaround": false,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "2849bf6caa714a2c18c8",
+    "group_id": "2849bf6caa714a2c18c8ef7bbd493f092d2dc3eadf51e02b9209b6f0d58cdbd6",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 10,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "3d88b5a1c2bf5b25bbcc",
+    "group_id": "3d88b5a1c2bf5b25bbccc3b384f2d92da8ad4784b860a03cfa4eb73452f72087",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 169,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "9523ef95c1d841ed42b0",
+    "group_id": "9523ef95c1d841ed42b0c35812dd5ee707d31bf116e23604fc823254e2c22eb2",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 2,
+      "workaround": true,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "811acb42a3a36292400b",
+    "group_id": "811acb42a3a36292400ba742efc328d908fda5c6df4a29b027c867fec1bca042",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 123,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "ca5849dd998889176af1",
+    "group_id": "ca5849dd998889176af10980c160916027f200bc11fd897d0be07d61d800fcdd",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 13,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "358ba15003a30146d7cd",
+    "group_id": "358ba15003a30146d7cda5ead848e82511eed2d1717539874791bab2be790a28",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 192,
+      "workaround": false,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "8427f68b56875c3f3b52",
+    "group_id": "8427f68b56875c3f3b520625fda6eccdbf4188ecadd1cd5e9ba703dec18bcb5c",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 56,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "f0b6300d960c8af33f7f",
+    "group_id": "f0b6300d960c8af33f7f6877837404bb8850e4cdfe9c1f801b3f7049db983aaf",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 171,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "f2142b411be9011ae463",
+    "group_id": "f2142b411be9011ae4631f04550d82a390c2ce314a557213a78ea6d9ab70383c",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 55,
+      "workaround": false,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "223209bea0be94f2ab13",
+    "group_id": "223209bea0be94f2ab1321bd9ef5e90863461a07df2298acb71e85affb805770",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 72,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "4b7e4e7368fb9231ad25",
+    "group_id": "4b7e4e7368fb9231ad254ff33d14c7eb0c6eb846d0eaaaf4eac4bc7f958ae024",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 96,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "7bfd2d06951c221ada8e",
+    "group_id": "7bfd2d06951c221ada8e1186baec7da44eb06e92e07e0f0d24d67d8231b95ceb",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "a9960624d4f0357701bc",
+    "group_id": "a9960624d4f0357701bc1d3acf6e372d0cf3c17fe1f593466fc8304d95a171b5",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 126,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "7fd28a6b0868352befcd",
+    "group_id": "7fd28a6b0868352befcd7c19837b75e5687d16e7b06ca545b9281ee45250225a",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 67,
+      "workaround": false,
+      "service": "export"
+    }
+  },
+  {
+    "id": "8b047b6826c76bb71126",
+    "group_id": "8b047b6826c76bb7112682931183bb39308154eb67159995571d00fabc5479d8",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 189,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "8802a2b814e2c1b3d789",
+    "group_id": "8802a2b814e2c1b3d7898e1ec36a71a62b3390b815c45f738530d54b5ac4a7d0",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 15,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "6e0af29ef9b22db6ec91",
+    "group_id": "6e0af29ef9b22db6ec91ad60f2649ced11ebc3d9cc3664eb470de13582a8c12e",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 47,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "b36e33d5361a7cc4233c",
+    "group_id": "b36e33d5361a7cc4233c34dac09f911975eabf5eb6e872f6ce758e4fa4f9559f",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 11,
+      "return_window_days": 21,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "ddad452b9f9119f4f4c8",
+    "group_id": "ddad452b9f9119f4f4c8bbbcf6ae3f72a6a51c371f06ba4fd732f8359bf7a116",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 7,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "edde6ce329c615ba6f96",
+    "group_id": "edde6ce329c615ba6f963bbc99db043edd347fa3dbb40657102e523f007f83c6",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 23,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "ac513a6713a03d91b831",
+    "group_id": "ac513a6713a03d91b831b49305c11f29ac28ce4a1c47385f34b23e56a8ff8478",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 49,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "5bd26bc2578baa50608f",
+    "group_id": "5bd26bc2578baa50608f21d9b791579c5761f24d8d68f60a93ae7feb4c12da9b",
+    "split": "dev",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 38,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "8a34690449a0ef739a75",
+    "group_id": "8a34690449a0ef739a756bde9f5b296652be978f7fa74c8524d1e39e58ae376f",
+    "split": "dev",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 56,
+      "workaround": false,
+      "service": "export"
+    }
+  },
+  {
+    "id": "aa55bd7957611e80a3a4",
+    "group_id": "aa55bd7957611e80a3a42d3a3b4adbf8190bd4507476eae6fab381fa1bef592c",
+    "split": "dev",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 137,
+      "workaround": true,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "b3b15da3f28d74712fb4",
+    "group_id": "b3b15da3f28d74712fb460edb2a97b4dc206ce88ad55243cd89c31ec5600a3a7",
+    "split": "dev",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 32,
+      "workaround": false,
+      "service": "export"
+    }
+  },
+  {
+    "id": "3dae3f3495897055ef4c",
+    "group_id": "3dae3f3495897055ef4c750f1c40dc651ddc514653ba7d022a83026ce6a908e7",
+    "split": "dev",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 124,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "45cf201072c941d92737",
+    "group_id": "45cf201072c941d9273796ba78f9602bbf52a9cb1731ef801548d944f6359e5d",
+    "split": "dev",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 143,
+      "workaround": false,
+      "service": "login"
+    }
+  },
+  {
+    "id": "de84e6284a70f5e0a300",
+    "group_id": "de84e6284a70f5e0a3007bcf9d0d435317cfb01f1f2ac6859dff8404ee92bc9c",
+    "split": "calibration",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 32,
+      "return_window_days": 7,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "d2d758d54a4fe228bf58",
+    "group_id": "d2d758d54a4fe228bf586dcc2258965a0faf4839dbaa7a714a00c9d6888e8a04",
+    "split": "calibration",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "fbcd4b3209c472fc3a3d",
+    "group_id": "fbcd4b3209c472fc3a3d71eb202fb8b0d23e0930af8d1f15531add48c2ce984e",
+    "split": "calibration",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 41,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "265abead1a896c99e867",
+    "group_id": "265abead1a896c99e86721267671af2c5ac569db9d91441efeb02232d4853e27",
+    "split": "calibration",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 19,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "8b9222d7efed033b0e0d",
+    "group_id": "8b9222d7efed033b0e0d0db8d34492e02994a698ed0c171de30e02a41168ac9b",
+    "split": "calibration",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 17,
+      "return_window_days": 7,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "f7e22b01a71b0d87cdf5",
+    "group_id": "f7e22b01a71b0d87cdf55637ed6043b25830c8376e8824db96608ac6e13ae3a8",
+    "split": "calibration",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 15,
+      "return_window_days": 21,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "6ddff41ae46577331c79",
+    "group_id": "6ddff41ae46577331c79dc3b701a70e75acf58796dda83a0160a5e0d215ffa5f",
+    "split": "calibration",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 130,
+      "workaround": false,
+      "service": "login"
+    }
+  },
+  {
+    "id": "73f0c31e6ddbd9586361",
+    "group_id": "73f0c31e6ddbd9586361db71e626c886ddad384dc4a9d20fb4c0b4471cf0d54a",
+    "split": "calibration",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 89,
+      "workaround": true,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "26898f4bd6e6342ee7f1",
+    "group_id": "26898f4bd6e6342ee7f1f86d2a0abeffb1bad4a2346d73ab53e079d37b6c3bca",
+    "split": "calibration",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "9e3dbef66397dfb2bef8",
+    "group_id": "9e3dbef66397dfb2bef881c76df41f73a3b77fcfdf1a5c3f78806497672cefa1",
+    "split": "calibration",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 190,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "53825bcee55773fef782",
+    "group_id": "53825bcee55773fef782fb49025e4c30c713ccc5dd980bfc2add816fe6580dcd",
+    "split": "calibration",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 174,
+      "workaround": false,
+      "service": "export"
+    }
+  },
+  {
+    "id": "6d007cb9d33af72fe81e",
+    "group_id": "6d007cb9d33af72fe81e87058511764b5b81f65dc1c9d4e55133f3412d9f554e",
+    "split": "calibration",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 161,
+      "workaround": false,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "f3c57cbb4edbf9c9811e",
+    "group_id": "f3c57cbb4edbf9c9811e26867bb506eaa3e16c8c7dca631886674381d4d93195",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 5,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "16fb2d49e2f8497a9628",
+    "group_id": "16fb2d49e2f8497a962893a34e130a50902fc34a604cac720ebcca182ee52b7f",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 8,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "048d536582952328d192",
+    "group_id": "048d536582952328d192e08f037c01b017508aa320aaa85a5238b25079877d34",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "2c0d847c09c79e6bf3d0",
+    "group_id": "2c0d847c09c79e6bf3d00610dd33fc340398f48a1863aea52adb10d57bd38f25",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 33,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "07cbfd58133780af3b36",
+    "group_id": "07cbfd58133780af3b36a3475bb80c73ee1410924aea951d7fcb2e866faf698e",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 40,
+      "return_window_days": 21,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "28df8dcdb161e532c1cc",
+    "group_id": "28df8dcdb161e532c1cc219064a0f2684323bcaf8e9f57faff021be302b083e2",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 34,
+      "return_window_days": 7,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "c92d34941eed1436b176",
+    "group_id": "c92d34941eed1436b176b1af3da427a6b5964d3f4b060f3648570b2622af9a0c",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 2,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "f588b7f968b82ef38a7a",
+    "group_id": "f588b7f968b82ef38a7a1073b5987bc461a0e73effa7ce70eb779ff5d26ff4c3",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 32,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "61f61a5783b449a46c41",
+    "group_id": "61f61a5783b449a46c41a5e3d588c111384113a835b11e315f02aa367d8ec624",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 50,
+      "return_window_days": 7,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "c8344d522ecbbad9952f",
+    "group_id": "c8344d522ecbbad9952fc877f969363312a16db458657d93ad68bc00daa771ea",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 1,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": false
+    }
+  },
+  {
+    "id": "94e71c5cd546c68ee57a",
+    "group_id": "94e71c5cd546c68ee57a91c347ba3253d52feae2e8095e37bbc0cbf0a2665512",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 36,
+      "return_window_days": 30,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "7f391de0b194aa6f84b7",
+    "group_id": "7f391de0b194aa6f84b76caa35151f702c06672e1fd80eb3f6f0cc0c34328de3",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 30,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    }
+  },
+  {
+    "id": "b8237db632442b6be70b",
+    "group_id": "b8237db632442b6be70b039d43e1ec653e75357bc4ac22e2b6f6663c08cb8e0c",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 24,
+      "workaround": false,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "68538aef64ec8bce8196",
+    "group_id": "68538aef64ec8bce819693b6b49d3758e5f54c504a5cf218c0af68027b42a354",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 78,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "0351d8f6915a662320ff",
+    "group_id": "0351d8f6915a662320fff7be9e4e8ee1fea24c1d3db9828228c150297436797d",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 57,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "d86ebca877da31c2f53c",
+    "group_id": "d86ebca877da31c2f53c4bbae629915b795dcd929516de186f68745e4e5fd5bd",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 133,
+      "workaround": true,
+      "service": "export"
+    }
+  },
+  {
+    "id": "30de814c14923ea02582",
+    "group_id": "30de814c14923ea0258270da097a405528cdcfb54c133a2fc77542aac1420f59",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 184,
+      "workaround": true,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "619b542b10910656f2c4",
+    "group_id": "619b542b10910656f2c43d5784a67262318a84d69c3e846e2ea11da1c9ad8246",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 132,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "56ecb9885dcef173fa43",
+    "group_id": "56ecb9885dcef173fa436ed17f77278481b8d5782f693e0551962284cdb9cb91",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 23,
+      "workaround": false,
+      "service": "payments"
+    }
+  },
+  {
+    "id": "fe28016a26a74563733a",
+    "group_id": "fe28016a26a74563733a6fe1ecb9e6a598df65cf400f4f3e3c88d87112c6a212",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 147,
+      "workaround": false,
+      "service": "login"
+    }
+  },
+  {
+    "id": "bb376c59d314baef4abb",
+    "group_id": "bb376c59d314baef4abbf64e0de2e06f040735858f84a482ccf5f97b59acd239",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 14,
+      "workaround": false,
+      "service": "login"
+    }
+  },
+  {
+    "id": "96a7d3e91ed861381066",
+    "group_id": "96a7d3e91ed861381066af86580fc4831f21bd697d8763e5ff7b4062c2880547",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 179,
+      "workaround": true,
+      "service": "login"
+    }
+  },
+  {
+    "id": "68e0b7b3b75b4dff1bfe",
+    "group_id": "68e0b7b3b75b4dff1bfe3fb83f362a39115f7cf9037806d0441058c0e86d492f",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 141,
+      "workaround": false,
+      "service": "export"
+    }
+  },
+  {
+    "id": "683db8b0c251ba16b161",
+    "group_id": "683db8b0c251ba16b1613c27dd23a04b206c6cd8aa2e04876d5a0a1dc69f6452",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 75,
+      "workaround": false,
+      "service": "export"
+    }
+  },
+  {
+    "id": "5da165fe159ed15ac363",
+    "group_id": "5da165fe159ed15ac363ffe3657f80b464f8b081941d6588d48a075de70fed6b",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 0,
+      "required_rank": 2,
+      "resource": "dataset-7"
+    }
+  },
+  {
+    "id": "a07858e256fd03b5c5ee",
+    "group_id": "a07858e256fd03b5c5eed138ca2053b31a646cfa86541255ce48c682e45ba505",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 3,
+      "required_rank": 1,
+      "resource": "dataset-9"
+    }
+  },
+  {
+    "id": "eb3ace825dff3f21ed2e",
+    "group_id": "eb3ace825dff3f21ed2ed5fb30953b0fe87225abc341ff903cc0608a7461b48f",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 3,
+      "required_rank": 3,
+      "resource": "dataset-7"
+    }
+  },
+  {
+    "id": "8ead0ce7cc520c80dd9a",
+    "group_id": "8ead0ce7cc520c80dd9a9023490cefaade00a3d24cd45c80d0cf9fbd41ddce38",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 0,
+      "required_rank": 1,
+      "resource": "dataset-31"
+    }
+  },
+  {
+    "id": "b276c7c8140d15c67cd0",
+    "group_id": "b276c7c8140d15c67cd0abc42fc9b78ac075ce260384caec647edb647df884df",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 1,
+      "required_rank": 0,
+      "resource": "dataset-26"
+    }
+  },
+  {
+    "id": "5dd8ee7b7ffabb03b994",
+    "group_id": "5dd8ee7b7ffabb03b994439e6ebb09fc2e7aeb36a43b95caa1074d5fdb90bdfa",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 0,
+      "required_rank": 0,
+      "resource": "dataset-23"
+    }
+  },
+  {
+    "id": "ff3f57c5a7c80e2e2cbe",
+    "group_id": "ff3f57c5a7c80e2e2cbed8fd1407664eb68824e4e9fe0e811e87a1f10a1c441a",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 2,
+      "required_rank": 1,
+      "resource": "dataset-9"
+    }
+  },
+  {
+    "id": "6ce133f2691df0e89919",
+    "group_id": "6ce133f2691df0e89919d7dfa197625680bb31b4772f0a58214a7569ce50a499",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 3,
+      "required_rank": 3,
+      "resource": "dataset-42"
+    }
+  },
+  {
+    "id": "49f9133166cd37ebcb60",
+    "group_id": "49f9133166cd37ebcb60570982ab5a11df3c943200aab87e54280e9d6798c1d3",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 0,
+      "required_rank": 3,
+      "resource": "dataset-13"
+    }
+  },
+  {
+    "id": "750f84b3d6254451675e",
+    "group_id": "750f84b3d6254451675e4620225f5a3616373dd74d5085aac0d721cabf8e2d07",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 0,
+      "required_rank": 0,
+      "resource": "dataset-9"
+    }
+  },
+  {
+    "id": "9f6174576392915e6990",
+    "group_id": "9f6174576392915e69901715ca9ec409a91ab68d0c1a7261cd5bf714c70ef543",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 1,
+      "required_rank": 0,
+      "resource": "dataset-6"
+    }
+  },
+  {
+    "id": "88acc318dc59c80ecb5a",
+    "group_id": "88acc318dc59c80ecb5a2f7623e5ff360510c748d2ae58eeec6ce7aa66328dc0",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 2,
+      "required_rank": 2,
+      "resource": "dataset-26"
+    }
+  },
+  {
+    "id": "976ec8cac8ea971a7d27",
+    "group_id": "976ec8cac8ea971a7d2708d0a35e802bc49c34216cd557bfe0fbbf33e8f456f2",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": false,
+      "damaged": true,
+      "days_late": 17,
+      "trace_threshold": 2
+    }
+  },
+  {
+    "id": "8209f55a98234c39841b",
+    "group_id": "8209f55a98234c39841b9a1825072a6d7a3428e95d61c5a32fabe67c3dbfce50",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": true,
+      "days_late": 10,
+      "trace_threshold": 2
+    }
+  },
+  {
+    "id": "80c4f8a11368023cfaa3",
+    "group_id": "80c4f8a11368023cfaa3bf1651d92d2677e11759b83574ae9c265cade7739835",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": false,
+      "damaged": false,
+      "days_late": 0,
+      "trace_threshold": 5
+    }
+  },
+  {
+    "id": "5a6ab36cd0b7de913265",
+    "group_id": "5a6ab36cd0b7de913265635b4965c37a156bcbf0b508a4bbf8bfbee7b5ec79fd",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 13,
+      "trace_threshold": 2
+    }
+  },
+  {
+    "id": "004e0160de1b9e8566b5",
+    "group_id": "004e0160de1b9e8566b50e48208ceddc825f9f92e3ad437df2d8dd77767d6431",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": true,
+      "damaged": true,
+      "days_late": 5,
+      "trace_threshold": 1
+    }
+  },
+  {
+    "id": "ce98c9ae5c352f487057",
+    "group_id": "ce98c9ae5c352f487057ed24909a5a4364a967188804ae6615923c787b243530",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": true,
+      "days_late": 5,
+      "trace_threshold": 2
+    }
+  },
+  {
+    "id": "506ab4289d78be641cdd",
+    "group_id": "506ab4289d78be641cddff4e9c0aa751013d8350ed4357274f8b7d3bd8cadc52",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": false,
+      "damaged": false,
+      "days_late": 17,
+      "trace_threshold": 4
+    }
+  },
+  {
+    "id": "20258006fee537f344da",
+    "group_id": "20258006fee537f344da96a591c99ddb8d96a1a7db2592c1434144c66ed8a26b",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 14,
+      "trace_threshold": 1
+    }
+  },
+  {
+    "id": "81ad3213e484ea09b33d",
+    "group_id": "81ad3213e484ea09b33da063d017303530daf7db50dca545a30970a0fe6a5a85",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": true,
+      "damaged": true,
+      "days_late": 2,
+      "trace_threshold": 1
+    }
+  },
+  {
+    "id": "fdf62f7829142c4b185a",
+    "group_id": "fdf62f7829142c4b185a3f62c1836de318d04cdc7002d865c7e274296898eb2d",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": false,
+      "damaged": false,
+      "days_late": 13,
+      "trace_threshold": 5
+    }
+  },
+  {
+    "id": "443e11ba2a5a2d30a240",
+    "group_id": "443e11ba2a5a2d30a240e5f3a0fdd354cda71d18c7b9f2dcdbb0c3489eba6e4b",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": false,
+      "damaged": false,
+      "days_late": 8,
+      "trace_threshold": 1
+    }
+  },
+  {
+    "id": "59126c67bee776a4fecd",
+    "group_id": "59126c67bee776a4fecd4057b55e47fae482f87f3b3dde743f4b8a61f1c3cf3d",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 0,
+      "trace_threshold": 2
+    }
+  }
+]

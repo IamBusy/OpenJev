@@ -1,0 +1,33 @@
+{
+  "selected_worlds": 48,
+  "accepted": 27,
+  "rejected": {
+    "223209bea0be94f2ab13": "fact_reconstruction_failed",
+    "7bfd2d06951c221ada8e": "fact_reconstruction_failed",
+    "2241d70c02df5e891818": "fact_reconstruction_failed",
+    "f2142b411be9011ae463": "fact_reconstruction_failed",
+    "b18cb4ec67ed61133cee": "fact_reconstruction_failed",
+    "8427f68b56875c3f3b52": "fact_reconstruction_failed",
+    "8b047b6826c76bb71126": "fact_reconstruction_failed",
+    "4b7e4e7368fb9231ad25": "fact_reconstruction_failed",
+    "7fd28a6b0868352befcd": "fact_reconstruction_failed",
+    "2849bf6caa714a2c18c8": "fact_reconstruction_failed",
+    "d93593a4f158df3307d6": "fact_reconstruction_failed",
+    "b3b15da3f28d74712fb4": "fact_reconstruction_failed",
+    "3dae3f3495897055ef4c": "fact_reconstruction_failed",
+    "8a34690449a0ef739a75": "fact_reconstruction_failed",
+    "9e3dbef66397dfb2bef8": "fact_reconstruction_failed",
+    "53825bcee55773fef782": "fact_reconstruction_failed",
+    "73f0c31e6ddbd9586361": "fact_reconstruction_failed",
+    "bb376c59d314baef4abb": "fact_reconstruction_failed",
+    "619b542b10910656f2c4": "fact_reconstruction_failed",
+    "ce98c9ae5c352f487057": "fact_reconstruction_failed",
+    "750f84b3d6254451675e": "fact_reconstruction_failed"
+  },
+  "recorded_calls": 96,
+  "maximum_calls": 96,
+  "prompt_tokens": 13724,
+  "completion_tokens": 3295,
+  "gold_source": "executable rules; teacher only renders and reconstructs facts",
+  "limitation": "Same teacher family verifies rendering; canonical structured facts are also provided as evidence."
+}

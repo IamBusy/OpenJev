@@ -1,0 +1,23 @@
+{
+  "selection_rule": "lowest development NLL, before any final test evaluation",
+  "selected_run": "runs/augmented-seed17",
+  "selected_checkpoint": "runs/augmented-seed17/checkpoint",
+  "runs": {
+    "runs/public-seed17": {
+      "dev_nll": 0.7357263996016666,
+      "epoch": 12,
+      "checkpoint_sha256": "b800e7dde833814b645a52794a6d5b530bcabf72ef403fb882420020f48a09f5"
+    },
+    "runs/augmented-seed17": {
+      "dev_nll": 0.7298688938537602,
+      "epoch": 12,
+      "checkpoint_sha256": "c539ff9ee30a6f00a3989e690ba5ce05d6717df1e2efee810f9c0b68360b04bd"
+    }
+  },
+  "test_files": {
+    "test_id": "8e7601e3a47c2b1869d3ccf7383141be5a468ee5e10c0fd85c9dfa7d72dfda41",
+    "test_unseen": "160d9fc1e52ef91d921cc782565f5a50a006cead76609d7b8be38caa28962b71",
+    "test_transfer": "09bc658a5bf99464c05c63f56a4f819f24159d6655e6ceb611573dac0e874aa1",
+    "test_simulator": "0cb11ce1425353832d6f199756ed5ae10573888a2c4a70620dae468fb15ba299"
+  }
+}

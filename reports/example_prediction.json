@@ -1,0 +1,45 @@
+{
+  "model": "OpenJev-MiniLM-v0.1",
+  "answers": {
+    "department": {
+      "probabilities": {
+        "duplicate_payment": 0.9999988079071045,
+        "cash_withdrawal": 5.727413849854202e-07,
+        "card_delivery": 4.2237502384523395e-07,
+        "pin_change": 1.6871774732862832e-07
+      },
+      "confidence": 0.9999988079071045,
+      "choice": "duplicate_payment"
+    },
+    "duplicate_charge": {
+      "noul": 0.9876503348350525
+    },
+    "sentiment": {
+      "probabilities": {
+        "0": 0.32589444518089294,
+        "1": 0.6258543133735657,
+        "2": 0.048251233994960785
+      },
+      "confidence": 0.6258543133735657,
+      "score": 0.7223567813634872,
+      "legend": [
+        "The text expresses negative sentiment.",
+        "The text expresses neutral sentiment.",
+        "The text expresses positive sentiment."
+      ]
+    }
+  },
+  "calibration": {
+    "applied": true,
+    "scope": "Temperature fitted on the recorded calibration split; validity on new distributions is not guaranteed.",
+    "confidence_definition": "maximum candidate probability"
+  },
+  "usage": {
+    "questions": 3,
+    "unique_encoded_texts": 11,
+    "input_tokens": 200,
+    "truncated_inputs": 0,
+    "output_decoding_tokens": 0,
+    "latency_seconds": 0.02205950004281476
+  }
+}

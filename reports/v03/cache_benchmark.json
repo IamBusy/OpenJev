@@ -1,0 +1,234 @@
+{
+  "workloads": [
+    {
+      "state_length": "short",
+      "questions": 1,
+      "candidates_per_question": 4,
+      "cached": {
+        "p50_ms": 118.36693750228733,
+        "p95_ms": 121.84116239077412,
+        "raw_seconds": [
+          0.11836762505117804,
+          0.11634979106020182,
+          0.11836624995339662,
+          0.12093641702085733,
+          0.11741233407519758,
+          0.11849975003860891,
+          0.11697550001554191,
+          0.12232833297457546
+        ],
+        "usage": {
+          "prefix_tokens": 71,
+          "candidate_branches": 4,
+          "prefix_evaluations": 1,
+          "branch_forward_calls": 1,
+          "suffix_tokens": 165,
+          "shared_prefix": true,
+          "questions": 1,
+          "output_decoding_tokens": 0,
+          "latency_seconds": 0.12087262491695583
+        }
+      },
+      "recomputed": {
+        "p50_ms": 159.7532710293308,
+        "p95_ms": 161.5259516693186,
+        "raw_seconds": [
+          0.15988220903091133,
+          0.1579295420087874,
+          0.15652545809280127,
+          0.1594380410388112,
+          0.15962433302775025,
+          0.16134912497363985,
+          0.16162116604391485,
+          0.16108187497593462
+        ],
+        "usage": {
+          "prefix_tokens": 71,
+          "candidate_branches": 4,
+          "prefix_evaluations": 4,
+          "branch_forward_calls": 1,
+          "suffix_tokens": 165,
+          "shared_prefix": false,
+          "questions": 1,
+          "output_decoding_tokens": 0,
+          "latency_seconds": 0.15984795801341534
+        }
+      },
+      "p50_speedup": 1.3496443719872682
+    },
+    {
+      "state_length": "short",
+      "questions": 8,
+      "candidates_per_question": 4,
+      "cached": {
+        "p50_ms": 522.3816664656624,
+        "p95_ms": 528.7731686723419,
+        "raw_seconds": [
+          0.5174409579485655,
+          0.5201844159746543,
+          0.5167649999493733,
+          0.5284162920434028,
+          0.5258777090348303,
+          0.5289653330110013,
+          0.5245789169566706,
+          0.516493457951583
+        ],
+        "usage": {
+          "prefix_tokens": 71,
+          "candidate_branches": 32,
+          "prefix_evaluations": 1,
+          "branch_forward_calls": 2,
+          "suffix_tokens": 1320,
+          "shared_prefix": true,
+          "questions": 8,
+          "output_decoding_tokens": 0,
+          "latency_seconds": 0.5151184999849647
+        }
+      },
+      "recomputed": {
+        "p50_ms": 1210.8677495270967,
+        "p95_ms": 1222.0440437202342,
+        "raw_seconds": [
+          1.2234221249818802,
+          1.2016246669227257,
+          1.1935132909566164,
+          1.219484749948606,
+          1.211792916059494,
+          1.1980316669214517,
+          1.2149649169296026,
+          1.2099425829946995
+        ],
+        "usage": {
+          "prefix_tokens": 71,
+          "candidate_branches": 32,
+          "prefix_evaluations": 32,
+          "branch_forward_calls": 2,
+          "suffix_tokens": 1320,
+          "shared_prefix": false,
+          "questions": 8,
+          "output_decoding_tokens": 0,
+          "latency_seconds": 1.2085310419788584
+        }
+      },
+      "p50_speedup": 2.317975203302221
+    },
+    {
+      "state_length": "long",
+      "questions": 1,
+      "candidates_per_question": 4,
+      "cached": {
+        "p50_ms": 264.32820851914585,
+        "p95_ms": 269.6550165361259,
+        "raw_seconds": [
+          0.26458304200787097,
+          0.2661123330472037,
+          0.2640733750304207,
+          0.26257858297321945,
+          0.25974679191131145,
+          0.26358695793896914,
+          0.2694043330848217,
+          0.269789999932982
+        ],
+        "usage": {
+          "prefix_tokens": 468,
+          "candidate_branches": 4,
+          "prefix_evaluations": 1,
+          "branch_forward_calls": 1,
+          "suffix_tokens": 165,
+          "shared_prefix": true,
+          "questions": 1,
+          "output_decoding_tokens": 0,
+          "latency_seconds": 0.2685341670876369
+        }
+      },
+      "recomputed": {
+        "p50_ms": 685.9164584893733,
+        "p95_ms": 703.21387500735,
+        "raw_seconds": [
+          0.685725084040314,
+          0.6861078329384327,
+          0.6854168329155073,
+          0.7099330000346527,
+          0.6907354999566451,
+          0.6861412919824943,
+          0.6835726670688018,
+          0.6855512079782784
+        ],
+        "usage": {
+          "prefix_tokens": 468,
+          "candidate_branches": 4,
+          "prefix_evaluations": 4,
+          "branch_forward_calls": 1,
+          "suffix_tokens": 165,
+          "shared_prefix": false,
+          "questions": 1,
+          "output_decoding_tokens": 0,
+          "latency_seconds": 0.6843496249057353
+        }
+      },
+      "p50_speedup": 2.594942334501885
+    },
+    {
+      "state_length": "long",
+      "questions": 8,
+      "candidates_per_question": 4,
+      "cached": {
+        "p50_ms": 804.5463330345228,
+        "p95_ms": 817.6291664713062,
+        "raw_seconds": [
+          0.800184333929792,
+          0.8057142079342157,
+          0.8052004160126671,
+          0.8214567080140114,
+          0.8105208750348538,
+          0.8038922500563785,
+          0.8025879160268232,
+          0.8016138339880854
+        ],
+        "usage": {
+          "prefix_tokens": 468,
+          "candidate_branches": 32,
+          "prefix_evaluations": 1,
+          "branch_forward_calls": 2,
+          "suffix_tokens": 1320,
+          "shared_prefix": true,
+          "questions": 8,
+          "output_decoding_tokens": 0,
+          "latency_seconds": 0.8004235419211909
+        }
+      },
+      "recomputed": {
+        "p50_ms": 5545.029103988782,
+        "p95_ms": 5578.925516962772,
+        "raw_seconds": [
+          5.564709834055975,
+          5.513298625010066,
+          5.551163999945857,
+          5.5820620419690385,
+          5.497795125003904,
+          5.573100541951135,
+          5.5388942080317065,
+          5.507567457971163
+        ],
+        "usage": {
+          "prefix_tokens": 468,
+          "candidate_branches": 32,
+          "prefix_evaluations": 32,
+          "branch_forward_calls": 2,
+          "suffix_tokens": 1320,
+          "shared_prefix": false,
+          "questions": 8,
+          "output_decoding_tokens": 0,
+          "latency_seconds": 5.506304332986474
+        }
+      },
+      "p50_speedup": 6.892119044374348
+    }
+  ],
+  "warmups": 2,
+  "repeats": 8,
+  "precision": "BF16 backbone, FP32 scalar head",
+  "comparison": "Same model, inputs and branch batch size; only prefix reuse changes",
+  "scope": "Warm in-process time including encoding and output construction; no cross-request cache",
+  "not_a_claim": "No speed comparison to Jev's remote API"
+}

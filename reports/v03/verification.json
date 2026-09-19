@@ -1,0 +1,24 @@
+{
+  "tests_passed": 27,
+  "upstream_warnings": 2,
+  "format_and_lint": "passed",
+  "cached_recomputed_output_and_gradient_test": "passed",
+  "offline_public_api": "passed; shared prefix evaluated once for three questions",
+  "offline_model_inference": "passed",
+  "saved_render_replay_without_credentials": "passed",
+  "runtime_optimization_saved_logit_comparison": "0.0 maximum error on 20 fixed records",
+  "artifact_hashes_match_selection": true,
+  "distributable_credential_scan": "passed",
+  "packages": [
+    {
+      "name": "openjev-0.3.0-py3-none-any.whl",
+      "sha256": "689f0d4f869d02bca829eb51b7cdb90b76f519d1b71a85642628f670fa808e23",
+      "bytes": 73221
+    },
+    {
+      "name": "openjev-0.3.0.tar.gz",
+      "sha256": "788e53041ffad3ee4cfa2bcbf1762f0524f796806b76522737dfaad916d3bbd6",
+      "bytes": 655718
+    }
+  ]
+}

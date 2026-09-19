@@ -1,0 +1,119 @@
+[
+  {
+    "source": "banking77",
+    "revision": "57ec275d8078af65b7731c2a98be812d844a6d6b",
+    "file": "banking77/train.csv",
+    "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/57ec275d8078af65b7731c2a98be812d844a6d6b/banking_data/train.csv",
+    "license": "CC-BY-4.0",
+    "sha256": "b06e26ac675513959a63135f11b94ea7786ed02da65db93a5650d8838cbc664b",
+    "bytes": 839073
+  },
+  {
+    "source": "banking77",
+    "revision": "57ec275d8078af65b7731c2a98be812d844a6d6b",
+    "file": "banking77/test.csv",
+    "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/57ec275d8078af65b7731c2a98be812d844a6d6b/banking_data/test.csv",
+    "license": "CC-BY-4.0",
+    "sha256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d",
+    "bytes": 239961
+  },
+  {
+    "source": "banking77",
+    "revision": "57ec275d8078af65b7731c2a98be812d844a6d6b",
+    "file": "banking77/categories.json",
+    "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/57ec275d8078af65b7731c2a98be812d844a6d6b/banking_data/categories.json",
+    "license": "CC-BY-4.0",
+    "sha256": "53261da888122daf2d120d925458631d9619e15d82e56052e7a42e535ce32b63",
+    "bytes": 2036
+  },
+  {
+    "source": "banking77",
+    "revision": "57ec275d8078af65b7731c2a98be812d844a6d6b",
+    "file": "banking77/LICENSE",
+    "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/57ec275d8078af65b7731c2a98be812d844a6d6b/LICENSE",
+    "license": "CC-BY-4.0",
+    "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661",
+    "bytes": 18650
+  },
+  {
+    "source": "clinc150",
+    "revision": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+    "file": "clinc150/data_full.json",
+    "url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/data/data_full.json",
+    "license": "CC-BY-3.0",
+    "sha256": "36923c3705a59e08fe9c3883d8bc2dd966ef93e22cb78ac41171782a698d56e0",
+    "bytes": 2495390
+  },
+  {
+    "source": "clinc150",
+    "revision": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+    "file": "clinc150/LICENSE",
+    "url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/LICENSE",
+    "license": "CC-BY-3.0",
+    "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+    "bytes": 19467
+  },
+  {
+    "source": "tweeteval_sentiment",
+    "revision": "4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66",
+    "file": "tweeteval_sentiment/train_text.txt",
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/train_text.txt",
+    "license": "CC-BY-3.0",
+    "sha256": "368f01052ea6fd8ffc408a2a2e6ac9669e31542581a0396ef16591ea26eb98a6",
+    "bytes": 4970029
+  },
+  {
+    "source": "tweeteval_sentiment",
+    "revision": "4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66",
+    "file": "tweeteval_sentiment/train_labels.txt",
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/train_labels.txt",
+    "license": "CC-BY-3.0",
+    "sha256": "122bfb1732fb6995b0e5c5f726c0ba457c469c3b6e60513007ce5037f23e65d4",
+    "bytes": 91230
+  },
+  {
+    "source": "tweeteval_sentiment",
+    "revision": "4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66",
+    "file": "tweeteval_sentiment/val_text.txt",
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/val_text.txt",
+    "license": "CC-BY-3.0",
+    "sha256": "e5b021e6fc45064c260b09814b803d8f56cada519c4d952d72f43d48a350a964",
+    "bytes": 219137
+  },
+  {
+    "source": "tweeteval_sentiment",
+    "revision": "4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66",
+    "file": "tweeteval_sentiment/val_labels.txt",
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/val_labels.txt",
+    "license": "CC-BY-3.0",
+    "sha256": "b4566926c72e2e4e2916c864def94e76c4cdde52446af2c7ba4fc2006e057e51",
+    "bytes": 4000
+  },
+  {
+    "source": "tweeteval_sentiment",
+    "revision": "4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66",
+    "file": "tweeteval_sentiment/test_text.txt",
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/test_text.txt",
+    "license": "CC-BY-3.0",
+    "sha256": "09a93a55c63fd93f97485ef7302889d7edb4091cd49733aa37da094f0bfa0675",
+    "bytes": 1156877
+  },
+  {
+    "source": "tweeteval_sentiment",
+    "revision": "4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66",
+    "file": "tweeteval_sentiment/test_labels.txt",
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/datasets/sentiment/test_labels.txt",
+    "license": "CC-BY-3.0",
+    "sha256": "6afb4afe9374d1f983bcf9a7c79b108d0f37fdf020a83f30488309bed215db9d",
+    "bytes": 24568
+  },
+  {
+    "source": "tweeteval_sentiment",
+    "revision": "4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66",
+    "file": "tweeteval_sentiment/README.md",
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/4fbd22cd78421f05b1ecdb4fc5725bc7a7bd8f66/README.md",
+    "license": "see task-specific CC-BY-3.0 notice",
+    "sha256": "cf91d41af5748a4a9eb6914327cdcc6585113c8c1caf16bc39a1b93500450b6b",
+    "bytes": 10714
+  }
+]

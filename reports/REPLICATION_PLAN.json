@@ -1,0 +1,10 @@
+{
+  "purpose": "Diagnostic repeatability check prompted by mixed primary test effects. This does not replace the primary development-selected release.",
+  "declared_before_additional_training": true,
+  "additional_seeds": [23, 42],
+  "arms": ["public", "augmented"],
+  "changes": "Only model initialization, dropout and training shuffle seeds change; data split seed remains 17, all data and hyperparameters stay fixed.",
+  "selection": "Each checkpoint uses development NLL. The original seed-17 release stays frozen.",
+  "analysis": "Report every seed and paired augmented-minus-public differences; bootstrap intervals over examples alone do not capture training-seed uncertainty.",
+  "additional_teacher_calls": 0
+}

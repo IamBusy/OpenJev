@@ -1,0 +1,22 @@
+name: Bug or reproduction failure
+description: Report a concrete failure with a minimal example.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Remove credentials, private text and provider traces.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Version, Python, OS and device
+    validations:
+      required: true

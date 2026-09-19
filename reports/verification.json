@@ -1,0 +1,27 @@
+{
+  "tests": {
+    "passed": 15,
+    "warnings": 2,
+    "warnings_scope": "Upstream Starlette/AnyIO deprecation notices; no failed checks"
+  },
+  "data_audit": true,
+  "synthetic_replay": "176 identical records rebuilt with provider calls forbidden",
+  "local_http_api": "health, real prediction and invalid-schema rejection passed",
+  "offline_export": "HF_HUB_OFFLINE and TRANSFORMERS_OFFLINE prediction succeeded",
+  "source_credential_scan": "passed without printing credentials",
+  "package_checks": [
+    {
+      "file": "openjev-0.1.0-py3-none-any.whl",
+      "bytes": 33477,
+      "members": 19,
+      "private_files_excluded": true
+    },
+    {
+      "file": "openjev-0.1.0.tar.gz",
+      "bytes": 474262,
+      "members": 70,
+      "private_files_excluded": true
+    }
+  ],
+  "format_and_lint": "passed"
+}

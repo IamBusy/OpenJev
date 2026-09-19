@@ -1,0 +1,114 @@
+{
+  "model": "deepseek-v4-pro",
+  "prompt_version": "openjev-paraphrase-v1",
+  "seed": 17,
+  "batches_requested": 24,
+  "source_training_sha256": "841ae797556518861387094fc1797b678dc8f20f5fdb44d0c54270122827bd31",
+  "completed_calls": 48,
+  "max_completion_tokens_per_call": 2048,
+  "accepted_records": 176,
+  "rejections": [
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 8,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 8,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    },
+    {
+      "review_disagreed": 0,
+      "duplicate": 0
+    }
+  ],
+  "errors": [],
+  "prompt_tokens": 16653,
+  "completion_tokens": 6999,
+  "file_sha256": "8cea8cec6ccc1aa9d48831cad92467d07904b9c73e6b1426e6edadeb896c1ab0",
+  "recorded_raw_calls": "artifacts/synthesis/openjev-paraphrase-v1-deepseek-v4-pro-17",
+  "limitations": "Small English paraphrase pilot, reviewed by the same teacher family. No independent human verification; no claim of SOTA performance."
+}

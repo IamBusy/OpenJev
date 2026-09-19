@@ -1,0 +1,97 @@
+{
+  "v02_matched_16": {
+    "n": 16,
+    "decision_consistency": 1.0,
+    "max_probability_error": 2.220446049250313e-16,
+    "record_ids": [
+      "arc_easy:NYSEDREGENTS_2012_8_3:arc_easy",
+      "arc_easy:NYSEDREGENTS_2010_8_28:arc_easy",
+      "arc_easy:NYSEDREGENTS_2008_8_2:arc_easy",
+      "arc_easy:NYSEDREGENTS_2012_8_18:arc_easy",
+      "arc_easy:NYSEDREGENTS_2015_8_16:arc_easy",
+      "arc_easy:NYSEDREGENTS_2012_8_6:arc_easy",
+      "arc_easy:NYSEDREGENTS_2010_8_31:arc_easy",
+      "arc_easy:NYSEDREGENTS_2012_8_9:arc_easy",
+      "arc_easy:NYSEDREGENTS_2010_8_2:arc_easy",
+      "arc_easy:NYSEDREGENTS_2012_8_30:arc_easy",
+      "arc_easy:NYSEDREGENTS_2010_8_41:arc_easy",
+      "arc_easy:NYSEDREGENTS_2012_8_27:arc_easy",
+      "arc_easy:NYSEDREGENTS_2013_8_16:arc_easy",
+      "arc_easy:NYSEDREGENTS_2010_8_39:arc_easy",
+      "arc_easy:NYSEDREGENTS_2008_8_16:arc_easy",
+      "arc_easy:NYSEDREGENTS_2010_8_17:arc_easy"
+    ]
+  },
+  "fresh_32": {
+    "n": 32,
+    "decision_consistency": 1.0,
+    "max_probability_error": 2.220446049250313e-16,
+    "record_ids": [
+      "software_worlds:1ad2cf21268d0d657395:refund_opened",
+      "arc_easy:ACTAAP_2008_5_15:arc_easy",
+      "arc_easy:NYSEDREGENTS_2013_8_26:arc_easy",
+      "software_worlds:f588b7f968b82ef38a7a:refund_opened",
+      "arc_easy:NYSEDREGENTS_2008_8_25:arc_easy",
+      "software_worlds:c5b9aaa24b01546efdfd:refund_opened",
+      "software_worlds:149454c381a3b84baa4e:shipping_action",
+      "software_worlds:cb378f4bd4d9d6ab44c4:refund_request",
+      "software_worlds:ce98c9ae5c352f487057:shipping_action",
+      "software_worlds:bb070b503c92caf4efb7:refund_eligibility",
+      "software_worlds:07cbfd58133780af3b36:refund_request",
+      "software_worlds:7f391de0b194aa6f84b7:refund_eligibility",
+      "software_worlds:fdf62f7829142c4b185a:shipping_action",
+      "arc_easy:Mercury_SC_401331:arc_easy",
+      "arc_easy:Mercury_400522:arc_easy",
+      "software_worlds:f588b7f968b82ef38a7a:refund_request",
+      "arc_easy:Mercury_SC_401358:arc_easy",
+      "software_worlds:49f9133166cd37ebcb60:access_action",
+      "arc_easy:NYSEDREGENTS_2015_8_1:arc_easy",
+      "arc_easy:NYSEDREGENTS_2008_8_10:arc_easy",
+      "arc_easy:Mercury_LBS10577:arc_easy",
+      "software_worlds:2c0d847c09c79e6bf3d0:refund_request",
+      "software_worlds:81ad3213e484ea09b33d:shipping_action",
+      "software_worlds:04fc6d266ab4334cce14:refund_eligibility",
+      "arc_easy:Mercury_7222145:arc_easy",
+      "software_worlds:f588b7f968b82ef38a7a:refund_eligibility",
+      "software_worlds:0fd743ec68a3a46ce1d2:refund_opened",
+      "arc_easy:NYSEDREGENTS_2010_8_30:arc_easy",
+      "software_worlds:e15a8b1dffabe35c300b:refund_opened",
+      "arc_easy:Mercury_SC_408900:arc_easy",
+      "software_worlds:a205d270ed195beed207:refund_opened",
+      "arc_easy:NYSEDREGENTS_2015_8_5:arc_easy"
+    ]
+  },
+  "question_isolation": {
+    "state_groups": 8,
+    "max_probability_error": 0.0
+  },
+  "cache_equivalence": {
+    "state_groups": 8,
+    "max_probability_error": 0.0,
+    "choice_decisions_equal": true
+  },
+  "large_candidate_contract": {
+    "n": 255,
+    "probability_sum": 1.0,
+    "all_finite": true,
+    "choice_in_input": true,
+    "simple_example_correct": true,
+    "usage": {
+      "prefix_tokens": 57,
+      "candidate_branches": 255,
+      "prefix_evaluations": 1,
+      "branch_forward_calls": 16,
+      "suffix_tokens": 10597,
+      "shared_prefix": true,
+      "questions": 1,
+      "output_decoding_tokens": 0,
+      "latency_seconds": 3.2753822919912636
+    },
+    "scope": "Shape and execution test, not a calibrated 255-way benchmark"
+  },
+  "runtime_optimization": {
+    "records": 20,
+    "maximum_logit_error": 0.0,
+    "reference": "pre-optimization saved evaluation logits"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "a": "runs/public-seed17",
+  "b": "runs/augmented-seed17",
+  "metric": "paired accuracy difference B minus A; 1000 bootstrap samples within each task",
+  "groups": {
+    "test_id/banking77/intent_choice": {
+      "n": 2479,
+      "accuracy_difference": 0.0052440500201694235,
+      "bootstrap_95": [
+        -0.0008067769261799112,
+        0.010891488503428802
+      ],
+      "a_correct_b_wrong": 19,
+      "a_wrong_b_correct": 32
+    },
+    "test_id/tweeteval_sentiment/sentiment_score": {
+      "n": 12271,
+      "accuracy_difference": -0.024203406405345938,
+      "bootstrap_95": [
+        -0.029502485535001222,
+        -0.018659848423111403
+      ],
+      "a_correct_b_wrong": 672,
+      "a_wrong_b_correct": 375
+    },
+    "test_id/banking77/intent_verification": {
+      "n": 2479,
+      "accuracy_difference": 0.0052440500201694235,
+      "bootstrap_95": [
+        -0.0016135538523598225,
+        0.012101653892698669
+      ],
+      "a_correct_b_wrong": 31,
+      "a_wrong_b_correct": 44
+    },
+    "test_unseen/banking77/intent_verification": {
+      "n": 597,
+      "accuracy_difference": -0.008375209380234505,
+      "bootstrap_95": [
+        -0.023450586264656615,
+        0.005025125628140704
+      ],
+      "a_correct_b_wrong": 12,
+      "a_wrong_b_correct": 7
+    },
+    "test_unseen/banking77/intent_choice": {
+      "n": 597,
+      "accuracy_difference": 0.02680067001675042,
+      "bootstrap_95": [
+        0.010050251256281407,
+        0.04355108877721943
+      ],
+      "a_correct_b_wrong": 4,
+      "a_wrong_b_correct": 20
+    },
+    "test_transfer/clinc150/intent_choice": {
+      "n": 1799,
+      "accuracy_difference": -0.0011117287381878821,
+      "bootstrap_95": [
+        -0.009449694274596998,
+        0.006114508060033352
+      ],
+      "a_correct_b_wrong": 28,
+      "a_wrong_b_correct": 26
+    }
+  }
+}

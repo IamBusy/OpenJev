@@ -1,0 +1,140 @@
+{
+  "test_id/banking77/intent_choice": {
+    "accuracy_by_seed": {
+      "public": [
+        0.6946349334409035,
+        0.6950383219039935,
+        0.6930213795885438
+      ],
+      "augmented": [
+        0.699878983461073,
+        0.6946349334409035,
+        0.6994755949979831
+      ]
+    },
+    "seeds": [
+      17,
+      23,
+      42
+    ],
+    "mean_augmented_minus_public": 0.0037649589888395876,
+    "min_difference": -0.0004033884630899598,
+    "max_difference": 0.006454215409439246,
+    "seed_count": 3
+  },
+  "test_id/banking77/intent_verification": {
+    "accuracy_by_seed": {
+      "public": [
+        0.8858410649455426,
+        0.8882613957240822,
+        0.8882613957240822
+      ],
+      "augmented": [
+        0.891085114965712,
+        0.8894715611133521,
+        0.8870512303348125
+      ]
+    },
+    "seeds": [
+      17,
+      23,
+      42
+    ],
+    "mean_augmented_minus_public": 0.0017480166733898257,
+    "min_difference": -0.0012101653892697684,
+    "max_difference": 0.005244050020169366,
+    "seed_count": 3
+  },
+  "test_id/tweeteval_sentiment/sentiment_score": {
+    "accuracy_by_seed": {
+      "public": [
+        0.5726509656914677,
+        0.5424170809225002,
+        0.5551299812566213
+      ],
+      "augmented": [
+        0.5484475592861218,
+        0.5574117838806943,
+        0.5715915573302909
+      ]
+    },
+    "seeds": [
+      17,
+      23,
+      42
+    ],
+    "mean_augmented_minus_public": 0.0024176242088392863,
+    "min_difference": -0.024203406405345906,
+    "max_difference": 0.016461576073669604,
+    "seed_count": 3
+  },
+  "test_unseen/banking77/intent_choice": {
+    "accuracy_by_seed": {
+      "public": [
+        0.7336683417085427,
+        0.7705192629815746,
+        0.7487437185929648
+      ],
+      "augmented": [
+        0.7604690117252931,
+        0.7152428810720268,
+        0.7621440536013401
+      ]
+    },
+    "seeds": [
+      17,
+      23,
+      42
+    ],
+    "mean_augmented_minus_public": -0.005025125628140688,
+    "min_difference": -0.055276381909547756,
+    "max_difference": 0.02680067001675046,
+    "seed_count": 3
+  },
+  "test_unseen/banking77/intent_verification": {
+    "accuracy_by_seed": {
+      "public": [
+        0.8224455611390284,
+        0.8090452261306532,
+        0.8241206030150754
+      ],
+      "augmented": [
+        0.8140703517587939,
+        0.8157453936348409,
+        0.8190954773869347
+      ]
+    },
+    "seeds": [
+      17,
+      23,
+      42
+    ],
+    "mean_augmented_minus_public": -0.0022333891680625198,
+    "min_difference": -0.008375209380234505,
+    "max_difference": 0.006700167504187671,
+    "seed_count": 3
+  },
+  "test_transfer/clinc150/intent_choice": {
+    "accuracy_by_seed": {
+      "public": [
+        0.47026125625347415,
+        0.46303501945525294,
+        0.46859366314619233
+      ],
+      "augmented": [
+        0.46914952751528627,
+        0.46192329071706506,
+        0.4680377987770984
+      ]
+    },
+    "seeds": [
+      17,
+      23,
+      42
+    ],
+    "mean_augmented_minus_public": -0.0009264406151565652,
+    "min_difference": -0.0011117287381878782,
+    "max_difference": -0.0005558643690939391,
+    "seed_count": 3
+  }
+}

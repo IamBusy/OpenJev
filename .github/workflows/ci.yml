@@ -1,0 +1,28 @@
+name: Checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      HF_HUB_OFFLINE: '1'
+      TRANSFORMERS_OFFLINE: '1'
+      UV_TORCH_BACKEND: cpu
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0d8abe699bfb85fec6de9f7adb5ae17292296ff # v6
+        with:
+          version: '0.9.18'
+          python-version: '3.12'
+          enable-cache: true
+      - run: uv sync --frozen --extra dev --extra qwen
+      - run: uv run --no-sync ruff check src tests scripts
+      - run: uv run --no-sync ruff format --check src tests scripts
+      - run: uv run --no-sync pytest -q -ra
+      - run: uv run --no-sync python scripts/check_repository.py
+      - run: uv run --no-sync openjev-branch --help
+      - run: uv build

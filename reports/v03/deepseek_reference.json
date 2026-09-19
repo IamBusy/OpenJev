@@ -1,0 +1,1213 @@
+{
+  "model": "deepseek-v4-pro",
+  "subset_sha256": "e15ef42cae0e2c4ceaff5c41111bf4c6f563184f77f647af6a55d1de35f34733",
+  "n": 60,
+  "valid": 60,
+  "records": [
+    {
+      "id": "arc_easy:Mercury_7126875:arc_easy",
+      "task": "arc_easy",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.1139253750443459,
+      "usage": {
+        "prompt_tokens": 170,
+        "completion_tokens": 5,
+        "total_tokens": 175,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 170
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "351b11b97550dcfc58d4b2ad4db4853858445eb90adb762c94a641dc0cd68b6d"
+    },
+    {
+      "id": "arc_easy:Mercury_SC_408900:arc_easy",
+      "task": "arc_easy",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 0.9390311250463128,
+      "usage": {
+        "prompt_tokens": 166,
+        "completion_tokens": 5,
+        "total_tokens": 171,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 166
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "ae85eb4456468f22508ab4d7081c1975da5fa955c929577342ad7f1c68e5a383"
+    },
+    {
+      "id": "arc_easy:NYSEDREGENTS_2015_8_30:arc_easy",
+      "task": "arc_easy",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 0.9926587499212474,
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 5,
+        "total_tokens": 161,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 156
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "76d938cdddcc3a9a2259d23b67ebf167fd51d7d85cb5554e4e1ecbf407a92dc7"
+    },
+    {
+      "id": "arc_easy:OHAT_2008_5_26:arc_easy",
+      "task": "arc_easy",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.0752146249869838,
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 5,
+        "total_tokens": 161,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 156
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "c7249436f360d53e741092b0b5d9704623140a48559876b0550276a6d6cd7d31"
+    },
+    {
+      "id": "boolq:validation/1008:boolq",
+      "task": "boolq",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 0.9523740840377286,
+      "usage": {
+        "prompt_tokens": 174,
+        "completion_tokens": 5,
+        "total_tokens": 179,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 174
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "32863eb6e6f6c5fa3bd00b5c632be3048a0867d42cbff79ce0e6a8ac2bf4e629"
+    },
+    {
+      "id": "boolq:validation/1494:boolq",
+      "task": "boolq",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 0.587668374995701,
+      "usage": {
+        "prompt_tokens": 199,
+        "completion_tokens": 5,
+        "total_tokens": 204,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 199
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "26225bfee667c38eee7aa562af32cb6b38d8d29ac1398ad1986a7f8e94835c78"
+    },
+    {
+      "id": "boolq:validation/1808:boolq",
+      "task": "boolq",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 0.9583355830982327,
+      "usage": {
+        "prompt_tokens": 327,
+        "completion_tokens": 5,
+        "total_tokens": 332,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 327
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "1cbdf18678e96b2dcda0c181e4447a29e8837b70e168af402218e4c20081a42d"
+    },
+    {
+      "id": "boolq:validation/2260:boolq",
+      "task": "boolq",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 0.9273386669810861,
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 5,
+        "total_tokens": 160,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "6a708122a983003200fad120bc2c3032d370a3b7f658db99d846a76d57bbf1a3"
+    },
+    {
+      "id": "software_worlds:004e0160de1b9e8566b5:shipping_shipped",
+      "task": "shipping_shipped",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.1774089999962598,
+      "usage": {
+        "prompt_tokens": 235,
+        "completion_tokens": 5,
+        "total_tokens": 240,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 235
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "6a439f8e9f7bb3f6e024eb1944584cb4b2055e405d5a309da8d558a1130ee45f"
+    },
+    {
+      "id": "software_worlds:0351d8f6915a662320ff:incident_severity",
+      "task": "incident_severity",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.2594878330128267,
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 5,
+        "total_tokens": 243,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 238
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "eec4e05cd8e425c89be5aafe4e1026dbfe74926934b98b939bc605d342d99aee"
+    },
+    {
+      "id": "software_worlds:048d536582952328d192:refund_failures",
+      "task": "refund_failures",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 0.9095086669549346,
+      "usage": {
+        "prompt_tokens": 251,
+        "completion_tokens": 5,
+        "total_tokens": 256,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 251
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "4009a99eae487d4376ef51468fcf842156a178e0c45483e9da588fbc0eac958e"
+    },
+    {
+      "id": "software_worlds:0f932f7b20d8646ab6b8:incident_owner",
+      "task": "incident_owner",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.1092362080235034,
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 5,
+        "total_tokens": 235,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 230
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "18b089dcddf553903fcd46e20b3d7a2cca50164f121b6d00a935c4211060cb6d"
+    },
+    {
+      "id": "software_worlds:0fd743ec68a3a46ce1d2:refund_eligibility",
+      "task": "refund_eligibility",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.3015815829858184,
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 5,
+        "total_tokens": 289,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 284
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "807eb01e571f14bd626cbb69f2905b01177b9b1c5778ec4f3ba7fb4c8c0b31f6"
+    },
+    {
+      "id": "software_worlds:0fd743ec68a3a46ce1d2:refund_opened",
+      "task": "refund_opened",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.429493583040312,
+      "usage": {
+        "prompt_tokens": 264,
+        "completion_tokens": 5,
+        "total_tokens": 269,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 264
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "95e20e89480f554d6775be6ed2811011337e8e25750cb44358de7dfaa0556992"
+    },
+    {
+      "id": "software_worlds:16fb2d49e2f8497a9628:refund_request",
+      "task": "refund_request",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.1079431250691414,
+      "usage": {
+        "prompt_tokens": 248,
+        "completion_tokens": 5,
+        "total_tokens": 253,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 248
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "f13a43d3de77ba0c3692aa247b86a066b9c58bc93af0478227814b023a912959"
+    },
+    {
+      "id": "software_worlds:1fd211f766e3512c9fa8:refund_eligibility",
+      "task": "refund_eligibility",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 0.9505389999831095,
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 5,
+        "total_tokens": 289,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 284
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "8f17b69160c8e3b25be75256a99f8921e29d3927aa36ce973da03fe2deb4c8ca"
+    },
+    {
+      "id": "software_worlds:30de814c14923ea02582:incident_owner",
+      "task": "incident_owner",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.0213645419571549,
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 5,
+        "total_tokens": 236,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 231
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "2604b43de8216ca1954e0ba99ae0b25e3a331c3601d6e2f9cfb2cad0e093b6c9"
+    },
+    {
+      "id": "software_worlds:443e11ba2a5a2d30a240:shipping_action",
+      "task": "shipping_action",
+      "valid": true,
+      "predicted_index": 3,
+      "correct": true,
+      "latency_seconds": 1.0800619579385966,
+      "usage": {
+        "prompt_tokens": 260,
+        "completion_tokens": 5,
+        "total_tokens": 265,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 260
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "c0e31a451788791f526f731fce4166fdb68c8fb21830da94b49b0ddce6de2e62"
+    },
+    {
+      "id": "software_worlds:44b94a6a1f6bf83cdc65:refund_failures",
+      "task": "refund_failures",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.112524416996166,
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 5,
+        "total_tokens": 246,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 241
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "9860803c7b77f63f76ee775a667c196e0d27f4da69e032b9df3b1b1c6ba9d9fa"
+    },
+    {
+      "id": "software_worlds:4682f59b738ba723d731:refund_request",
+      "task": "refund_request",
+      "valid": true,
+      "predicted_index": 3,
+      "correct": true,
+      "latency_seconds": 0.9636172919999808,
+      "usage": {
+        "prompt_tokens": 248,
+        "completion_tokens": 5,
+        "total_tokens": 253,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 248
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "fe36de3b8a1eaf7b12a0cc9721f241c6e9479a624a541a18932a65ea47555a9c"
+    },
+    {
+      "id": "software_worlds:46f70f955b14a1102fb1:access_active",
+      "task": "access_active",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.9942497500451282,
+      "usage": {
+        "prompt_tokens": 226,
+        "completion_tokens": 5,
+        "total_tokens": 231,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 226
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "d9f971d0a994957c3f0948762cb002324f2f4a56d1a01ee91cada4b2fe1ed9bf"
+    },
+    {
+      "id": "software_worlds:47e932e4b33aad15ac4b:incident_escalate",
+      "task": "incident_escalate",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.3142587080365047,
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 5,
+        "total_tokens": 232,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 227
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "0f72a46d1296cf5b91b43da9dd07e2d015baf5b5e6cce662b6a5f865455c030c"
+    },
+    {
+      "id": "software_worlds:47e932e4b33aad15ac4b:incident_owner",
+      "task": "incident_owner",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 0.5622966670198366,
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 5,
+        "total_tokens": 236,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 103
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "a4e958feb8e8e46110fa16ed323e7555694deec15ac29b0392c9d132549685c1"
+    },
+    {
+      "id": "software_worlds:47e932e4b33aad15ac4b:incident_severity",
+      "task": "incident_severity",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 0.9496222500456497,
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 5,
+        "total_tokens": 244,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 111
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "e14de54c00d0ea14d78ec4df1750d7f19f8bfb29f456eb88d8dff10984d29d8a"
+    },
+    {
+      "id": "software_worlds:56ecb9885dcef173fa43:incident_escalate",
+      "task": "incident_escalate",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.102176291984506,
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 5,
+        "total_tokens": 232,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 227
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "339a8d20b323c452fe9910018d5228547ad42b90d0c6da714ea88840082572b0"
+    },
+    {
+      "id": "software_worlds:59126c67bee776a4fecd:shipping_action",
+      "task": "shipping_action",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.2597740410128608,
+      "usage": {
+        "prompt_tokens": 249,
+        "completion_tokens": 5,
+        "total_tokens": 254,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 121
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "394cadfd9f3927eb08958333667565b68997be6cdb109e0161842a27571179d7"
+    },
+    {
+      "id": "software_worlds:5a6ab36cd0b7de913265:shipping_action",
+      "task": "shipping_action",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.306336791953072,
+      "usage": {
+        "prompt_tokens": 250,
+        "completion_tokens": 5,
+        "total_tokens": 255,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 250
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "a2ab220644243b863f9239b1a78680ce32dd750badeff774e6cf10f944b34676"
+    },
+    {
+      "id": "software_worlds:5a6ab36cd0b7de913265:shipping_lateness",
+      "task": "shipping_lateness",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.3844871249748394,
+      "usage": {
+        "prompt_tokens": 245,
+        "completion_tokens": 5,
+        "total_tokens": 250,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 117
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "a2774e680826f5aaaf271a665aba5a8e2b6818ec476ce597d2a41436a2ba09fc"
+    },
+    {
+      "id": "software_worlds:5da165fe159ed15ac363:access_action",
+      "task": "access_action",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.3718246250646189,
+      "usage": {
+        "prompt_tokens": 251,
+        "completion_tokens": 5,
+        "total_tokens": 256,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 251
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "78de9fd488275200e600dc4838dcb7a0b37e2a26cbb1aead7a4fadef9e2e8306"
+    },
+    {
+      "id": "software_worlds:5da165fe159ed15ac363:access_gap",
+      "task": "access_gap",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.894225624972023,
+      "usage": {
+        "prompt_tokens": 258,
+        "completion_tokens": 5,
+        "total_tokens": 263,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 258
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "6a0144e05640fad72662f4d6309198b0446f2424a3d50d343ca21df8e8b54027"
+    },
+    {
+      "id": "software_worlds:5db13d9e35ecdc35da63:refund_request",
+      "task": "refund_request",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.4428309170762077,
+      "usage": {
+        "prompt_tokens": 269,
+        "completion_tokens": 5,
+        "total_tokens": 274,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 269
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "10ebf5618a156438ebaa51184aa8fbb7a16fe50e6379977e35f87c93fb1d04f2"
+    },
+    {
+      "id": "software_worlds:5dd8ee7b7ffabb03b994:access_action",
+      "task": "access_action",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.0151673749787733,
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 5,
+        "total_tokens": 241,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 236
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "89eb2a8fbd9165b51b5f0438770d1e457bf938809e402523095135aa1dbfd83a"
+    },
+    {
+      "id": "software_worlds:61f61a5783b449a46c41:refund_opened",
+      "task": "refund_opened",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 0.9996161250164732,
+      "usage": {
+        "prompt_tokens": 260,
+        "completion_tokens": 5,
+        "total_tokens": 265,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 260
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "2cd2f23ec976e74963008673d4d837e1f09bea5543f89ad44e16fc49499bf9ec"
+    },
+    {
+      "id": "software_worlds:665917070acb179b4ca0:shipping_lateness",
+      "task": "shipping_lateness",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 0.9995007920078933,
+      "usage": {
+        "prompt_tokens": 254,
+        "completion_tokens": 5,
+        "total_tokens": 259,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 254
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "1ef5d412738d7b4c833c8ffd25c104a5a362a2ae0df626c9f035215935f279ba"
+    },
+    {
+      "id": "software_worlds:68538aef64ec8bce8196:incident_owner",
+      "task": "incident_owner",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.4625311669660732,
+      "usage": {
+        "prompt_tokens": 235,
+        "completion_tokens": 5,
+        "total_tokens": 240,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 235
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "9ed8141ed52227eecd577a5690908d7f9804924b08158947dcfb72ecc748271f"
+    },
+    {
+      "id": "software_worlds:6cef07555475be49c9a4:incident_escalate",
+      "task": "incident_escalate",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.105104917078279,
+      "usage": {
+        "prompt_tokens": 228,
+        "completion_tokens": 5,
+        "total_tokens": 233,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 228
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "223411b9c098d62e50c6ec32c8162870d56dfdd6635c89d482f43554f04ad815"
+    },
+    {
+      "id": "software_worlds:88acc318dc59c80ecb5a:access_gap",
+      "task": "access_gap",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.3925827089697123,
+      "usage": {
+        "prompt_tokens": 240,
+        "completion_tokens": 5,
+        "total_tokens": 245,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 240
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "cca3640af6edbf58452025a85d861e170825e6263f65b0786912260ff7c3e63b"
+    },
+    {
+      "id": "software_worlds:8ead0ce7cc520c80dd9a:access_action",
+      "task": "access_action",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.3845852080266923,
+      "usage": {
+        "prompt_tokens": 234,
+        "completion_tokens": 5,
+        "total_tokens": 239,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 234
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "18207b95e39cf0b193d796d70a3cc101b9638a4fc3fce471b7908e6539c029ed"
+    },
+    {
+      "id": "software_worlds:96a7d3e91ed861381066:incident_severity",
+      "task": "incident_severity",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.9221152500249445,
+      "usage": {
+        "prompt_tokens": 237,
+        "completion_tokens": 5,
+        "total_tokens": 242,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 237
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "234c7480938cf13bb1e41e14b94277d8209ef5cfacbdac46882ccb828be827c1"
+    },
+    {
+      "id": "software_worlds:976ec8cac8ea971a7d27:shipping_action",
+      "task": "shipping_action",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.4785895000677556,
+      "usage": {
+        "prompt_tokens": 257,
+        "completion_tokens": 5,
+        "total_tokens": 262,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 257
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "10d5e0572c23ced9c49bdcb74ebdfec310b6e4dfb3613c04638564d0f73eefc1"
+    },
+    {
+      "id": "software_worlds:976ec8cac8ea971a7d27:shipping_shipped",
+      "task": "shipping_shipped",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.0620596249355003,
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 5,
+        "total_tokens": 241,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 236
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "e0070fa899b0963ef195098063cfc8ca27bef147049624682b5f7263a69fec61"
+    },
+    {
+      "id": "software_worlds:ab626646e74e2b858f0d:access_active",
+      "task": "access_active",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 0.8884940420975909,
+      "usage": {
+        "prompt_tokens": 225,
+        "completion_tokens": 5,
+        "total_tokens": 230,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 225
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "22e4c6e93643deac9e74e77d1b1ae8b2e92b879fd658c1dc1486467fc09e35ea"
+    },
+    {
+      "id": "software_worlds:b276c7c8140d15c67cd0:access_gap",
+      "task": "access_gap",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": false,
+      "latency_seconds": 1.9234611670253798,
+      "usage": {
+        "prompt_tokens": 252,
+        "completion_tokens": 5,
+        "total_tokens": 257,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 252
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "004d68fb5a4468e44b6179a8d0fcbe517322705c363fb676e7fc0fd9f303e2bf"
+    },
+    {
+      "id": "software_worlds:b33c4cdd4328d23e8a2b:shipping_shipped",
+      "task": "shipping_shipped",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.7880412919912487,
+      "usage": {
+        "prompt_tokens": 237,
+        "completion_tokens": 5,
+        "total_tokens": 242,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 237
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "3786f65decb0a2f0300e4d21a17631211093c0b4f0448831c5ecf594687e7761"
+    },
+    {
+      "id": "software_worlds:b8237db632442b6be70b:incident_severity",
+      "task": "incident_severity",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.1984477089717984,
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 5,
+        "total_tokens": 244,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 239
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "05f2eed3790d3105ab8274f57add8fe38c0618adc9d6c3294a3b4282e1fa38ed"
+    },
+    {
+      "id": "software_worlds:c92d34941eed1436b176:refund_eligibility",
+      "task": "refund_eligibility",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 0.6714658749988303,
+      "usage": {
+        "prompt_tokens": 281,
+        "completion_tokens": 5,
+        "total_tokens": 286,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 281
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "7bc68d4b5717a31658c278a14b5e62f3e59e7319e6188ae2709b8ef5eac2d44f"
+    },
+    {
+      "id": "software_worlds:cb378f4bd4d9d6ab44c4:refund_opened",
+      "task": "refund_opened",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.235002166009508,
+      "usage": {
+        "prompt_tokens": 248,
+        "completion_tokens": 5,
+        "total_tokens": 253,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 248
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "20873186ac9f327edfdd50cae6783d26a1099a56414fa793df876a4fdc02d496"
+    },
+    {
+      "id": "software_worlds:ce98c9ae5c352f487057:shipping_lateness",
+      "task": "shipping_lateness",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.433675208943896,
+      "usage": {
+        "prompt_tokens": 245,
+        "completion_tokens": 5,
+        "total_tokens": 250,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 245
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "642f0e2d67caa0f0befa25ac7aa5e3a337930099c6fcd34668e08f1f6a4bb5aa"
+    },
+    {
+      "id": "software_worlds:d9e7d8d7878ce293f988:refund_failures",
+      "task": "refund_failures",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.0789952499326319,
+      "usage": {
+        "prompt_tokens": 247,
+        "completion_tokens": 5,
+        "total_tokens": 252,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 247
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "7c4f9dfc18c55c9180b6a3afd27b233aa4f995550185c305a56872604a0a9bbe"
+    },
+    {
+      "id": "software_worlds:de63ba5cd27c5b98f900:refund_failures",
+      "task": "refund_failures",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.2827107079792768,
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 5,
+        "total_tokens": 251,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 246
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "9648eb10dacca70c917fc24db3f575235389567f0d13f4a2edda2329d9ef3324"
+    },
+    {
+      "id": "software_worlds:de63ba5cd27c5b98f900:refund_opened",
+      "task": "refund_opened",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 0.9484642079332843,
+      "usage": {
+        "prompt_tokens": 247,
+        "completion_tokens": 5,
+        "total_tokens": 252,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 119
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "173b296fc607de04cbd36df67c534a734930e4736e4ae69d143d86c188f64fa9"
+    },
+    {
+      "id": "software_worlds:e0bfd8ea92e062f3a38d:shipping_lateness",
+      "task": "shipping_lateness",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.051617416087538,
+      "usage": {
+        "prompt_tokens": 255,
+        "completion_tokens": 5,
+        "total_tokens": 260,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 127
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "70c6182527fc142a109dfa942049c08c03b91ff0e35457464bbace7dd22f7f78"
+    },
+    {
+      "id": "software_worlds:e0bfd8ea92e062f3a38d:shipping_shipped",
+      "task": "shipping_shipped",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.0890102499397472,
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 5,
+        "total_tokens": 243,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 238
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "44d2da4fb36422043f02252589a2ddcef482691145cc21fb51608ab833231ef3"
+    },
+    {
+      "id": "software_worlds:e15a8b1dffabe35c300b:refund_eligibility",
+      "task": "refund_eligibility",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.2762050420278683,
+      "usage": {
+        "prompt_tokens": 284,
+        "completion_tokens": 5,
+        "total_tokens": 289,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 284
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "40ac075412860416cf40c3887acab4b1749302e42c9b703c1afe0d53e04e2456"
+    },
+    {
+      "id": "software_worlds:eb3ace825dff3f21ed2e:access_active",
+      "task": "access_active",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.0234427090035751,
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 5,
+        "total_tokens": 232,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 227
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "949ffab34446ac4af9c6c564a57b72961d5588fbd75dbe9ccc723fed223dc2fc"
+    },
+    {
+      "id": "software_worlds:f3c57cbb4edbf9c9811e:refund_request",
+      "task": "refund_request",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 1.3379059160361066,
+      "usage": {
+        "prompt_tokens": 261,
+        "completion_tokens": 5,
+        "total_tokens": 266,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 261
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "6f7b24e14d2b1af9c56321728cfe64b79ddfc09b44ce901d42eef6788d1710a0"
+    },
+    {
+      "id": "software_worlds:fe28016a26a74563733a:incident_escalate",
+      "task": "incident_escalate",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.1289540419820696,
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 5,
+        "total_tokens": 232,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 227
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "b6414c1c76ef1ce9eb81bf960af3bbe74532796152381091f8ff176de37d9be8"
+    },
+    {
+      "id": "software_worlds:ff3f57c5a7c80e2e2cbe:access_action",
+      "task": "access_action",
+      "valid": true,
+      "predicted_index": 2,
+      "correct": true,
+      "latency_seconds": 1.0281105419853702,
+      "usage": {
+        "prompt_tokens": 234,
+        "completion_tokens": 5,
+        "total_tokens": 239,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 106
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "f0ae11bfd54ab2fa4e8049140a9ada2ae9b4d4b93f65bb1cf497e3aa71f2bb7a"
+    },
+    {
+      "id": "software_worlds:ff3f57c5a7c80e2e2cbe:access_active",
+      "task": "access_active",
+      "valid": true,
+      "predicted_index": 1,
+      "correct": true,
+      "latency_seconds": 1.1759290000190958,
+      "usage": {
+        "prompt_tokens": 225,
+        "completion_tokens": 5,
+        "total_tokens": 230,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 225
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "d1c79ea1421758a8c5aedd8d3b68926cb665a7efd3380f27727b69917dba8eef"
+    },
+    {
+      "id": "software_worlds:ff3f57c5a7c80e2e2cbe:access_gap",
+      "task": "access_gap",
+      "valid": true,
+      "predicted_index": 0,
+      "correct": true,
+      "latency_seconds": 0.9837161659961566,
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 5,
+        "total_tokens": 246,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 113
+      },
+      "model": "deepseek-v4-pro",
+      "raw_hash": "66ba161f3307faa0f630d1256ac8b436af91168e0283088c8a5b6a8c7eefc134"
+    }
+  ],
+  "scope": "60 paired records only; reference labels are predictions, not replacement gold labels",
+  "probability_metrics": "not reported; reference returns a discrete choice",
+  "latency_scope": "Remote API including network; not comparable to local compute time",
+  "prompt_tokens": 14265,
+  "completion_tokens": 300
+}

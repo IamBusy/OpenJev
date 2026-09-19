@@ -1,0 +1,5310 @@
+[
+  {
+    "id": "f7aca65c5409e16a6584",
+    "group_id": "f7aca65c5409e16a658411325330e3faca2744208a97840724cc82d0034b3a70",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 11,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "The purchase was 11 days ago and the return window is 21 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 9
+    }
+  },
+  {
+    "id": "9f30e8d91116c226b54c",
+    "group_id": "9f30e8d91116c226b54c97cf23cda0cf0452223625e7c9f0f5a25e1c11c63bbd",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 42,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "购买距今42天，退货窗口为7天。包装尚未开封，商品有损坏。客户仅咨询商品信息，并未请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 18
+    }
+  },
+  {
+    "id": "9b3a69f12129102afae5",
+    "group_id": "9b3a69f12129102afae5f25fc77b12ab9fe58552550c5cd6aa2ef7662cf3ec9c",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 30,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "The purchase was 30 days ago and the return window is 21 days. Package status is not stated. The item is damaged. The customer requests information only and does not request a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 10
+    }
+  },
+  {
+    "id": "62119bc9632d22a8f2b8",
+    "group_id": "62119bc9632d22a8f2b82f6b83145ef9c2469f547682763af0c19e4941f8b6aa",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 24,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "购买距今24天，退货窗口为14天。包装是否开封未说明，商品有损坏。客户仅咨询商品信息，并未请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 2
+    }
+  },
+  {
+    "id": "160b7f8997cb56a55c1d",
+    "group_id": "160b7f8997cb56a55c1db46bd600240fa01908e3dc97991f92cf073cf24095dd",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 49,
+      "return_window_days": 7,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": true
+    },
+    "text": "The purchase was 49 days ago and the return window is 7 days. Package status is not stated. The item is damaged. The customer explicitly requests a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 8
+    }
+  },
+  {
+    "id": "334f85bcb517c1c82e5c",
+    "group_id": "334f85bcb517c1c82e5c5e23cbd6e2de4bcb0a6ef866f3d03965350126520c80",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 24,
+      "return_window_days": 30,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "购买距今24天，退货窗口为30天。包装已经开封，商品没有损坏。客户明确请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 23
+    }
+  },
+  {
+    "id": "172cf2f70bd10f56007e",
+    "group_id": "172cf2f70bd10f56007e983e8bc51ff9c6751779714189b55719070a13ffea9a",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 20,
+      "return_window_days": 7,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "The purchase was 20 days ago and the return window is 7 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 22
+    }
+  },
+  {
+    "id": "210accbef8491d4d9db9",
+    "group_id": "210accbef8491d4d9db9fe92f1d7737175a6b63426d9307cad5b363bc807ee90",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 24,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "购买已过去24天，退货窗口为7天。商品未拆封，未损坏。未提出退款请求。",
+    "render_provenance": {
+      "generation_hash": "b873ed56c7dfe7caf2f487e4ccfa113e031a6e0e639657a2ebf87977b39a602d",
+      "verification_hash": "c915b2778b23cd9a411836483f68469b99859089c9248779a0d126cfac5a3e31"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "79056ea7e4e6dec795ca",
+    "group_id": "79056ea7e4e6dec795ca2b9402b6f9c02156057f59d2e96c3af8f5c94215b19a",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 4,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "The purchase was 4 days ago and the return window is 14 days. Package status is opened. The item is undamaged. The customer explicitly requests a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 8
+    }
+  },
+  {
+    "id": "132aee8f13d0b2c61ccb",
+    "group_id": "132aee8f13d0b2c61ccba2ccddb0c6e83ca92c4a6f601fb0bc79dc92bfe550d0",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 23,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "购买距今23天，退货窗口为30天。包装是否开封未说明，商品有损坏。客户仅咨询商品信息，并未请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 23
+    }
+  },
+  {
+    "id": "c5810c38241e58642b28",
+    "group_id": "c5810c38241e58642b288d15e704929453be628a58c13a1259bf332cca159dd9",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 26,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": true
+    },
+    "text": "The purchase was 26 days ago and the return window is 7 days. Package status is unopened. The item is damaged. The customer explicitly requests a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 14
+    }
+  },
+  {
+    "id": "5b6d3e2791b288d75995",
+    "group_id": "5b6d3e2791b288d75995eab604618ce9d9f06555e369554fc3b2d01fa1b5f5f9",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 27,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": true
+    },
+    "text": "购买已过去27天，退货窗口为14天。商品已打开且损坏，顾客要求退款。",
+    "render_provenance": {
+      "generation_hash": "1b8a624c4fcb415a387992398dc097a8326a732dce3d7355f4d85d1ba25dc4f1",
+      "verification_hash": "4c92ec4f6d8f01f6fe6ed2c9a8687324b01edc020fd2606ff5fd90d08c834c87"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 21
+    }
+  },
+  {
+    "id": "a9c10d23d909540f73ea",
+    "group_id": "a9c10d23d909540f73ea4c88533ead1929a7d47c4b30d5e60d56ba0fe418d1a4",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 20,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "The purchase was 20 days ago and the return window is 21 days. Package status is unopened. The item is damaged. The customer requests information only and does not request a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 12
+    }
+  },
+  {
+    "id": "62b501606c68a62dc9b6",
+    "group_id": "62b501606c68a62dc9b6b06e2b0faec7e7457a87dcf50a4c2652c3a4fd48a80f",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 48,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "购买距今48天，退货窗口为21天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 0
+    }
+  },
+  {
+    "id": "23e002a37348303ad2ef",
+    "group_id": "23e002a37348303ad2ef6be1c8a0bf0130056a1af6e756d548c28b069254e3db",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 27,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "The purchase was 27 days ago and the return window is 7 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 3
+    }
+  },
+  {
+    "id": "fa7568883dbffd92516e",
+    "group_id": "fa7568883dbffd92516ec18b3d642091b0b7aff55e4287c913be495a8c73071f",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 1,
+      "return_window_days": 30,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "购买后一天，商品已被打开，未损坏，顾客要求退款。退货期限为三十天。",
+    "render_provenance": {
+      "generation_hash": "25081b018d428b3d43c6777b54fccce41befd8fd88e9360a186f82d26576aa32",
+      "verification_hash": "fcb0a255bbf19500c2b5ce57592998cb5783e9107856dd960e373d5b8c2acf82"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 17
+    }
+  },
+  {
+    "id": "05ad9e96b8e07307daae",
+    "group_id": "05ad9e96b8e07307daae83565e15acdae77dace31fc1c2a063a7cc7760943e4e",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 17,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "The purchase was 17 days ago and the return window is 14 days. Package status is opened. The item is undamaged. The customer requests information only and does not request a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 4
+    }
+  },
+  {
+    "id": "791ab5277c6ad6c6dcc6",
+    "group_id": "791ab5277c6ad6c6dcc66aa832cdf5c18e225a296c028e54df9fb61216c51afa",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 26,
+      "return_window_days": 21,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "购买已过去26天，退货窗口为21天。商品已打开，未损坏。客户要求退款。",
+    "render_provenance": {
+      "generation_hash": "2728b35a9578ae6952253a8109759ea0c0e62938ed5c2561ccaff21ff2b6e53a",
+      "verification_hash": "c6332ad663db70ad4223031e1a8e8cde02cc40071f45774773bdd08589c0f80c"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 16
+    }
+  },
+  {
+    "id": "3c9f9f977a0ae5c0be8f",
+    "group_id": "3c9f9f977a0ae5c0be8f5f0812bfb3dc2d1deb9b6a41768d96bca39bda0afd93",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "The purchase was 3 days ago and the return window is 14 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 12
+    }
+  },
+  {
+    "id": "f8005d7a463968cd3675",
+    "group_id": "f8005d7a463968cd3675439143363ff6bbad0e7f50ba0173564ec0548d616c17",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 30,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "购买已过去30天，退货窗口为30天。商品是否已打开未知，未损坏，未要求退款。",
+    "render_provenance": {
+      "generation_hash": "9bc1f73c03e4220cfa2400a85c0b842b2377116143008c38f9c0d40665ec81db",
+      "verification_hash": "2032533ad9d1cf1a3670b2805451bb14c1bbda3f45f3f7c6fd22a67dbee5aaf7"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 14
+    }
+  },
+  {
+    "id": "d19d6fa430b0072eee22",
+    "group_id": "d19d6fa430b0072eee226334a5bdf1d4e4e466eac72cdc258004a62ff5cceb7a",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 13,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "Thirteen days have passed since the purchase. The return window is thirty days. The item has not been opened. The item is not damaged. A refund has been requested.",
+    "render_provenance": {
+      "generation_hash": "90dfbe3e59e8f3a9280ce0b03af18a168b0c96aa2119602ef8dfb6a208e09936",
+      "verification_hash": "da7b580d3986b2b6e7836e3c993bb026dc3be411a2b3f58e5900d5980f00dd1d"
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 17
+    }
+  },
+  {
+    "id": "79c675f78222d029b579",
+    "group_id": "79c675f78222d029b579a8f3466de8121f13e7544899f1955653c18099bd060a",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 7,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": true
+    },
+    "text": "购买后已过7天，退货期限为21天。商品未拆封，但有损坏。顾客要求退款。",
+    "render_provenance": {
+      "generation_hash": "ceb178836954cde606204e1bb4e263842536c82fe86fd770fb258c7c838c3dc6",
+      "verification_hash": "96b200dc34428e1db965b4d7eddc79b8c51fa18e8286482849b1be6e51ea31ab"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "d8d932aee0b2a453b80f",
+    "group_id": "d8d932aee0b2a453b80f0371b47f5e63abd4e5655793afb0a2b81f770002cfc5",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 23,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "The item was purchased 23 days ago. The return window is 14 days. The item has been opened and is damaged. No refund has been requested.",
+    "render_provenance": {
+      "generation_hash": "5487266f746332fa61775ae0d561d5e0294ffc42f81d60279ab8df3a5e354a17",
+      "verification_hash": "7d4a973049958c09ce2289daf72102ec1ee8c3fb8072e263841bcea314d60590"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 8
+    }
+  },
+  {
+    "id": "772a0e81b646571de92f",
+    "group_id": "772a0e81b646571de92f5287de495a458c7b0e55376c544ed3ce5decc5ab3bb6",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 35,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "购买已过去35天，退货窗口为30天。商品未拆封，无损坏，未提出退款请求。",
+    "render_provenance": {
+      "generation_hash": "39eea85312c55d9327784cbec322fd7d4335de0ca82ef28caf9192d450561f7c",
+      "verification_hash": "b0b3f3742ff64506abce656c0d8fa9ee171d62043f2ac03fc1369f0ab8de907a"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 10
+    }
+  },
+  {
+    "id": "f5fcfec89b287c86861e",
+    "group_id": "f5fcfec89b287c86861efb2f8aeaee832b03be6e783bebc105e3820dd59ef721",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "login"
+    },
+    "text": "The login service has 0 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 10
+    }
+  },
+  {
+    "id": "a1e796278f03237964b1",
+    "group_id": "a1e796278f03237964b1a69daa80a52c42d13a4a71966f54e1997ac671d7af0b",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 10,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "login服务出现问题，10名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "c398765802066a7c5e9b",
+    "group_id": "c398765802066a7c5e9b3452cdb9fa0df1e80b0b19cd39e7a1245c5296820efb",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 85,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "The export service has 85 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 16
+    }
+  },
+  {
+    "id": "d93593a4f158df3307d6",
+    "group_id": "d93593a4f158df3307d68cc6dee8582206224fa2585dea9b713dafae1089cf47",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "export"
+    },
+    "text": "export服务出现问题，0名用户无法完成工作。不存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 12
+    }
+  },
+  {
+    "id": "8e8e7c018e7c82fe3bec",
+    "group_id": "8e8e7c018e7c82fe3bec83945f5d7c61d90b6fbbed6a875221b0e607e43f711b",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 106,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "A login service issue has been observed, affecting 106 users. A workaround is available. The exact nature of the problem is not specified, but it is known that a significant number of users are impacted and a temporary solution exists.",
+    "render_provenance": {
+      "generation_hash": "f58827bda4aeba778e3a2feb3998f22d303d8f8070627db1591056f5facec6fb",
+      "verification_hash": "900fc29b04173eceb68eac41bc63b7559ae5eacea0adad61dcb2a03de5e2d299"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 5
+    }
+  },
+  {
+    "id": "2241d70c02df5e891818",
+    "group_id": "2241d70c02df5e891818b766a0a3016c5c6a80db79bcc0d9820c07f7ef6d2083",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "login服务出现问题，0名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 9
+    }
+  },
+  {
+    "id": "37b7aadf68e70aae1d33",
+    "group_id": "37b7aadf68e70aae1d33a7efc9fbbb70d635a2851b52de114552f9620738d18a",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "The export service has been affected, with no users currently impacted. A workaround is available to mitigate the issue. Specific details about the cause or duration of the disruption are unknown at this time.",
+    "render_provenance": {
+      "generation_hash": "3b4f294b87b79820cfa99006b1f993c667d3d72015e20a76c5be94679678decf",
+      "verification_hash": "b0698c3b72c112f5be889fa74b87bbd1766a23371e081dc712a1249e639755a8"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 4
+    }
+  },
+  {
+    "id": "b18cb4ec67ed61133cee",
+    "group_id": "b18cb4ec67ed61133ceee2c8252d39761bc64bf182d8fa6b3527c858403cb416",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 107,
+      "workaround": false,
+      "service": "export"
+    },
+    "text": "export服务出现问题，107名用户无法完成工作。不存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 5
+    }
+  },
+  {
+    "id": "870d748546304ef719b5",
+    "group_id": "870d748546304ef719b5cf815c8fc3c588c0035507dd362db6ae553c4f9f236c",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 65,
+      "workaround": false,
+      "service": "payments"
+    },
+    "text": "An unspecified issue is affecting the payments service, impacting 65 users. There is no workaround available at this time.",
+    "render_provenance": {
+      "generation_hash": "ef3aa3ab92456fc17f373995343bdee1eb3447ef73cd2e74e2d233b793f00539",
+      "verification_hash": "4aefc756eb081f2cd4dd57b05aa42720af380bd66b033c148ba8c0a9d17f99ab"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 20
+    }
+  },
+  {
+    "id": "2849bf6caa714a2c18c8",
+    "group_id": "2849bf6caa714a2c18c8ef7bbd493f092d2dc3eadf51e02b9209b6f0d58cdbd6",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 10,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "export服务出现问题，10名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 3
+    }
+  },
+  {
+    "id": "3d88b5a1c2bf5b25bbcc",
+    "group_id": "3d88b5a1c2bf5b25bbccc3b384f2d92da8ad4784b860a03cfa4eb73452f72087",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 169,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "An issue has been observed affecting 169 users of the export service. A workaround is available. The affected users are unknown. The service is export. No further details are provided.",
+    "render_provenance": {
+      "generation_hash": "09d9b13684abe90c3ca59e2f7a34261259fe2f71320046476642c1b74a38f1c0",
+      "verification_hash": "0d083de43ad197e5f6f3507511e258e9e6b9224c0b5d8e32f7241f99fcd867ad"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 5
+    }
+  },
+  {
+    "id": "9523ef95c1d841ed42b0",
+    "group_id": "9523ef95c1d841ed42b0c35812dd5ee707d31bf116e23604fc823254e2c22eb2",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 2,
+      "workaround": true,
+      "service": "payments"
+    },
+    "text": "payments服务出现问题，2名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 11
+    }
+  },
+  {
+    "id": "811acb42a3a36292400b",
+    "group_id": "811acb42a3a36292400ba742efc328d908fda5c6df4a29b027c867fec1bca042",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 123,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "The login service has 123 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 11
+    }
+  },
+  {
+    "id": "ca5849dd998889176af1",
+    "group_id": "ca5849dd998889176af10980c160916027f200bc11fd897d0be07d61d800fcdd",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 13,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "export服务出现问题，13名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 23
+    }
+  },
+  {
+    "id": "358ba15003a30146d7cd",
+    "group_id": "358ba15003a30146d7cda5ead848e82511eed2d1717539874791bab2be790a28",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 192,
+      "workaround": false,
+      "service": "payments"
+    },
+    "text": "The payments service has 192 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 14
+    }
+  },
+  {
+    "id": "8427f68b56875c3f3b52",
+    "group_id": "8427f68b56875c3f3b520625fda6eccdbf4188ecadd1cd5e9ba703dec18bcb5c",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 56,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "export服务出现问题，56名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "f0b6300d960c8af33f7f",
+    "group_id": "f0b6300d960c8af33f7f6877837404bb8850e4cdfe9c1f801b3f7049db983aaf",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 171,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "The export service has 171 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 20
+    }
+  },
+  {
+    "id": "f2142b411be9011ae463",
+    "group_id": "f2142b411be9011ae4631f04550d82a390c2ce314a557213a78ea6d9ab70383c",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 55,
+      "workaround": false,
+      "service": "payments"
+    },
+    "text": "payments服务出现问题，55名用户无法完成工作。不存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 23
+    }
+  },
+  {
+    "id": "223209bea0be94f2ab13",
+    "group_id": "223209bea0be94f2ab1321bd9ef5e90863461a07df2298acb71e85affb805770",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 72,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "The login service has 72 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 22
+    }
+  },
+  {
+    "id": "4b7e4e7368fb9231ad25",
+    "group_id": "4b7e4e7368fb9231ad254ff33d14c7eb0c6eb846d0eaaaf4eac4bc7f958ae024",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 96,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "login服务出现问题，96名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 1
+    }
+  },
+  {
+    "id": "7bfd2d06951c221ada8e",
+    "group_id": "7bfd2d06951c221ada8e1186baec7da44eb06e92e07e0f0d24d67d8231b95ceb",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "payments"
+    },
+    "text": "The payments service has 0 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 1
+    }
+  },
+  {
+    "id": "a9960624d4f0357701bc",
+    "group_id": "a9960624d4f0357701bc1d3acf6e372d0cf3c17fe1f593466fc8304d95a171b5",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 126,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "export服务出现问题，126名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 9
+    }
+  },
+  {
+    "id": "7fd28a6b0868352befcd",
+    "group_id": "7fd28a6b0868352befcd7c19837b75e5687d16e7b06ca545b9281ee45250225a",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 67,
+      "workaround": false,
+      "service": "export"
+    },
+    "text": "The export service has 67 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "8b047b6826c76bb71126",
+    "group_id": "8b047b6826c76bb7112682931183bb39308154eb67159995571d00fabc5479d8",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 189,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "login服务出现问题，189名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 21
+    }
+  },
+  {
+    "id": "8802a2b814e2c1b3d789",
+    "group_id": "8802a2b814e2c1b3d7898e1ec36a71a62b3390b815c45f738530d54b5ac4a7d0",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 15,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "A customer purchased an item 15 days ago. The return window is 14 days. The item remains unopened and undamaged. The customer has requested a refund.",
+    "render_provenance": {
+      "generation_hash": "5b23f95da6cfd1759c8b352da83b4ee64668f5e19e06fde9ec98578f311c92eb",
+      "verification_hash": "c91d6924386823955020718350179fd504159e5b7f499a651efc55065b69218d"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "6e0af29ef9b22db6ec91",
+    "group_id": "6e0af29ef9b22db6ec91ad60f2649ced11ebc3d9cc3664eb470de13582a8c12e",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 47,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "购买距今47天，退货窗口为21天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "b36e33d5361a7cc4233c",
+    "group_id": "b36e33d5361a7cc4233c34dac09f911975eabf5eb6e872f6ce758e4fa4f9559f",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 11,
+      "return_window_days": 21,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "Eleven days have passed since the purchase, within a return window of twenty-one days. The item has been opened but is not damaged. A refund has been requested.",
+    "render_provenance": {
+      "generation_hash": "92facf669de6473d4a61732a614aa6b363957b2b3526a224a2ca318332204e0b",
+      "verification_hash": "69babd4cbae5298b1ea48271bae21393a76c8fab3b01b35ef568737a421571c5"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 8
+    }
+  },
+  {
+    "id": "ddad452b9f9119f4f4c8",
+    "group_id": "ddad452b9f9119f4f4c8bbbcf6ae3f72a6a51c371f06ba4fd732f8359bf7a116",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 7,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "购买已过去三天，退货窗口为七天。商品是否已打开未知，无损坏。顾客明确要求退款。",
+    "render_provenance": {
+      "generation_hash": "7bcb56eeea8b007220ab70ce7f666a5d99faf49724fdcd729204874b240c09a8",
+      "verification_hash": "2d1f05447d1259fa6db9254f1b4c523f1bf8e02e5915a56956490e60ff9d18b3"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 23
+    }
+  },
+  {
+    "id": "edde6ce329c615ba6f96",
+    "group_id": "edde6ce329c615ba6f963bbc99db043edd347fa3dbb40657102e523f007f83c6",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 23,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "The purchase was 23 days ago and the return window is 14 days. Package status is unopened. The item is undamaged. The customer explicitly requests a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 5
+    }
+  },
+  {
+    "id": "ac513a6713a03d91b831",
+    "group_id": "ac513a6713a03d91b831b49305c11f29ac28ce4a1c47385f34b23e56a8ff8478",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 49,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": true
+    },
+    "text": "购买距今49天，退货窗口为30天。包装是否开封未说明，商品有损坏。客户明确请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 13
+    }
+  },
+  {
+    "id": "5bd26bc2578baa50608f",
+    "group_id": "5bd26bc2578baa50608f21d9b791579c5761f24d8d68f60a93ae7feb4c12da9b",
+    "split": "dev",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 38,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "The export service has 38 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 21
+    }
+  },
+  {
+    "id": "8a34690449a0ef739a75",
+    "group_id": "8a34690449a0ef739a756bde9f5b296652be978f7fa74c8524d1e39e58ae376f",
+    "split": "dev",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 56,
+      "workaround": false,
+      "service": "export"
+    },
+    "text": "export服务出现问题，56名用户无法完成工作。不存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 20
+    }
+  },
+  {
+    "id": "aa55bd7957611e80a3a4",
+    "group_id": "aa55bd7957611e80a3a42d3a3b4adbf8190bd4507476eae6fab381fa1bef592c",
+    "split": "dev",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 137,
+      "workaround": true,
+      "service": "payments"
+    },
+    "text": "The payments service has 137 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 15
+    }
+  },
+  {
+    "id": "b3b15da3f28d74712fb4",
+    "group_id": "b3b15da3f28d74712fb460edb2a97b4dc206ce88ad55243cd89c31ec5600a3a7",
+    "split": "dev",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 32,
+      "workaround": false,
+      "service": "export"
+    },
+    "text": "export服务出现问题，32名用户无法完成工作。不存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 9
+    }
+  },
+  {
+    "id": "3dae3f3495897055ef4c",
+    "group_id": "3dae3f3495897055ef4c750f1c40dc651ddc514653ba7d022a83026ce6a908e7",
+    "split": "dev",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 124,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "The export service has 124 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 0
+    }
+  },
+  {
+    "id": "45cf201072c941d92737",
+    "group_id": "45cf201072c941d9273796ba78f9602bbf52a9cb1731ef801548d944f6359e5d",
+    "split": "dev",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 143,
+      "workaround": false,
+      "service": "login"
+    },
+    "text": "login服务出现问题，143名用户无法完成工作。不存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 1
+    }
+  },
+  {
+    "id": "de84e6284a70f5e0a300",
+    "group_id": "de84e6284a70f5e0a3007bcf9d0d435317cfb01f1f2ac6859dff8404ee92bc9c",
+    "split": "calibration",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 32,
+      "return_window_days": 7,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "The item was purchased 32 days ago. The return window is 7 days. The item has been opened. The item is damaged. No refund has been requested.",
+    "render_provenance": {
+      "generation_hash": "3438addb1c8c7de56afc8ae79e3f00e1b9d543ee6f085b71429dcf0a1c2aa6c3",
+      "verification_hash": "48900616e22b2891b887bc1354c2668f50d55a5f04d23248acdec4bdade418a9"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "d2d758d54a4fe228bf58",
+    "group_id": "d2d758d54a4fe228bf586dcc2258965a0faf4839dbaa7a714a00c9d6888e8a04",
+    "split": "calibration",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "购买已过去三天，退货窗口为十四天。是否已打开未知，商品无损坏，未提出退款请求。",
+    "render_provenance": {
+      "generation_hash": "7abc737fef25413f3abcbd8f86886faa002a6844a1e296ed6e3d55ec026ddc67",
+      "verification_hash": "2ea2d13ef588167d35eb4e20637c68eeb098b4fcd04f05abb75f6e069170f86c"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 5
+    }
+  },
+  {
+    "id": "fbcd4b3209c472fc3a3d",
+    "group_id": "fbcd4b3209c472fc3a3d71eb202fb8b0d23e0930af8d1f15531add48c2ce984e",
+    "split": "calibration",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 41,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "The item was purchased 41 days ago. The return window is 21 days. The item was not opened. It is damaged. No refund was requested.",
+    "render_provenance": {
+      "generation_hash": "608f5697c1cdb6e9bf2cc9d1887a25b9c4ba08ea94d1f1148ca70b1078a36f76",
+      "verification_hash": "4d678c29ee4d13bec2872efcaf7ef3c08dcb4032c70ebd3f64420e13a2bebf72"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 12
+    }
+  },
+  {
+    "id": "265abead1a896c99e867",
+    "group_id": "265abead1a896c99e86721267671af2c5ac569db9d91441efeb02232d4853e27",
+    "split": "calibration",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 19,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "购买距今19天，退货窗口为21天。包装是否开封未说明，商品没有损坏。客户明确请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 8
+    }
+  },
+  {
+    "id": "8b9222d7efed033b0e0d",
+    "group_id": "8b9222d7efed033b0e0d0db8d34492e02994a698ed0c171de30e02a41168ac9b",
+    "split": "calibration",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 17,
+      "return_window_days": 7,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": true
+    },
+    "text": "The purchase was 17 days ago and the return window is 7 days. Package status is opened. The item is damaged. The customer explicitly requests a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 8
+    }
+  },
+  {
+    "id": "f7e22b01a71b0d87cdf5",
+    "group_id": "f7e22b01a71b0d87cdf55637ed6043b25830c8376e8824db96608ac6e13ae3a8",
+    "split": "calibration",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 15,
+      "return_window_days": 21,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "购买距今15天，退货窗口为21天。包装已经开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 8
+    }
+  },
+  {
+    "id": "6ddff41ae46577331c79",
+    "group_id": "6ddff41ae46577331c79dc3b701a70e75acf58796dda83a0160a5e0d215ffa5f",
+    "split": "calibration",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 130,
+      "workaround": false,
+      "service": "login"
+    },
+    "text": "The login service has 130 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 12
+    }
+  },
+  {
+    "id": "73f0c31e6ddbd9586361",
+    "group_id": "73f0c31e6ddbd9586361db71e626c886ddad384dc4a9d20fb4c0b4471cf0d54a",
+    "split": "calibration",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 89,
+      "workaround": true,
+      "service": "payments"
+    },
+    "text": "payments服务出现问题，89名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 3
+    }
+  },
+  {
+    "id": "26898f4bd6e6342ee7f1",
+    "group_id": "26898f4bd6e6342ee7f1f86d2a0abeffb1bad4a2346d73ab53e079d37b6c3bca",
+    "split": "calibration",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "payments"
+    },
+    "text": "The payments service has 0 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "9e3dbef66397dfb2bef8",
+    "group_id": "9e3dbef66397dfb2bef881c76df41f73a3b77fcfdf1a5c3f78806497672cefa1",
+    "split": "calibration",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 190,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "login服务出现问题，190名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 1
+    }
+  },
+  {
+    "id": "53825bcee55773fef782",
+    "group_id": "53825bcee55773fef782fb49025e4c30c713ccc5dd980bfc2add816fe6580dcd",
+    "split": "calibration",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 174,
+      "workaround": false,
+      "service": "export"
+    },
+    "text": "The export service has 174 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 5
+    }
+  },
+  {
+    "id": "6d007cb9d33af72fe81e",
+    "group_id": "6d007cb9d33af72fe81e87058511764b5b81f65dc1c9d4e55133f3412d9f554e",
+    "split": "calibration",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 161,
+      "workaround": false,
+      "service": "payments"
+    },
+    "text": "payments服务出现问题，161名用户无法完成工作。不存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 23
+    }
+  },
+  {
+    "id": "f3c57cbb4edbf9c9811e",
+    "group_id": "f3c57cbb4edbf9c9811e26867bb506eaa3e16c8c7dca631886674381d4d93195",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 5,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": true
+    },
+    "text": "A customer bought an item five days ago and the return window lasts twenty-one days. The item has not been opened but is damaged. The customer is requesting a refund.",
+    "render_provenance": {
+      "generation_hash": "be376c64fec3adf7761ab127dcb18fc6cda6bb6b7a8bd530fa82b14eeeb2f772",
+      "verification_hash": "c644e9d18aa481dd2122b15e5858da9401449789a935b92755b6501c24b8ec19"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 11
+    }
+  },
+  {
+    "id": "16fb2d49e2f8497a9628",
+    "group_id": "16fb2d49e2f8497a962893a34e130a50902fc34a604cac720ebcca182ee52b7f",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 8,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "购买距今8天，退货窗口为21天。包装尚未开封，商品没有损坏。客户明确请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 16
+    }
+  },
+  {
+    "id": "048d536582952328d192",
+    "group_id": "048d536582952328d192e08f037c01b017508aa320aaa85a5238b25079877d34",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 14,
+      "opened": true,
+      "damaged": true,
+      "refund_requested": true
+    },
+    "text": "The purchase was 3 days ago and the return window is 14 days. Package status is opened. The item is damaged. The customer explicitly requests a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 4
+    }
+  },
+  {
+    "id": "2c0d847c09c79e6bf3d0",
+    "group_id": "2c0d847c09c79e6bf3d00610dd33fc340398f48a1863aea52adb10d57bd38f25",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 33,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "购买距今33天，退货窗口为21天。包装是否开封未说明，商品没有损坏。客户明确请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "07cbfd58133780af3b36",
+    "group_id": "07cbfd58133780af3b36a3475bb80c73ee1410924aea951d7fcb2e866faf698e",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 40,
+      "return_window_days": 21,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "The purchase was 40 days ago and the return window is 21 days. Package status is opened. The item is undamaged. The customer requests information only and does not request a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 5
+    }
+  },
+  {
+    "id": "28df8dcdb161e532c1cc",
+    "group_id": "28df8dcdb161e532c1cc219064a0f2684323bcaf8e9f57faff021be302b083e2",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 34,
+      "return_window_days": 7,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "购买距今34天，退货窗口为7天。包装已经开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 1
+    }
+  },
+  {
+    "id": "c92d34941eed1436b176",
+    "group_id": "c92d34941eed1436b176b1af3da427a6b5964d3f4b060f3648570b2622af9a0c",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 2,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "The purchase was 2 days ago and the return window is 30 days. Package status is not stated. The item is damaged. The customer requests information only and does not request a refund.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 2
+    }
+  },
+  {
+    "id": "f588b7f968b82ef38a7a",
+    "group_id": "f588b7f968b82ef38a7a1073b5987bc461a0e73effa7ce70eb779ff5d26ff4c3",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 32,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "购买距今32天，退货窗口为7天。包装尚未开封，商品没有损坏。客户明确请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 1
+    }
+  },
+  {
+    "id": "61f61a5783b449a46c41",
+    "group_id": "61f61a5783b449a46c41a5e3d588c111384113a835b11e315f02aa367d8ec624",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 50,
+      "return_window_days": 7,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "text": "A purchase was made 50 days ago. The return window is 7 days. It is unknown if the item was opened. The item is not damaged. No refund has been requested.",
+    "render_provenance": {
+      "generation_hash": "72e421ed53fa105dc6a4207c61b5ae26cbbc73313590a5be2a93ad016009a58e",
+      "verification_hash": "4aff274b8dba743b702e45c1902d3ced7d0f7d887eb0927904d3a39a153c08d8"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 5
+    }
+  },
+  {
+    "id": "c8344d522ecbbad9952f",
+    "group_id": "c8344d522ecbbad9952fc877f969363312a16db458657d93ad68bc00daa771ea",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 1,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": true,
+      "refund_requested": false
+    },
+    "text": "购买距今1天，退货窗口为30天。包装尚未开封，商品有损坏。客户仅咨询商品信息，并未请求退款。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 6
+    }
+  },
+  {
+    "id": "94e71c5cd546c68ee57a",
+    "group_id": "94e71c5cd546c68ee57a91c347ba3253d52feae2e8095e37bbc0cbf0a2665512",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 36,
+      "return_window_days": 30,
+      "opened": true,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "A customer purchased an item 36 days ago, but the return window is 30 days. The item has been opened, is not damaged, and a refund is requested.",
+    "render_provenance": {
+      "generation_hash": "28192e298e7aa89aaa988c81fea4c505210629ee91506fb0d18810bcbea8d06a",
+      "verification_hash": "bebef5195235e60a2a6ebebfd869afc80d83547e0b67cea96fc884d5c352b32c"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 2
+    }
+  },
+  {
+    "id": "7f391de0b194aa6f84b7",
+    "group_id": "7f391de0b194aa6f84b76caa35151f702c06672e1fd80eb3f6f0cc0c34328de3",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 30,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "text": "购买已过去30天，退货窗口为14天，商品未开封且无损坏，顾客要求退款。",
+    "render_provenance": {
+      "generation_hash": "91aa52a1e0d76a29781c6ef53a49d3707c3e0a669ec5915953c7a9b44787559d",
+      "verification_hash": "d4ab07f440bd38dfd43b03611b7aa719f5d7666e4d55cdd7e682e727553f4111"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 16
+    }
+  },
+  {
+    "id": "b8237db632442b6be70b",
+    "group_id": "b8237db632442b6be70b039d43e1ec653e75357bc4ac22e2b6f6663c08cb8e0c",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 24,
+      "workaround": false,
+      "service": "payments"
+    },
+    "text": "The payments service has 24 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 21
+    }
+  },
+  {
+    "id": "68538aef64ec8bce8196",
+    "group_id": "68538aef64ec8bce819693b6b49d3758e5f54c504a5cf218c0af68027b42a354",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 78,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "login服务出现问题，78名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 8
+    }
+  },
+  {
+    "id": "0351d8f6915a662320ff",
+    "group_id": "0351d8f6915a662320fff7be9e4e8ee1fea24c1d3db9828228c150297436797d",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 57,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "The export service has 57 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 17
+    }
+  },
+  {
+    "id": "d86ebca877da31c2f53c",
+    "group_id": "d86ebca877da31c2f53c4bbae629915b795dcd929516de186f68745e4e5fd5bd",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 133,
+      "workaround": true,
+      "service": "export"
+    },
+    "text": "export服务出现问题，133名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "30de814c14923ea02582",
+    "group_id": "30de814c14923ea0258270da097a405528cdcfb54c133a2fc77542aac1420f59",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 184,
+      "workaround": true,
+      "service": "payments"
+    },
+    "text": "The payments service has 184 users blocked. A workaround is available.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 17
+    }
+  },
+  {
+    "id": "619b542b10910656f2c4",
+    "group_id": "619b542b10910656f2c43d5784a67262318a84d69c3e846e2ea11da1c9ad8246",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 132,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "login服务出现问题，132名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 12
+    }
+  },
+  {
+    "id": "56ecb9885dcef173fa43",
+    "group_id": "56ecb9885dcef173fa436ed17f77278481b8d5782f693e0551962284cdb9cb91",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 23,
+      "workaround": false,
+      "service": "payments"
+    },
+    "text": "The payments service has 23 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 5
+    }
+  },
+  {
+    "id": "fe28016a26a74563733a",
+    "group_id": "fe28016a26a74563733a6fe1ecb9e6a598df65cf400f4f3e3c88d87112c6a212",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 147,
+      "workaround": false,
+      "service": "login"
+    },
+    "text": "login服务出现问题，147名用户无法完成工作。不存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 4
+    }
+  },
+  {
+    "id": "bb376c59d314baef4abb",
+    "group_id": "bb376c59d314baef4abbf64e0de2e06f040735858f84a482ccf5f97b59acd239",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 14,
+      "workaround": false,
+      "service": "login"
+    },
+    "text": "The login service has 14 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 7
+    }
+  },
+  {
+    "id": "96a7d3e91ed861381066",
+    "group_id": "96a7d3e91ed861381066af86580fc4831f21bd697d8763e5ff7b4062c2880547",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 179,
+      "workaround": true,
+      "service": "login"
+    },
+    "text": "login服务出现问题，179名用户无法完成工作。存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 22
+    }
+  },
+  {
+    "id": "68e0b7b3b75b4dff1bfe",
+    "group_id": "68e0b7b3b75b4dff1bfe3fb83f362a39115f7cf9037806d0441058c0e86d492f",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 141,
+      "workaround": false,
+      "service": "export"
+    },
+    "text": "The export service has 141 users blocked. A workaround is unavailable.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 15
+    }
+  },
+  {
+    "id": "683db8b0c251ba16b161",
+    "group_id": "683db8b0c251ba16b1613c27dd23a04b206c6cd8aa2e04876d5a0a1dc69f6452",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 75,
+      "workaround": false,
+      "service": "export"
+    },
+    "text": "export服务出现问题，75名用户无法完成工作。不存在替代方案。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 7
+    }
+  },
+  {
+    "id": "5da165fe159ed15ac363",
+    "group_id": "5da165fe159ed15ac363ffe3657f80b464f8b081941d6588d48a075de70fed6b",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 0,
+      "required_rank": 2,
+      "resource": "dataset-7"
+    },
+    "text": "The account is active. The observed clearance rank is 0, while the required rank for accessing dataset-7 is 2. The resource in question is dataset-7.",
+    "render_provenance": {
+      "generation_hash": "eac6732419755894234a2c04217e2a4321ed4be74296378f6a8565ed3349cdae",
+      "verification_hash": "29679a6c5873c1d4b2b1a0a3dc923a78611a69e4d942613a856cfb5420922370"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 14
+    }
+  },
+  {
+    "id": "a07858e256fd03b5c5ee",
+    "group_id": "a07858e256fd03b5c5eed138ca2053b31a646cfa86541255ce48c682e45ba505",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 3,
+      "required_rank": 1,
+      "resource": "dataset-9"
+    },
+    "text": "账号处于有效状态，权限等级为3。资源dataset-9要求等级1。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 23
+    }
+  },
+  {
+    "id": "eb3ace825dff3f21ed2e",
+    "group_id": "eb3ace825dff3f21ed2ed5fb30953b0fe87225abc341ff903cc0608a7461b48f",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 3,
+      "required_rank": 3,
+      "resource": "dataset-7"
+    },
+    "text": "The account is active, with clearance rank 3. Resource dataset-7 requires rank 3.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 17
+    }
+  },
+  {
+    "id": "8ead0ce7cc520c80dd9a",
+    "group_id": "8ead0ce7cc520c80dd9a9023490cefaade00a3d24cd45c80d0cf9fbd41ddce38",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 0,
+      "required_rank": 1,
+      "resource": "dataset-31"
+    },
+    "text": "账号处于有效状态，权限等级为0。资源dataset-31要求等级1。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 21
+    }
+  },
+  {
+    "id": "b276c7c8140d15c67cd0",
+    "group_id": "b276c7c8140d15c67cd0abc42fc9b78ac075ce260384caec647edb647df884df",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 1,
+      "required_rank": 0,
+      "resource": "dataset-26"
+    },
+    "text": "The account is active. The observed clearance rank is 1, while the required rank is 0. The resource in question is dataset-26.",
+    "render_provenance": {
+      "generation_hash": "daddd1093f5684f92b7992f6fe3b6c70d4d755f5fbf8b5d5ea8f5a7045129013",
+      "verification_hash": "07fc813df52980b5f147d915465b700c1a31f907cadca4f1b671f11460833959"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 12
+    }
+  },
+  {
+    "id": "5dd8ee7b7ffabb03b994",
+    "group_id": "5dd8ee7b7ffabb03b994439e6ebb09fc2e7aeb36a43b95caa1074d5fdb90bdfa",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 0,
+      "required_rank": 0,
+      "resource": "dataset-23"
+    },
+    "text": "账号已停用，权限等级为0。资源dataset-23要求等级0。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 17
+    }
+  },
+  {
+    "id": "ff3f57c5a7c80e2e2cbe",
+    "group_id": "ff3f57c5a7c80e2e2cbed8fd1407664eb68824e4e9fe0e811e87a1f10a1c441a",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 2,
+      "required_rank": 1,
+      "resource": "dataset-9"
+    },
+    "text": "The account is active, with clearance rank 2. Resource dataset-9 requires rank 1.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 11
+    }
+  },
+  {
+    "id": "6ce133f2691df0e89919",
+    "group_id": "6ce133f2691df0e89919d7dfa197625680bb31b4772f0a58214a7569ce50a499",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 3,
+      "required_rank": 3,
+      "resource": "dataset-42"
+    },
+    "text": "账号已停用，权限等级为3。资源dataset-42要求等级3。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 10
+    }
+  },
+  {
+    "id": "49f9133166cd37ebcb60",
+    "group_id": "49f9133166cd37ebcb60570982ab5a11df3c943200aab87e54280e9d6798c1d3",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 0,
+      "required_rank": 3,
+      "resource": "dataset-13"
+    },
+    "text": "The account is inactive, with clearance rank 0. Resource dataset-13 requires rank 3.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 23
+    }
+  },
+  {
+    "id": "750f84b3d6254451675e",
+    "group_id": "750f84b3d6254451675e4620225f5a3616373dd74d5085aac0d721cabf8e2d07",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 0,
+      "required_rank": 0,
+      "resource": "dataset-9"
+    },
+    "text": "账号处于有效状态，权限等级为0。资源dataset-9要求等级0。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 18
+    }
+  },
+  {
+    "id": "9f6174576392915e6990",
+    "group_id": "9f6174576392915e69901715ca9ec409a91ab68d0c1a7261cd5bf714c70ef543",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 1,
+      "required_rank": 0,
+      "resource": "dataset-6"
+    },
+    "text": "The account is not active. The observed clearance rank is 1, while the required rank is 0. The resource involved is dataset-6.",
+    "render_provenance": {
+      "generation_hash": "160be7343015e891c709693fc315b0c3a86ea6b86ead3a1c3fbe2bde706068c4",
+      "verification_hash": "2d16473d49c7abb3737814dde14b493eb4598f45285f67499286303280b3c5dc"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 16
+    }
+  },
+  {
+    "id": "88acc318dc59c80ecb5a",
+    "group_id": "88acc318dc59c80ecb5a2f7623e5ff360510c748d2ae58eeec6ce7aa66328dc0",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": false,
+      "clearance_rank": 2,
+      "required_rank": 2,
+      "resource": "dataset-26"
+    },
+    "text": "账号已停用，权限等级为2。资源dataset-26要求等级2。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 13
+    }
+  },
+  {
+    "id": "976ec8cac8ea971a7d27",
+    "group_id": "976ec8cac8ea971a7d2708d0a35e802bc49c34216cd557bfe0fbbf33e8f456f2",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": false,
+      "damaged": true,
+      "days_late": 17,
+      "trace_threshold": 2
+    },
+    "text": "The parcel has not been shipped, is damaged, and is 17 days late. The trace threshold is 2 days.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 3
+    }
+  },
+  {
+    "id": "8209f55a98234c39841b",
+    "group_id": "8209f55a98234c39841b9a1825072a6d7a3428e95d61c5a32fabe67c3dbfce50",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": true,
+      "days_late": 10,
+      "trace_threshold": 2
+    },
+    "text": "包裹已经发货，有损坏，延迟10天。追踪阈值为2天。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 19
+    }
+  },
+  {
+    "id": "80c4f8a11368023cfaa3",
+    "group_id": "80c4f8a11368023cfaa3bf1651d92d2677e11759b83574ae9c265cade7739835",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": false,
+      "damaged": false,
+      "days_late": 0,
+      "trace_threshold": 5
+    },
+    "text": "The parcel has not been shipped, is undamaged, and is 0 days late. The trace threshold is 5 days.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 2
+    }
+  },
+  {
+    "id": "5a6ab36cd0b7de913265",
+    "group_id": "5a6ab36cd0b7de913265635b4965c37a156bcbf0b508a4bbf8bfbee7b5ec79fd",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 13,
+      "trace_threshold": 2
+    },
+    "text": "包裹已经发货，没有损坏，延迟13天。追踪阈值为2天。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 7
+    }
+  },
+  {
+    "id": "004e0160de1b9e8566b5",
+    "group_id": "004e0160de1b9e8566b50e48208ceddc825f9f92e3ad437df2d8dd77767d6431",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": true,
+      "damaged": true,
+      "days_late": 5,
+      "trace_threshold": 1
+    },
+    "text": "The parcel has been shipped, is damaged, and is 5 days late. The trace threshold is 1 days.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 1
+    }
+  },
+  {
+    "id": "ce98c9ae5c352f487057",
+    "group_id": "ce98c9ae5c352f487057ed24909a5a4364a967188804ae6615923c787b243530",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": true,
+      "days_late": 5,
+      "trace_threshold": 2
+    },
+    "text": "包裹已经发货，有损坏，延迟5天。追踪阈值为2天。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 7
+    }
+  },
+  {
+    "id": "506ab4289d78be641cdd",
+    "group_id": "506ab4289d78be641cddff4e9c0aa751013d8350ed4357274f8b7d3bd8cadc52",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": false,
+      "damaged": false,
+      "days_late": 17,
+      "trace_threshold": 4
+    },
+    "text": "The shipment has not been shipped yet. It is not damaged. The shipment is 17 days late, which exceeds the trace threshold of 4 days.",
+    "render_provenance": {
+      "generation_hash": "2c2fdc141e093edd0d38593703d888035d48f2fd4a6cc3cb9cefeb22a755e276",
+      "verification_hash": "3b217421bee379b32ee0de39ba2422de3e3df6955b619e309931d825ae9a3c9a"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 11
+    }
+  },
+  {
+    "id": "20258006fee537f344da",
+    "group_id": "20258006fee537f344da96a591c99ddb8d96a1a7db2592c1434144c66ed8a26b",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 14,
+      "trace_threshold": 1
+    },
+    "text": "包裹已经发货，没有损坏，延迟14天。追踪阈值为1天。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 1
+    }
+  },
+  {
+    "id": "81ad3213e484ea09b33d",
+    "group_id": "81ad3213e484ea09b33da063d017303530daf7db50dca545a30970a0fe6a5a85",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": true,
+      "damaged": true,
+      "days_late": 2,
+      "trace_threshold": 1
+    },
+    "text": "The parcel has been shipped, is damaged, and is 2 days late. The trace threshold is 1 days.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 3
+    }
+  },
+  {
+    "id": "fdf62f7829142c4b185a",
+    "group_id": "fdf62f7829142c4b185a3f62c1836de318d04cdc7002d865c7e274296898eb2d",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": false,
+      "damaged": false,
+      "days_late": 13,
+      "trace_threshold": 5
+    },
+    "text": "包裹尚未发货，没有损坏，延迟13天。追踪阈值为5天。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 2
+    }
+  },
+  {
+    "id": "443e11ba2a5a2d30a240",
+    "group_id": "443e11ba2a5a2d30a240e5f3a0fdd354cda71d18c7b9f2dcdbb0c3489eba6e4b",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": false,
+      "damaged": false,
+      "days_late": 8,
+      "trace_threshold": 1
+    },
+    "text": "The parcel has not been shipped, is undamaged, and is 8 days late. The trace threshold is 1 days.",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 12
+    }
+  },
+  {
+    "id": "59126c67bee776a4fecd",
+    "group_id": "59126c67bee776a4fecd4057b55e47fae482f87f3b3dde743f4b8a61f1c3cf3d",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 0,
+      "trace_threshold": 2
+    },
+    "text": "包裹已经发货，没有损坏，延迟0天。追踪阈值为2天。",
+    "render_provenance": {
+      "method": "deterministic template"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 6
+    }
+  },
+  {
+    "id": "30211305a59ec798a2c9",
+    "group_id": "30211305a59ec798a2c9f61e86b10386a4705b2e3c5ec57d7faee1afca583c7b",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 11,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 1
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今11天，退货窗口为14天。包装尚未开封，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "c0abab379031233f6405",
+    "group_id": "c0abab379031233f640508b51c86008412fdeda1c613ed246e8e2f8756a0a033",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 29,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 18
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 29 days ago and the return window is 30 days. Package status is unopened. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "bc5c50d00826d1a80102",
+    "group_id": "bc5c50d00826d1a80102c41625b95f384e1e8663cad9d8940dd80a87ab5a2788",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 19,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 8
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今19天，退货窗口为21天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "cb1058ec6147c0430265",
+    "group_id": "cb1058ec6147c04302650eb8b65139e5d3a4f63c68cf834ae247769cf0becc7a",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 7,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 3
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 7 days ago and the return window is 7 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "51ee24f4b7f37beba0e1",
+    "group_id": "51ee24f4b7f37beba0e18d68a026f88e0a2632f4d0070051d8296e7a8ac24ecd",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 16,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 6
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今16天，退货窗口为30天。包装尚未开封，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "a7633fab64204816ee4b",
+    "group_id": "a7633fab64204816ee4b08d15c41019c74b20dc707b1ce8487de67b92061144f",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 1,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 3
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 1 days ago and the return window is 21 days. Package status is unopened. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "ed276c26fe8b298f191b",
+    "group_id": "ed276c26fe8b298f191b878ad3d34d70cc6dbb73e09ecc1427aa4ba5ff135b3d",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 13,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 10
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今13天，退货窗口为14天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "6c40cc22b0509f9b82ae",
+    "group_id": "6c40cc22b0509f9b82ae97ee3a9fe8ca07f98f64f5fc9556a40df8a11bbb8f3f",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 0,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 3
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 0 days ago and the return window is 14 days. Package status is unopened. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "58391bc9410a5a5225e1",
+    "group_id": "58391bc9410a5a5225e1751e732f7a59ffd68e2bf941a789660b3e4a4bbb306d",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 17,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 19
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今17天，退货窗口为30天。包装尚未开封，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "93868ad680aff15cb12e",
+    "group_id": "93868ad680aff15cb12ec4959108e390bcbc429f0f22a8a5965339405cfa83a5",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 2,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 19
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 2 days ago and the return window is 14 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "ec8606defb18b91a5a72",
+    "group_id": "ec8606defb18b91a5a72880dfa1d51b1c49bb630973edfac6985aa0de7c062e3",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 6,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 23
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今6天，退货窗口为7天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "4e81e645be9761862f87",
+    "group_id": "4e81e645be9761862f87e8c65505de90ad339fece90ee8046ae7535901c5b140",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 28,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 1
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 28 days ago and the return window is 30 days. Package status is unopened. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "e55cf724478aa906d79b",
+    "group_id": "e55cf724478aa906d79bb9c0d2517f359091a6e4269758af9191aeaf3e8fba1d",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 4,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 10
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今4天，退货窗口为14天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "f419cc562a62b70e891c",
+    "group_id": "f419cc562a62b70e891ca663ace9083fe9d2ebe4726988cd97a80636c8932e11",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 6,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 6
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 6 days ago and the return window is 14 days. Package status is unopened. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "520467e26ae098376d31",
+    "group_id": "520467e26ae098376d316a511f17df8d21d4971fab31d0db4a004cef64e38933",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 19,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 7
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今19天，退货窗口为21天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "94b671f3d10866a5e143",
+    "group_id": "94b671f3d10866a5e14335afea0d6b550d60ac591c8674925ee9bfdce853ba9c",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 14,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 1
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 14 days ago and the return window is 14 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "b93afcd29fe995a88de7",
+    "group_id": "b93afcd29fe995a88de7b7eddf1dc0ff43026ba3977574c623162821029c516c",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 6,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 0
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今6天，退货窗口为14天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "5130fe61967b55a6d2a2",
+    "group_id": "5130fe61967b55a6d2a29ae36e7931d104652d29203deadf5f30d7c97ca4371e",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 0,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 13
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 0 days ago and the return window is 7 days. Package status is unopened. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "2c513fbf985cd66f1f68",
+    "group_id": "2c513fbf985cd66f1f68c91c1abbbc6b2e2c3e3a7d97663b7a927295aef2fcb7",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 19,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 12
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今19天，退货窗口为21天。包装尚未开封，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "348460726f0be6c1129c",
+    "group_id": "348460726f0be6c1129c5f5558e06d58c0a9428cebf1bb41218741142a1d6f01",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 4,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 6
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今4天，退货窗口为21天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "ebb9452c0d4c58ca2fbb",
+    "group_id": "ebb9452c0d4c58ca2fbbe3351eefa2a6acb33e3f2fa046a05d630f5be7df1139",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 21,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 6
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 21 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "f1c9557115ba1dbe1e82",
+    "group_id": "f1c9557115ba1dbe1e8257b327b4ecbb1e60edce6d927a886ed77b414a9aa638",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 19,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 2
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今19天，退货窗口为21天。包装是否开封未说明，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "0a92b701f58a97c0e2c0",
+    "group_id": "0a92b701f58a97c0e2c0a8b6f6567a9b0a6a7e2fd7585c35056793cee627320c",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 17,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 5
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 17 days ago and the return window is 21 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "7db7e5939675e8c5fe2c",
+    "group_id": "7db7e5939675e8c5fe2c616671d529ca91ab0f653b6096cc364d68e612ebd7ab",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 1,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 13
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今1天，退货窗口为21天。包装是否开封未说明，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "4ca408bd400c1a9377cc",
+    "group_id": "4ca408bd400c1a9377cc298d485ee4ee148a51495d6c704b77e6e781af5dc86f",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 10,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 12
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 10 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "a7a7751259ae57fb6dcc",
+    "group_id": "a7a7751259ae57fb6dcce66b211a88bd1a6506932f0988e8f788051961278c11",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 2,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 13
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今2天，退货窗口为30天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "02e19a754d8e20d4dd6f",
+    "group_id": "02e19a754d8e20d4dd6fbc0fc8e0310f075529321c11ecef130f8eb5ae4007d2",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 25,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 19
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 25 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "84303807ba636f8fd500",
+    "group_id": "84303807ba636f8fd500e4eac83b6c4f7799d6ff183077135e528969727abfaf",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 21,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 12
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今21天，退货窗口为30天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "2587af88cdae5dc33147",
+    "group_id": "2587af88cdae5dc33147c6c81ed69e676b25d43ed8575564bd2ebbeeeb7db90f",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 8,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 22
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 8 days ago and the return window is 21 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "271987af37ca493fcca4",
+    "group_id": "271987af37ca493fcca41af6c074703c45d5cada88345754b3f898cf7bb6f7a2",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 7,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 18
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今7天，退货窗口为14天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "65db04aee2de2d261b36",
+    "group_id": "65db04aee2de2d261b367abcb38ac4cbb8d238c7cc77677335a7b3a3dd32a1e7",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 25,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 16
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 25 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "003c017876d05fc92b87",
+    "group_id": "003c017876d05fc92b8749ed2639f63faa964d7de389253c619223b7d5b8dfe3",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 28,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 16
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今28天，退货窗口为30天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "da609fa58c76e9e9102a",
+    "group_id": "da609fa58c76e9e9102a4fa384df19d3a8be2dcd74774fb803596ead8a2a4c87",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 6,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 1
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 6 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "5b86014caf2e75c0472d",
+    "group_id": "5b86014caf2e75c0472d94ba6124d6859f874f8885cb579bfaa418d825e399ac",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 8,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 7
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今8天，退货窗口为14天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "0496c873581563af25ae",
+    "group_id": "0496c873581563af25ae2da0c004ac5fba597e70fb6695730868dad52afdbb4f",
+    "split": "train",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 4,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 0
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 4 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "8d0d7321cbafb1dc2ecf",
+    "group_id": "8d0d7321cbafb1dc2ecf310888637e62c6a024f189f6e39680c8ba65c7dfc6a3",
+    "split": "train",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 10,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 7
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今10天，退货窗口为14天。包装是否开封未说明，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "5e8c40cc5d9d369a7147",
+    "group_id": "5e8c40cc5d9d369a7147e9fae23ee124767564b7830b994d5c5b8e8358e5e019",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "export"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 19
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "export服务出现问题，0名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "79ad6ec7e73236455687",
+    "group_id": "79ad6ec7e7323645568730db68768b1775fcd345be2b8730b5ffebfa37be9ec6",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "export"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 5
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The export service has 0 users blocked. A workaround is available."
+  },
+  {
+    "id": "a32872e65c1e5f107bca",
+    "group_id": "a32872e65c1e5f107bca6263c02d5d21c37c96588302b1be52fa6563afc8372f",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "login"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 13
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "login服务出现问题，0名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "d19fd0031dd253aaa1a9",
+    "group_id": "d19fd0031dd253aaa1a9094f90ccea74bee8907f5dfe43ed0d2313073882c67c",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "login"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 14
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The login service has 0 users blocked. A workaround is unavailable."
+  },
+  {
+    "id": "9bf5c3b7a0a870a0d46e",
+    "group_id": "9bf5c3b7a0a870a0d46ed3b499b3cefcf3d01ce4d628e5955984c8f23e8fe69c",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "login"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 6
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "login服务出现问题，0名用户无法完成工作。存在替代方案。"
+  },
+  {
+    "id": "3320ad4bed016f6e0770",
+    "group_id": "3320ad4bed016f6e077060b39abe31c80c4c187701fe356df8b346c0bccb1264",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "payments"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 4
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The payments service has 0 users blocked. A workaround is unavailable."
+  },
+  {
+    "id": "104514304cc12b1dfd77",
+    "group_id": "104514304cc12b1dfd77c5bb13f4c1377dbee401b21a92142856f744e6eb38b7",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "export"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 10
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "export服务出现问题，0名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "3c728285485869c0639a",
+    "group_id": "3c728285485869c0639a138a72abb4c2829977c7a71fb56c34515b16ce23c3ce",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "payments"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 10
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The payments service has 0 users blocked. A workaround is available."
+  },
+  {
+    "id": "9935b553fe87ac265c12",
+    "group_id": "9935b553fe87ac265c12f53aae302cc4db73919fa3c7924f68db3d2c5e028cf0",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "login"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 1
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "login服务出现问题，0名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "84f95a3bf60f70e14c90",
+    "group_id": "84f95a3bf60f70e14c909b85cc365adc9d47118e926ea91c3ef7747c09238529",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 51,
+      "workaround": false,
+      "service": "payments"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 2
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "payments服务出现问题，51名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "e7142713fafaf74c5033",
+    "group_id": "e7142713fafaf74c5033bbc54540fdc410840b5565970ffcb35a0fe26927e610",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 109,
+      "workaround": false,
+      "service": "login"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 9
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The login service has 109 users blocked. A workaround is unavailable."
+  },
+  {
+    "id": "ebd752b8c6467dac2401",
+    "group_id": "ebd752b8c6467dac24012d193f33feefc6dffe92eb4c884f4a6c44d4c85d23a0",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 196,
+      "workaround": false,
+      "service": "login"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 22
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "login服务出现问题，196名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "7dfdcce1f42ed2fdc11b",
+    "group_id": "7dfdcce1f42ed2fdc11bcc02a30b903ca8f7e931680600b5f3ef54cd20d385f1",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 66,
+      "workaround": false,
+      "service": "export"
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 17
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The export service has 66 users blocked. A workaround is unavailable."
+  },
+  {
+    "id": "3e584999dd8b668b52ab",
+    "group_id": "3e584999dd8b668b52ab879155719b57a597b025b986caa18e29484b5e0eff0a",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 44,
+      "workaround": false,
+      "service": "payments"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 1
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "payments服务出现问题，44名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "0c39a14f1dc368c98ecc",
+    "group_id": "0c39a14f1dc368c98ecc00339e2b145b25992bc4bd709499a55f17f538f8c1e2",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 106,
+      "workaround": false,
+      "service": "export"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 4
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The export service has 106 users blocked. A workaround is unavailable."
+  },
+  {
+    "id": "a9b15576e77921332c4c",
+    "group_id": "a9b15576e77921332c4c33f2f4dc3fd7a92d75bfdee294c200d03fc001ede138",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 54,
+      "workaround": false,
+      "service": "login"
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 13
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "login服务出现问题，54名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "fc9d15fe7ddab0daf6eb",
+    "group_id": "fc9d15fe7ddab0daf6eb626b32ef09f0390e7c52dcf71d0ab1d99969c03af3d0",
+    "split": "train",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 180,
+      "workaround": false,
+      "service": "payments"
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 15
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The payments service has 180 users blocked. A workaround is unavailable."
+  },
+  {
+    "id": "2a6755adf588e4ed0aaf",
+    "group_id": "2a6755adf588e4ed0aaf98d7949b2887b5a5d8e79a545403c9d54ffafaece506",
+    "split": "train",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 156,
+      "workaround": false,
+      "service": "export"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 23
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "export服务出现问题，156名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "c65eebfddf71f3ac9ec8",
+    "group_id": "c65eebfddf71f3ac9ec8bf946394f1c31bdbcd5e305256d98f619aea295d93f4",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 13,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 2
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 13 days ago and the return window is 21 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "ff8138e8e419b161b18f",
+    "group_id": "ff8138e8e419b161b18f3a2204b7c93fd23cca61a18c0ab76000ad1101ebd02a",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 6,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 5
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今6天，退货窗口为30天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "df675f25d2341c8f7ad9",
+    "group_id": "df675f25d2341c8f7ad9aa3b4b628304f1c33224f3ebe23ac57efb3b87a241d3",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 2,
+      "return_window_days": 7,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 7
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 2 days ago and the return window is 7 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "a8d1080eeee0b7d491c9",
+    "group_id": "a8d1080eeee0b7d491c9750b61dc0f0fa71f974431eb49c5ca2c8dc66c06fa7f",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 0,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 3
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今0天，退货窗口为21天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "320ce08b01151fa7636b",
+    "group_id": "320ce08b01151fa7636beffaa5ba7d2f9d15a6e1c733dc731709e794b9cbd35c",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 28,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 2
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 28 days ago and the return window is 30 days. Package status is unopened. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "dd2a82fb324cc0616d4a",
+    "group_id": "dd2a82fb324cc0616d4a6120fc6f0bf1d978aae1b58f07ed2429b7cd4ddbf112",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 14,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 6
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今14天，退货窗口为30天。包装是否开封未说明，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "22a6c13c85262cf0dc69",
+    "group_id": "22a6c13c85262cf0dc69f195b12bfddd9083b688d203b4bc7fc325969bf980ca",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 9,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 19
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 9 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "f541a3269750cdda4dbc",
+    "group_id": "f541a3269750cdda4dbcb8cabf711f6180b4f518959ba9f66fce455481c73d72",
+    "split": "dev",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 14,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 12
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今14天，退货窗口为30天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "bd1fa82a3b56002de03b",
+    "group_id": "bd1fa82a3b56002de03b6659b1f2c21276e937be826c68b97efaf7440d152639",
+    "split": "dev",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 11,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 0
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 11 days ago and the return window is 14 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "873cf163926f967cf401",
+    "group_id": "873cf163926f967cf401b8316ffa9811dd6ec08617e68f2c460d0889c9ccea05",
+    "split": "dev",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "login"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 17
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The login service has 0 users blocked. A workaround is available."
+  },
+  {
+    "id": "b9b44878322ef6b5dad2",
+    "group_id": "b9b44878322ef6b5dad2c70490dee6179083a9910da61f0db085942aa66edd23",
+    "split": "dev",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "payments"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 6
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "payments服务出现问题，0名用户无法完成工作。存在替代方案。"
+  },
+  {
+    "id": "70dbd8cb99b0627d1cdd",
+    "group_id": "70dbd8cb99b0627d1cdd67e9a6b2c5bf872b12980bae580a6889366a18d79df1",
+    "split": "dev",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "export"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 23
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The export service has 0 users blocked. A workaround is available."
+  },
+  {
+    "id": "017406445450ac397f8d",
+    "group_id": "017406445450ac397f8dc17328cb97246f3179bffc7fd410cc05f483058e4c22",
+    "split": "calibration",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 24,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 1
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 24 days ago and the return window is 30 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "e90e9f51502c9a7cff9c",
+    "group_id": "e90e9f51502c9a7cff9c1b3e658e153b0a13beb2e1ab902b27730f928c15c8db",
+    "split": "calibration",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 2,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 17
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今2天，退货窗口为14天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "16db66e7b3d7e47b1b5f",
+    "group_id": "16db66e7b3d7e47b1b5fed2ba71ad048e1db743dd4ad5a2bc592159d0619c2c2",
+    "split": "calibration",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 1,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 20
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 1 days ago and the return window is 14 days. Package status is unopened. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "08805df0ac321848ed11",
+    "group_id": "08805df0ac321848ed110e16784c872067c09bae2f6a110cec5d7ca29147ed15",
+    "split": "calibration",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 7,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 7
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今7天，退货窗口为14天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "10d3b7c5ff66730e8d67",
+    "group_id": "10d3b7c5ff66730e8d67fa5ff18c67de8de4bc7d2503e26b46a91431786c004b",
+    "split": "calibration",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 28,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 17
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 28 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "8dca5758f7632cd4ba1e",
+    "group_id": "8dca5758f7632cd4ba1e36e79cdd16cc41140e237e7fdfc2f958f42d269bc265",
+    "split": "calibration",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 17,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 15
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今17天，退货窗口为30天。包装是否开封未说明，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "2647d25e7e13eea4e21c",
+    "group_id": "2647d25e7e13eea4e21cf5bd327f383b4f02cac55d66e70de1718ee5e16ae635",
+    "split": "calibration",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "export"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 8
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "export服务出现问题，0名用户无法完成工作。存在替代方案。"
+  },
+  {
+    "id": "689fe5386eb0a7b49633",
+    "group_id": "689fe5386eb0a7b49633eb9df928e4f4a7219cc8c0c011f682921a1b87d9d072",
+    "split": "calibration",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "export"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 13
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The export service has 0 users blocked. A workaround is available."
+  },
+  {
+    "id": "3b7043c5d9e318b25ec1",
+    "group_id": "3b7043c5d9e318b25ec1237e25929f473d1de0036a947c41ecc21b5827daa53b",
+    "split": "calibration",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 190,
+      "workaround": true,
+      "service": "payments"
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 18
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The payments service has 190 users blocked. A workaround is available."
+  },
+  {
+    "id": "de63ba5cd27c5b98f900",
+    "group_id": "de63ba5cd27c5b98f90077d8a549f3b0c95607dbd8e815275c2cf9e8724c6030",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 12,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 22
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今12天，退货窗口为14天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "a205d270ed195beed207",
+    "group_id": "a205d270ed195beed207e7f82e82c1d9fad9a3e995aeb8fecc9c830ca7be2ffb",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 4,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 3
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 4 days ago and the return window is 30 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "d9e7d8d7878ce293f988",
+    "group_id": "d9e7d8d7878ce293f988f2ab0561656ae26798d787c8435b84d9e62f5dd58632",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 1,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 22
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今1天，退货窗口为21天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "1fd211f766e3512c9fa8",
+    "group_id": "1fd211f766e3512c9fa8c7c211cc2345058922a891cda3c70dd5728be9477b5a",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 4,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 18
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 4 days ago and the return window is 30 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "44b94a6a1f6bf83cdc65",
+    "group_id": "44b94a6a1f6bf83cdc6576cb7ada8638249010dfab72d15d459eb8b4a8a43f43",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 10,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 10
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今10天，退货窗口为21天。包装尚未开封，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "e15a8b1dffabe35c300b",
+    "group_id": "e15a8b1dffabe35c300b387bfc5a0fc91438d38116913d09e1c4194cfaa3efb8",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 5
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 3 days ago and the return window is 21 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "4682f59b738ba723d731",
+    "group_id": "4682f59b738ba723d73128ede0ed000fd7d4d5e17b90a8d4e07a23a5d80fb3d8",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 11,
+      "return_window_days": 30,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 20
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今11天，退货窗口为30天。包装尚未开封，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "1ad2cf21268d0d657395",
+    "group_id": "1ad2cf21268d0d6573959358bf8a3a1a21b1257fafb339d283a1f9bc52895676",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 19,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 15
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 19 days ago and the return window is 21 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "275c539a574f37f3232c",
+    "group_id": "275c539a574f37f3232c9a59bee6ee050a014943e9dffcad2ef366f316b387ba",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 10,
+      "return_window_days": 14,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 18
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今10天，退货窗口为14天。包装尚未开封，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "0fd743ec68a3a46ce1d2",
+    "group_id": "0fd743ec68a3a46ce1d216a52f1a1b250c10ab7328e6db7f09be22720cf19cd5",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 17,
+      "return_window_days": 21,
+      "opened": false,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "slate",
+      "reported_hour": 23
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 17 days ago and the return window is 21 days. Package status is unopened. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "bbb416f3d6b7ea0d5524",
+    "group_id": "bbb416f3d6b7ea0d552425fb906f2e771b002adabc7fbc79f8d30cb0e7132e86",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 12,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 7
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 12 days ago and the return window is 14 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "54e5dfa5778e28c00e63",
+    "group_id": "54e5dfa5778e28c00e63059d6aa796698fd5e34a14bd0c26ea5aa4122756f7a9",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 3,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 3
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今3天，退货窗口为14天。包装是否开封未说明，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "bb070b503c92caf4efb7",
+    "group_id": "bb070b503c92caf4efb71d557032751652b34cbd796f9df617ad0dc75cca3d99",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 6,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 9
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 6 days ago and the return window is 21 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "c5b9aaa24b01546efdfd",
+    "group_id": "c5b9aaa24b01546efdfd3fd8f07687c99624c02fdaf609c7522298379b5f7205",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 0,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 7
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今0天，退货窗口为30天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "5db13d9e35ecdc35da63",
+    "group_id": "5db13d9e35ecdc35da630ab2de6e2102be137cb45d2c36c1f57a3f986aa299bd",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 8,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 22
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 8 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "04fc6d266ab4334cce14",
+    "group_id": "04fc6d266ab4334cce14bedab12cfc554a1841acf47301124f3c6f66786c3de6",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 6,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 19
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今6天，退货窗口为14天。包装是否开封未说明，商品没有损坏。客户明确请求退款。"
+  },
+  {
+    "id": "68653a906d3e15369f17",
+    "group_id": "68653a906d3e15369f17dc6cdbbafcbb7169cacdb47694966fe0f2ac3fee1fe9",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 27,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "app",
+      "site": "slate",
+      "reported_hour": 2
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 27 days ago and the return window is 30 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "fa98612b9bd07680e765",
+    "group_id": "fa98612b9bd07680e765f139340ca26ced603e8d1b123cc8dcfcd157c57fd967",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 0,
+      "return_window_days": 30,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "web",
+      "site": "quartz",
+      "reported_hour": 18
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今0天，退货窗口为30天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "5360fe68b42cf28d5876",
+    "group_id": "5360fe68b42cf28d58765cde51a49aaf5e2bf777171a0d5389c68e7f8c2dbcdc",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 5,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 1
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 5 days ago and the return window is 14 days. Package status is not stated. The item is undamaged. The customer requests information only and does not request a refund."
+  },
+  {
+    "id": "cb378f4bd4d9d6ab44c4",
+    "group_id": "cb378f4bd4d9d6ab44c41c6957e79708c6cfdf6550cefa459547c7ce1ef7f3b8",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "zh",
+    "facts": {
+      "days_since_purchase": 5,
+      "return_window_days": 14,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": false
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 17
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "购买距今5天，退货窗口为14天。包装是否开封未说明，商品没有损坏。客户仅咨询商品信息，并未请求退款。"
+  },
+  {
+    "id": "2a546e26e2511066e9d2",
+    "group_id": "2a546e26e2511066e9d28701b357525227109baf2818b029dece8bcad4c155c6",
+    "split": "test_id_new",
+    "family": "refund",
+    "language": "en",
+    "facts": {
+      "days_since_purchase": 4,
+      "return_window_days": 21,
+      "opened": null,
+      "damaged": false,
+      "refund_requested": true
+    },
+    "context": {
+      "channel": "desk",
+      "site": "slate",
+      "reported_hour": 6
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The purchase was 4 days ago and the return window is 21 days. Package status is not stated. The item is undamaged. The customer explicitly requests a refund."
+  },
+  {
+    "id": "0f932f7b20d8646ab6b8",
+    "group_id": "0f932f7b20d8646ab6b87d94362fc0edb19644e799318636f27e81bef24a0f74",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "payments"
+    },
+    "context": {
+      "channel": "app",
+      "site": "delta",
+      "reported_hour": 0
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The payments service has 0 users blocked. A workaround is unavailable."
+  },
+  {
+    "id": "bab0e9f06e82258a1fef",
+    "group_id": "bab0e9f06e82258a1fefd19c681c15a47d4f670bab031dc22dc11b31fddf6ff4",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "payments"
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 7
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "payments服务出现问题，0名用户无法完成工作。存在替代方案。"
+  },
+  {
+    "id": "8dd70f977b4e89b762aa",
+    "group_id": "8dd70f977b4e89b762aa992be70cce8dedaf6b296d63caa96f8c4b53f80a91bd",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "export"
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 10
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The export service has 0 users blocked. A workaround is available."
+  },
+  {
+    "id": "6cef07555475be49c9a4",
+    "group_id": "6cef07555475be49c9a4abdb43030a31cd528772eb10d6ad4db3020af08850b0",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "login"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 14
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "login服务出现问题，0名用户无法完成工作。存在替代方案。"
+  },
+  {
+    "id": "47e932e4b33aad15ac4b",
+    "group_id": "47e932e4b33aad15ac4b612b5f7b839531be404d4ffefbd210bfaa96721a91e0",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "en",
+    "facts": {
+      "affected_users": 0,
+      "workaround": true,
+      "service": "login"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 22
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The login service has 0 users blocked. A workaround is available."
+  },
+  {
+    "id": "9ad24529e38cd87b462a",
+    "group_id": "9ad24529e38cd87b462a654127d5497f67db60ea7f083058c3ff605259408feb",
+    "split": "test_id_new",
+    "family": "incident",
+    "language": "zh",
+    "facts": {
+      "affected_users": 0,
+      "workaround": false,
+      "service": "export"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 16
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "export服务出现问题，0名用户无法完成工作。不存在替代方案。"
+  },
+  {
+    "id": "46f70f955b14a1102fb1",
+    "group_id": "46f70f955b14a1102fb19671383f84dcc918a5dec2237f4389ec059fa3d50d4b",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 0,
+      "required_rank": 3,
+      "resource": "dataset-13"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 21
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The account is active, with clearance rank 0. Resource dataset-13 requires rank 3."
+  },
+  {
+    "id": "fe68f32f19b80632fdf3",
+    "group_id": "fe68f32f19b80632fdf326c40b1aed2696a4f688a93d3d4dfc4c8d410c4c5c56",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "zh",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 0,
+      "required_rank": 3,
+      "resource": "dataset-16"
+    },
+    "context": {
+      "channel": "desk",
+      "site": "cedar",
+      "reported_hour": 9
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "账号处于有效状态，权限等级为0。资源dataset-16要求等级3。"
+  },
+  {
+    "id": "ab626646e74e2b858f0d",
+    "group_id": "ab626646e74e2b858f0d7f9f649e96b726d17e4a8a3937c3a75934b1d5caaaf3",
+    "split": "test_family_new",
+    "family": "access",
+    "language": "en",
+    "facts": {
+      "account_active": true,
+      "clearance_rank": 0,
+      "required_rank": 3,
+      "resource": "dataset-47"
+    },
+    "context": {
+      "channel": "web",
+      "site": "delta",
+      "reported_hour": 21
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The account is active, with clearance rank 0. Resource dataset-47 requires rank 3."
+  },
+  {
+    "id": "e0bfd8ea92e062f3a38d",
+    "group_id": "e0bfd8ea92e062f3a38d7e757b0b81479269a960224e3dd17927eda48cd2f04c",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": false,
+      "damaged": false,
+      "days_late": 14,
+      "trace_threshold": 5
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 6
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The parcel has not been shipped, is undamaged, and is 14 days late. The trace threshold is 5 days."
+  },
+  {
+    "id": "665917070acb179b4ca0",
+    "group_id": "665917070acb179b4ca0792220f6a00cd86b16311dae4fb479781b263536115e",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 3,
+      "trace_threshold": 2
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 5
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The parcel has been shipped, is undamaged, and is 3 days late. The trace threshold is 2 days."
+  },
+  {
+    "id": "149454c381a3b84baa4e",
+    "group_id": "149454c381a3b84baa4ebd7550c2b3cc7430bce6b9e56e158c64c8c95df8dc8b",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 6,
+      "trace_threshold": 2
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 12
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "包裹已经发货，没有损坏，延迟6天。追踪阈值为2天。"
+  },
+  {
+    "id": "86d39e89b0cdf23746ae",
+    "group_id": "86d39e89b0cdf23746ae79d761c8a94c5f9e29ec1acd39fcc2b5ca00d4765ac8",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 15,
+      "trace_threshold": 4
+    },
+    "context": {
+      "channel": "desk",
+      "site": "delta",
+      "reported_hour": 23
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The parcel has been shipped, is undamaged, and is 15 days late. The trace threshold is 4 days."
+  },
+  {
+    "id": "9fe6d5ff1a828abef454",
+    "group_id": "9fe6d5ff1a828abef454637942f680a3bbaa6eb7d3de2303bba6aa70188061de",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 2,
+      "trace_threshold": 2
+    },
+    "context": {
+      "channel": "app",
+      "site": "cedar",
+      "reported_hour": 10
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "包裹已经发货，没有损坏，延迟2天。追踪阈值为2天。"
+  },
+  {
+    "id": "afc8f911e7feb575122c",
+    "group_id": "afc8f911e7feb575122ca653e0658984adcc5b09c3a15f42611ae75c33e7ebb3",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 3,
+      "trace_threshold": 5
+    },
+    "context": {
+      "channel": "desk",
+      "site": "quartz",
+      "reported_hour": 1
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The parcel has been shipped, is undamaged, and is 3 days late. The trace threshold is 5 days."
+  },
+  {
+    "id": "ac61e367e3e4293f32c4",
+    "group_id": "ac61e367e3e4293f32c4c70288cf8c5f1c1d10c5e8f037056e66181f5e5e3ad4",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "zh",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 1,
+      "trace_threshold": 1
+    },
+    "context": {
+      "channel": "web",
+      "site": "cedar",
+      "reported_hour": 3
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "包裹已经发货，没有损坏，延迟1天。追踪阈值为1天。"
+  },
+  {
+    "id": "b33c4cdd4328d23e8a2b",
+    "group_id": "b33c4cdd4328d23e8a2b4430b1acdae169e0ab4950004dfeb0123b10c316b004",
+    "split": "test_family_new",
+    "family": "shipping",
+    "language": "en",
+    "facts": {
+      "shipped": true,
+      "damaged": false,
+      "days_late": 0,
+      "trace_threshold": 5
+    },
+    "context": {
+      "channel": "app",
+      "site": "quartz",
+      "reported_hour": 17
+    },
+    "render_provenance": {
+      "method": "balanced deterministic rule template",
+      "selection": "primary-outcome coverage; no model predictions"
+    },
+    "text": "The parcel has been shipped, is undamaged, and is 0 days late. The trace threshold is 5 days."
+  }
+]

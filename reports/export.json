@@ -1,0 +1,119 @@
+{
+  "release_name": "OpenJev-MiniLM-v0.1",
+  "source_checkpoint": "runs/v01-augmented-seed17/checkpoint",
+  "backbone_parameters": 22713216,
+  "trainable_head_parameters": 197916,
+  "total_parameters": 22911132,
+  "export_reload_max_probability_error": 0.0,
+  "self_contained_weights": true,
+  "files": {
+    "LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "README.md": {
+      "sha256": "f3819ab94ca1be9e697d3ff0e305463029aeb6340191b904dbc181275c6a9b20",
+      "bytes": 2116
+    },
+    "RESULTS.md": {
+      "sha256": "c22e1abd919bea0a96d7d5b846d539670c69928eb627a573f4f97e6e250074f0",
+      "bytes": 7884
+    },
+    "THIRD_PARTY.md": {
+      "sha256": "56ac25fb0a8317545a8dfe4c6abd1196d7f91ccd0d2b75893721966b15342cb3",
+      "bytes": 3807
+    },
+    "backbone/1_Pooling/config.json": {
+      "sha256": "4fef0a7e8c8ee36e74c0fad89bab60ade72324442d43f559ea219bb7c2580710",
+      "bytes": 90
+    },
+    "backbone/README.md": {
+      "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0",
+      "bytes": 10502
+    },
+    "backbone/config.json": {
+      "sha256": "4599e8a5d74ed192b70919aa02124c2d68580070b22e89db956c0353618bccd9",
+      "bytes": 611
+    },
+    "backbone/config_sentence_transformers.json": {
+      "sha256": "8624e5b74567ee5bcb616086fbfb95065143f040783af5eb223ae5ecfa35651a",
+      "bytes": 278
+    },
+    "backbone/model.safetensors": {
+      "sha256": "1377e9af0ca0b016a9f2aa584d6fc71ab3ea6804fae21ef9fb1416e2944057ac",
+      "bytes": 90864192
+    },
+    "backbone/modules.json": {
+      "sha256": "fa7d796a215e1b2416773062891923b191fc5a4849bc44e322997433c90f459c",
+      "bytes": 429
+    },
+    "backbone/sentence_bert_config.json": {
+      "sha256": "3084164002c0bca01b0259c5327123803fce32e660a57feb93184ffead186fc8",
+      "bytes": 241
+    },
+    "backbone/special_tokens_map.json": {
+      "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+      "bytes": 695
+    },
+    "backbone/tokenizer.json": {
+      "sha256": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+      "bytes": 711661
+    },
+    "backbone/tokenizer_config.json": {
+      "sha256": "7a684f8781554b77a49621fba7a75adc862a1dab7bcd2fa1cc3eabbf153abc13",
+      "bytes": 1464
+    },
+    "backbone/vocab.txt": {
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508
+    },
+    "calibration.json": {
+      "sha256": "e5e577f6dfdb8a297b3b7c6080f4d0bb37beaf2e195f64d3709e2f9c27910b65",
+      "bytes": 1674
+    },
+    "config.json": {
+      "sha256": "33022083dafae82d144ca38bea38db50923054b8818af1a10e1709d911850605",
+      "bytes": 644
+    },
+    "data_audit.json": {
+      "sha256": "50c19c45e4d5979b4f9ffeff0ea21a1cc0288e7b91ef61d4a393183233e8f7aa",
+      "bytes": 528
+    },
+    "data_manifest.json": {
+      "sha256": "ba899d98c0d097df1dd76ad06051f3e0b2a3b2951ee23c9cea8e5783da1c966b",
+      "bytes": 5778
+    },
+    "figures/augmentation.png": {
+      "sha256": "fefebf6b964cbe222aaae272027794a6a1b1540f65a990315c9448d261c9f8c5",
+      "bytes": 62252
+    },
+    "figures/augmentation.svg": {
+      "sha256": "5802a9ce1f1f4fc5470043345717968edff489525e7b3fb656e3619e71886b26",
+      "bytes": 41845
+    },
+    "figures/reliability.png": {
+      "sha256": "32255f0d0499703a48bbea40b5e5590234ba62e4da68a643c8dd85f997f8bcd2",
+      "bytes": 117444
+    },
+    "figures/reliability.svg": {
+      "sha256": "dedd65ef5ccab76223899e32e644d6acd45dc6292f21778b0f83a7b37aa2c897",
+      "bytes": 75138
+    },
+    "head.safetensors": {
+      "sha256": "c539ff9ee30a6f00a3989e690ba5ce05d6717df1e2efee810f9c0b68360b04bd",
+      "bytes": 792136
+    },
+    "replication_summary.json": {
+      "sha256": "45091e4b9f420be5490f80d7bea873fcede430f1eb29c79c325aca311db5c93a",
+      "bytes": 3151
+    },
+    "synthesis.json": {
+      "sha256": "ee473f948f17e6a819eedf4b370d3d12dbd5fa426e6fd7a4e6949ab4f7cb6db7",
+      "bytes": 2241
+    },
+    "training_run.json": {
+      "sha256": "93127f053ce3803dd2453733dd3d9247f41a5460e56039299df307b31fb725dd",
+      "bytes": 1672
+    }
+  }
+}

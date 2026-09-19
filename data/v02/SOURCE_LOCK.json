@@ -1,0 +1,16 @@
+[
+  {
+    "file": "boolq_validation.parquet",
+    "url": "https://huggingface.co/datasets/google/boolq/resolve/35b264d03638db9f4ce671b711558bf7ff0f80d5/data/validation-00000-of-00001.parquet",
+    "license": "CC-BY-SA-3.0",
+    "sha256": "52355d11524b4b874a9b9dcc278feb10f672d52c4f4eff9872e695ede59820f8",
+    "bytes": 1257630
+  },
+  {
+    "file": "arc_easy_test.parquet",
+    "url": "https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/ARC-Easy/test-00000-of-00001.parquet",
+    "license": "CC-BY-SA-4.0",
+    "sha256": "4160597d618ae851c7eb04e281574f3f654776216ac6b6641588d64527b47177",
+    "bytes": 346257
+  }
+]

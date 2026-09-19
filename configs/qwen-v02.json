@@ -1,0 +1,19 @@
+{
+  "model_name": "Qwen/Qwen3-0.6B",
+  "model_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "max_length": 768,
+  "train_batch_size": 2,
+  "eval_batch_size": 4,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 0.0001,
+  "epochs": 1,
+  "seed": 29,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "target_modules": ["q_proj", "v_proj"],
+  "weight_decay": 0.01,
+  "torch_threads": 4,
+  "thinking": false,
+  "training_objective": "cross-entropy over runtime candidate label token logits"
+}

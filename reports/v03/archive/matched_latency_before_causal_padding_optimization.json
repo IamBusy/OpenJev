@@ -1,0 +1,328 @@
+{
+  "warmups": 2,
+  "repeats": 8,
+  "mode_order": "cyclically interleaved",
+  "hardware": "Apple M3 Pro, 36 GB, MPS, 4 CPU threads",
+  "precision": "BF16 backbones; FP32 branch head",
+  "boundary": "public predict call, warm model, no network or model load",
+  "checkpoint": "runs/branch-v03-seed43/checkpoint-244",
+  "workloads": [
+    {
+      "state_length": "short",
+      "questions": 1,
+      "candidates_per_question": 4,
+      "shared_vs_recomputed_max_probability_error": 0.0,
+      "paths": {
+        "shared": {
+          "p50_ms": 103.60749997198582,
+          "p95_ms": 104.66702102567069,
+          "raw_seconds": [
+            0.10243241698481143,
+            0.10368675005156547,
+            0.10361312492750585,
+            0.10316320904530585,
+            0.10480191698297858,
+            0.10360187501646578,
+            0.1044164999620989,
+            0.10261258308310062
+          ],
+          "usage": {
+            "prefix_tokens": 71,
+            "candidate_branches": 4,
+            "prefix_evaluations": 1,
+            "branch_forward_calls": 1,
+            "suffix_tokens": 165,
+            "shared_prefix": true,
+            "questions": 1,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 0.10148137505166233
+          }
+        },
+        "recomputed": {
+          "p50_ms": 141.5564584895037,
+          "p95_ms": 141.7582522088196,
+          "raw_seconds": [
+            0.14077937498223037,
+            0.14142441703006625,
+            0.14177950005978346,
+            0.14147487503942102,
+            0.1416380419395864,
+            0.14164187503047287,
+            0.1409991669934243,
+            0.14171879191417247
+          ],
+          "usage": {
+            "prefix_tokens": 71,
+            "candidate_branches": 4,
+            "prefix_evaluations": 4,
+            "branch_forward_calls": 1,
+            "suffix_tokens": 165,
+            "shared_prefix": false,
+            "questions": 1,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 0.14055954094510525
+          }
+        },
+        "v02": {
+          "p50_ms": 54.709687479771674,
+          "p95_ms": 58.30422491999343,
+          "raw_seconds": [
+            0.05520979198627174,
+            0.05453233397565782,
+            0.05488704098388553,
+            0.05452870891895145,
+            0.059970458038151264,
+            0.05453208298422396,
+            0.05421566602308303,
+            0.05495970800984651
+          ],
+          "usage": {
+            "questions": 1,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 0.05495454103220254
+          }
+        }
+      },
+      "shared_speedup_over_recomputed": 1.3662761723599046,
+      "v03_shared_over_v02_latency_ratio": 1.8937688139836952
+    },
+    {
+      "state_length": "short",
+      "questions": 8,
+      "candidates_per_question": 4,
+      "shared_vs_recomputed_max_probability_error": 0.0,
+      "paths": {
+        "shared": {
+          "p50_ms": 449.12672898499295,
+          "p95_ms": 462.46735834283754,
+          "raw_seconds": [
+            0.45047716703265905,
+            0.4608092090347782,
+            0.44742416695225984,
+            0.4494395829970017,
+            0.4633602079702541,
+            0.448348332894966,
+            0.44781291601248085,
+            0.4488138749729842
+          ],
+          "usage": {
+            "prefix_tokens": 71,
+            "candidate_branches": 32,
+            "prefix_evaluations": 1,
+            "branch_forward_calls": 2,
+            "suffix_tokens": 1320,
+            "shared_prefix": true,
+            "questions": 8,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 0.447679000091739
+          }
+        },
+        "recomputed": {
+          "p50_ms": 1057.1582710254006,
+          "p95_ms": 1068.4682603925467,
+          "raw_seconds": [
+            1.057354542077519,
+            1.0647539159981534,
+            1.0704682919895276,
+            1.0521942090708762,
+            1.0569619999732822,
+            1.0528202500427142,
+            1.0627718339674175,
+            1.0535347079858184
+          ],
+          "usage": {
+            "prefix_tokens": 71,
+            "candidate_branches": 32,
+            "prefix_evaluations": 32,
+            "branch_forward_calls": 2,
+            "suffix_tokens": 1320,
+            "shared_prefix": false,
+            "questions": 8,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 1.05241666699294
+          }
+        },
+        "v02": {
+          "p50_ms": 344.11289548734203,
+          "p95_ms": 352.0578181836754,
+          "raw_seconds": [
+            0.3472135830670595,
+            0.3536071659764275,
+            0.3229366660816595,
+            0.34599654097110033,
+            0.3491804579971358,
+            0.3226588750258088,
+            0.34222925000358373,
+            0.32249070797115564
+          ],
+          "usage": {
+            "questions": 8,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 0.32248162501491606
+          }
+        }
+      },
+      "shared_speedup_over_recomputed": 2.353808408184774,
+      "v03_shared_over_v02_latency_ratio": 1.3051726188550055
+    },
+    {
+      "state_length": "long",
+      "questions": 1,
+      "candidates_per_question": 4,
+      "shared_vs_recomputed_max_probability_error": 0.0,
+      "paths": {
+        "shared": {
+          "p50_ms": 230.40887451497838,
+          "p95_ms": 235.5365767085459,
+          "raw_seconds": [
+            0.23296450008638203,
+            0.2300604999763891,
+            0.22972258308436722,
+            0.22966249997261912,
+            0.23692154104355723,
+            0.2302654579980299,
+            0.2309836660278961,
+            0.23055229103192687
+          ],
+          "usage": {
+            "prefix_tokens": 468,
+            "candidate_branches": 4,
+            "prefix_evaluations": 1,
+            "branch_forward_calls": 1,
+            "suffix_tokens": 165,
+            "shared_prefix": true,
+            "questions": 1,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 0.22939237509854138
+          }
+        },
+        "recomputed": {
+          "p50_ms": 632.0148540544324,
+          "p95_ms": 638.2140624860767,
+          "raw_seconds": [
+            0.6406146249501035,
+            0.6291828330140561,
+            0.6307388340355828,
+            0.6337558750528842,
+            0.6314257080666721,
+            0.631289166980423,
+            0.6327549580018967,
+            0.6326040000421926
+          ],
+          "usage": {
+            "prefix_tokens": 468,
+            "candidate_branches": 4,
+            "prefix_evaluations": 4,
+            "branch_forward_calls": 1,
+            "suffix_tokens": 165,
+            "shared_prefix": false,
+            "questions": 1,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 0.6314616249874234
+          }
+        },
+        "v02": {
+          "p50_ms": 169.69239548780024,
+          "p95_ms": 187.81626693089493,
+          "raw_seconds": [
+            0.16928037500474602,
+            0.17004433297552168,
+            0.16900083399377763,
+            0.1863630840089172,
+            0.1727435840293765,
+            0.16927133407443762,
+            0.18859875004272908,
+            0.1693404580000788
+          ],
+          "usage": {
+            "questions": 1,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 0.1693342919461429
+          }
+        }
+      },
+      "shared_speedup_over_recomputed": 2.7430143712339796,
+      "v03_shared_over_v02_latency_ratio": 1.3578031817668768
+    },
+    {
+      "state_length": "long",
+      "questions": 8,
+      "candidates_per_question": 4,
+      "shared_vs_recomputed_max_probability_error": 0.0,
+      "paths": {
+        "shared": {
+          "p50_ms": 699.5773749658838,
+          "p95_ms": 713.1259016809054,
+          "raw_seconds": [
+            0.7023904169909656,
+            0.7029926249524578,
+            0.7185818329453468,
+            0.6770200839964673,
+            0.696764332940802,
+            0.7029934579040855,
+            0.6856257079634815,
+            0.6948612499982119
+          ],
+          "usage": {
+            "prefix_tokens": 468,
+            "candidate_branches": 32,
+            "prefix_evaluations": 1,
+            "branch_forward_calls": 2,
+            "suffix_tokens": 1320,
+            "shared_prefix": true,
+            "questions": 8,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 0.6936537500005215
+          }
+        },
+        "recomputed": {
+          "p50_ms": 5040.284208487719,
+          "p95_ms": 5062.845221080352,
+          "raw_seconds": [
+            5.01082620897796,
+            5.041817874996923,
+            5.014289416954853,
+            5.043350749998353,
+            5.05745449999813,
+            5.025759125011973,
+            5.038750541978516,
+            5.065747917047702
+          ],
+          "usage": {
+            "prefix_tokens": 468,
+            "candidate_branches": 32,
+            "prefix_evaluations": 32,
+            "branch_forward_calls": 2,
+            "suffix_tokens": 1320,
+            "shared_prefix": false,
+            "questions": 8,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 5.064440125017427
+          }
+        },
+        "v02": {
+          "p50_ms": 1377.6257914723828,
+          "p95_ms": 1396.3420500222128,
+          "raw_seconds": [
+            1.3683704580180347,
+            1.3912333749467507,
+            1.3593739590141922,
+            1.3752296660095453,
+            1.3800219169352204,
+            1.36529679200612,
+            1.3967198750469834,
+            1.3956403749762103
+          ],
+          "usage": {
+            "questions": 8,
+            "output_decoding_tokens": 0,
+            "latency_seconds": 1.3956290420610458
+          }
+        }
+      },
+      "shared_speedup_over_recomputed": 7.204755883841324,
+      "v03_shared_over_v02_latency_ratio": 0.5078137904330228
+    }
+  ],
+  "important": "Sharing speedup compares identical v0.3 models; the v0.2 column is the actual previous architecture."
+}

@@ -1,0 +1,21 @@
+{
+  "max_score_error": 0.0,
+  "max_probability_error": 0.0,
+  "choices_match": true,
+  "shared": {
+    "prefix_tokens": 75,
+    "candidate_branches": 9,
+    "prefix_evaluations": 1,
+    "branch_forward_calls": 1,
+    "suffix_tokens": 392,
+    "shared_prefix": true
+  },
+  "repeated": {
+    "prefix_tokens": 75,
+    "candidate_branches": 9,
+    "prefix_evaluations": 9,
+    "branch_forward_calls": 1,
+    "suffix_tokens": 392,
+    "shared_prefix": false
+  }
+}

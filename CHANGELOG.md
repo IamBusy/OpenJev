@@ -1,0 +1,18 @@
+# Changelog
+
+## 0.3.0 — 2026-09-19
+
+First public experimental release.
+
+- Shared Qwen state prefix with independent candidate branches and a trained
+  scalar head; up to 255 candidates per choice, 512 branches per request.
+- Local training, frozen data preparation, calibration, evaluation and HTTP API.
+- Public checkpoint download with archive and per-file checksum verification.
+- Exact v0.3 scenario reconstruction without private provider traces or API keys.
+- Forward/gradient cache-equivalence tests, source checks and CPU CI.
+- English/Chinese entry points, model card, attribution and reproduction guide.
+- Historical v0.1/v0.2 experiments and measured regressions retained.
+
+Known limits include short-input latency regressions, weaker results on some
+banking and held-out rule tasks, one training seed, narrow calibration coverage,
+and MPS/CPU-only execution. No RLCD reproduction or Jev parity is claimed.

@@ -1,0 +1,22 @@
+{
+  "tests_passed": 17,
+  "upstream_deprecation_warnings": 2,
+  "format_and_lint": "passed",
+  "offline_exported_adapter_inference": "passed on Choice/Noul/Score example",
+  "source_credential_scan": "passed",
+  "adapter_matches_selected_checkpoint": true,
+  "reference_outputs_valid": 64,
+  "reference_calls_recorded": 64,
+  "packages": [
+    {
+      "name": "openjev-0.2.0.tar.gz",
+      "sha256": "f1d2f2210cc63704b48b71e8690338eaad2514eb4428aac8e6b7a04536a5a170",
+      "bytes": 533081
+    },
+    {
+      "name": "openjev-0.2.0-py3-none-any.whl",
+      "sha256": "97fb7a16cf36d97d53bc8d0b4a51c878511f0b873f927228f1fd72f463f5f5d4",
+      "bytes": 50994
+    }
+  ]
+}
