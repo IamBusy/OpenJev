@@ -1,0 +1,15 @@
+{
+  "data_seed": 103,
+  "training_seeds": [17, 23, 42],
+  "sensor_error": 0.08,
+  "train_episodes": 2048,
+  "dev_episodes": 256,
+  "calibration_episodes": 256,
+  "test_episodes": 512,
+  "epochs": 16,
+  "batch_size": 128,
+  "learning_rate": 0.002,
+  "weight_decay": 0.0001,
+  "hidden_dim": 96,
+  "variants": ["joint", "independent", "evidence"]
+}

@@ -1,0 +1,12 @@
+{
+  "left_red": "Is the left object red?",
+  "right_red": "Is the right object red?",
+  "same_color": {
+    "type": "noul",
+    "event": "same_color(left, right)"
+  },
+  "both_red": {
+    "type": "noul",
+    "event": "red(left) and red(right)"
+  }
+}

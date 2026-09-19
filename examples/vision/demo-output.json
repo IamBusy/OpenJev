@@ -1,0 +1,82 @@
+{
+  "selection": "Fixed development episode 0, views 0 and 1",
+  "checkpoint": "joint seed17, selected by development NLL",
+  "views": [
+    {
+      "model": {
+        "left_red": {
+          "type": "noul",
+          "noul": 0.5333894994683948
+        },
+        "right_red": {
+          "type": "noul",
+          "noul": 0.012818449756538678
+        },
+        "same_color": {
+          "type": "noul",
+          "noul": 0.4682990618405801
+        },
+        "both_red": {
+          "type": "noul",
+          "noul": 0.0072535055327567445
+        }
+      },
+      "oracle": {
+        "left_red": {
+          "type": "noul",
+          "noul": 0.7154060863374185
+        },
+        "right_red": {
+          "type": "noul",
+          "noul": 0.02198359324135173
+        },
+        "same_color": {
+          "type": "noul",
+          "noul": 0.29406471354474495
+        },
+        "both_red": {
+          "type": "noul",
+          "noul": 0.015727196561757584
+        }
+      }
+    },
+    {
+      "model": {
+        "left_red": {
+          "type": "noul",
+          "noul": 0.9870931563546896
+        },
+        "right_red": {
+          "type": "noul",
+          "noul": 0.010338755273750291
+        },
+        "same_color": {
+          "type": "noul",
+          "noul": 0.02290043677610184
+        },
+        "both_red": {
+          "type": "noul",
+          "noul": 0.010166174202270908
+        }
+      },
+      "oracle": {
+        "left_red": {
+          "type": "noul",
+          "noul": 0.9944426909680356
+        },
+        "right_red": {
+          "type": "noul",
+          "noul": 0.021983592443284836
+        },
+        "same_color": {
+          "type": "noul",
+          "noul": 0.027296562226581618
+        },
+        "both_red": {
+          "type": "noul",
+          "noul": 0.021861422818951072
+        }
+      }
+    }
+  ]
+}

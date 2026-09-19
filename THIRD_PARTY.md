@@ -1,5 +1,34 @@
 # Sources and attribution
 
+## Visual research track
+
+- Oxford-IIIT Pet by Omkar M. Parkhi, Andrea Vedaldi, Andrew Zisserman and
+  C. V. Jawahar, *Cats and Dogs*, CVPR 2012:
+  https://www.robots.ox.ac.uk/~vgg/data/pets/
+  Public images and our resized/annotation-derived adaptations remain
+  **CC BY-SA 4.0**. Original image owners retain copyright. The pinned mirror is
+  timm/oxford-iiit-pet at 089695c834a7deb60505b7cc506672db1c31a6aa; IDs, labels
+  and split membership are checked against official annotations.
+- CLEVR-4 by Sagar Vaze, Andrea Vedaldi and Andrew Zisserman,
+  *No Representation Rules Them All in Category Discovery*, NeurIPS 2023:
+  https://www.robots.ox.ac.uk/~vgg/data/clevr4/
+  The selected 10k-v1 images and derived adaptations remain **CC BY 4.0**.
+- facebook/dinov2-small, revision ed25f3a31f01632728cabb09d1542f84ab7b0056,
+  Apache-2.0: https://huggingface.co/facebook/dinov2-small
+  Downloaded separately as a frozen public-image encoder; no backbone weights
+  are bundled with the source or OpenJev head release.
+- The original three-slot generator, synthetic images, probability targets,
+  small CNNs and scientific plots are Apache-2.0. No teacher model assigned labels.
+- Released trained Pets readouts are distributed as CC BY-SA 4.0, CLEVR-4
+  readouts as CC BY 4.0, and original synthetic CNNs as Apache-2.0. These
+  weight-specific licenses do not change the source-code license.
+
+Visual source transformations: deterministic original-ID subset selection, RGB
+conversion, longest-side resize to at most 256, lossless PNG, and typed questions
+derived from existing annotations. Source IDs, hashes, modifications and licenses
+are preserved in the separately configured Hugging Face dataset. See
+docs/VISION_DATA.md and docs/VISION_PUBLIC_PROTOCOL.md.
+
 OpenJev is an independent research implementation inspired by TypeSafe's Jev.
 It is not affiliated with or endorsed by TypeSafe. It does not contain Jev weights
 or claim to reproduce TypeSafe's unpublished architecture or RLCD training.

@@ -1,5 +1,9 @@
 # OpenJev
 
+**New: [multimodal visual-posterior research](docs/VISION.md)** —
+public images, original synthetic uncertainty data, trained baselines and
+[measured failures on unseen compositions](reports/vision-v01/RESULTS.md).
+
 [![Checks](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml/badge.svg)](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml)
 
 [Hugging Face model](https://huggingface.co/IamBusy/OpenJev-Branch-v0.3) · [中文](README.zh-CN.md) · [Results](reports/v03/RESULTS.md) · [Reproduce](docs/REPRODUCING.md) · [Model card](docs/MODEL_CARD.md)

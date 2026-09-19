@@ -1,0 +1,10 @@
+{
+  "backbone": "facebook/dinov2-small",
+  "revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+  "seeds": [17, 23, 42],
+  "epochs": 120,
+  "batch_size": 256,
+  "learning_rate": 0.005,
+  "weight_decay": 0.001,
+  "binding_rank": 4
+}

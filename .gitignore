@@ -13,6 +13,8 @@ data/v02/processed/
 data/v03/raw/
 data/v03/processed/
 data/v03/archive/
+data/vision/
+reports/vision-v01/evaluation/*.npz
 artifacts/
 runs/
 dist/
