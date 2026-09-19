@@ -1,5 +1,9 @@
 # OpenJev
 
+**新增：[多模态视觉后验研究方向](docs/VISION.zh-CN.md)**：
+公开图像、原创合成概率数据、可下载的训练权重，以及
+[未见组合上的完整结果和失败案例](reports/vision-v01/RESULTS.md)。
+
 [Hugging Face 模型](https://huggingface.co/IamBusy/OpenJev-0.6B) · [English](README.md) · [实验结果](reports/v03/RESULTS.md) · [复现说明](docs/REPRODUCING.md)
 
 项目名称为 **OpenJev**，公开模型名称为 **OpenJev-0.6B**。训练版本和软件版本

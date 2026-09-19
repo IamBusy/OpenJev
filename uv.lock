@@ -997,6 +997,11 @@ qwen = [
     { name = "accelerate" },
     { name = "peft" },
 ]
+vision = [
+    { name = "pillow" },
+    { name = "scipy", version = "1.17.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "scipy", version = "1.18.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+]
 
 [package.metadata]
 requires-dist = [
@@ -1007,18 +1012,20 @@ requires-dist = [
     { name = "matplotlib", marker = "extra == 'dev'", specifier = ">=3.10,<4" },
     { name = "numpy", specifier = ">=1.26,<3" },
     { name = "peft", marker = "extra == 'qwen'", specifier = ">=0.17,<0.19" },
+    { name = "pillow", marker = "extra == 'vision'", specifier = ">=10,<13" },
     { name = "pyarrow", specifier = ">=19,<24" },
     { name = "pydantic", specifier = ">=2.10,<3" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8,<10" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.11,<1" },
     { name = "safetensors", specifier = ">=0.5,<1" },
     { name = "scikit-learn", specifier = ">=1.6,<2" },
+    { name = "scipy", marker = "extra == 'vision'", specifier = ">=1.15,<2" },
     { name = "sentence-transformers", specifier = ">=5,<6" },
     { name = "torch", specifier = ">=2.6,<3" },
     { name = "transformers", specifier = ">=4.57.6,<4.58" },
     { name = "uvicorn", specifier = ">=0.34,<1" },
 ]
-provides-extras = ["dev", "qwen"]
+provides-extras = ["dev", "qwen", "vision"]
 
 [[package]]
 name = "packaging"

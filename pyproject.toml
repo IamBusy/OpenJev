@@ -29,6 +29,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest>=8,<10", "ruff>=0.11,<1", "matplotlib>=3.10,<4"]
 qwen = ["peft>=0.17,<0.19", "accelerate>=1.5,<2"]
+vision = ["Pillow>=10,<13", "scipy>=1.15,<2"]
 
 [project.urls]
 Homepage = "https://github.com/IamBusy/OpenJev"
@@ -40,6 +41,7 @@ openjev = "openjev.cli:main"
 openjev-model = "openjev.branch_cli:main"
 openjev-qwen = "openjev.qwen_cli:main"
 openjev-branch = "openjev.branch_cli:main"
+openjev-vision = "openjev.vision.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/openjev"]

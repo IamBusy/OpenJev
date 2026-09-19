@@ -19,11 +19,12 @@ jobs:
           version: '0.9.18'
           python-version: '3.12'
           enable-cache: true
-      - run: uv sync --frozen --extra dev --extra qwen
+      - run: uv sync --frozen --extra dev --extra qwen --extra vision
       - run: uv run --no-sync ruff check src tests scripts
       - run: uv run --no-sync ruff format --check src tests scripts
       - run: uv run --no-sync pytest -q -ra
       - run: uv run --no-sync python scripts/check_repository.py
       - run: uv run --no-sync openjev-model --help
       - run: uv run --no-sync openjev-branch --help
+      - run: uv run --no-sync openjev-vision --help
       - run: uv build

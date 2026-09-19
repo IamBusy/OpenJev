@@ -1,0 +1,3646 @@
+{
+  "protocol": "docs/VISION_PROTOCOL.md",
+  "queries": [
+    {
+      "family": "unary",
+      "event": "blue(left)"
+    },
+    {
+      "family": "unary",
+      "event": "blue(center)"
+    },
+    {
+      "family": "unary",
+      "event": "blue(right)"
+    },
+    {
+      "family": "compound",
+      "event": "blue(left) and blue(center) and blue(right)"
+    },
+    {
+      "family": "compound",
+      "event": "blue(left) or blue(center) or blue(right)"
+    },
+    {
+      "family": "compound",
+      "event": "blue(left) and not blue(right)"
+    },
+    {
+      "family": "unary",
+      "event": "red(left)"
+    },
+    {
+      "family": "unary",
+      "event": "red(center)"
+    },
+    {
+      "family": "unary",
+      "event": "red(right)"
+    },
+    {
+      "family": "compound",
+      "event": "red(left) and red(center) and red(right)"
+    },
+    {
+      "family": "compound",
+      "event": "red(left) or red(center) or red(right)"
+    },
+    {
+      "family": "compound",
+      "event": "red(left) and not red(right)"
+    },
+    {
+      "family": "unary",
+      "event": "circle(left)"
+    },
+    {
+      "family": "unary",
+      "event": "circle(center)"
+    },
+    {
+      "family": "unary",
+      "event": "circle(right)"
+    },
+    {
+      "family": "compound",
+      "event": "circle(left) and circle(center) and circle(right)"
+    },
+    {
+      "family": "compound",
+      "event": "circle(left) or circle(center) or circle(right)"
+    },
+    {
+      "family": "compound",
+      "event": "circle(left) and not circle(right)"
+    },
+    {
+      "family": "unary",
+      "event": "square(left)"
+    },
+    {
+      "family": "unary",
+      "event": "square(center)"
+    },
+    {
+      "family": "unary",
+      "event": "square(right)"
+    },
+    {
+      "family": "compound",
+      "event": "square(left) and square(center) and square(right)"
+    },
+    {
+      "family": "compound",
+      "event": "square(left) or square(center) or square(right)"
+    },
+    {
+      "family": "compound",
+      "event": "square(left) and not square(right)"
+    },
+    {
+      "family": "compound",
+      "event": "same_color(left, center)"
+    },
+    {
+      "family": "compound",
+      "event": "same_shape(left, center)"
+    },
+    {
+      "family": "compound",
+      "event": "not red(left) or square(center)"
+    },
+    {
+      "family": "compound",
+      "event": "red(left) and square(center)"
+    },
+    {
+      "family": "compound",
+      "event": "same_color(center, right)"
+    },
+    {
+      "family": "compound",
+      "event": "same_shape(center, right)"
+    },
+    {
+      "family": "compound",
+      "event": "not red(center) or square(right)"
+    },
+    {
+      "family": "compound",
+      "event": "red(center) and square(right)"
+    },
+    {
+      "family": "compound",
+      "event": "same_color(left, right)"
+    },
+    {
+      "family": "compound",
+      "event": "same_shape(left, right)"
+    },
+    {
+      "family": "compound",
+      "event": "not red(left) or square(right)"
+    },
+    {
+      "family": "compound",
+      "event": "red(left) and square(right)"
+    }
+  ],
+  "hardware": {
+    "platform": "macOS-15.7.9-arm64-arm-64bit",
+    "torch": "2.14.0",
+    "mps": true,
+    "cuda": false
+  },
+  "seeds": [
+    17,
+    23,
+    42
+  ],
+  "data_manifest_sha256": "b79ad3eee5f409d535c9bcef39fabf363d46f7a08cb1720fc92e9c0edf364170",
+  "groups": {
+    "test_id/prior_only": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.2530650724906,
+        "unary_probability_mse": 0.14234164570095337,
+        "compound_probability_mse": 0.07228949287989554,
+        "event_brier_observed": 0.17981828905390085,
+        "world_nll_observed": 2.6055502097958434,
+        "world_accuracy": 0.271484375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.18293985611446392,
+        "world_nll_observed": 2.823906697330532,
+        "world_accuracy": 0.24242424242424243
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.6038857088313077,
+        "unary_probability_mse": 0.08412592071102179,
+        "compound_probability_mse": 0.02468351385810558,
+        "event_brier_observed": 0.1760141407152382,
+        "world_nll_observed": 2.515560459871191,
+        "world_accuracy": 0.2871287128712871
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 1.2145701704766814,
+        "unary_probability_mse": 0.14319839521337388,
+        "compound_probability_mse": 0.06474549079861788,
+        "event_brier_observed": 0.1821232666703463,
+        "world_nll_observed": 2.620986280728181,
+        "world_accuracy": 0.26639344262295084
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 1.6890597645510548,
+        "unary_probability_mse": 0.18325000152751295,
+        "compound_probability_mse": 0.10398529522424405,
+        "event_brier_observed": 0.17981828905390085,
+        "world_nll_observed": 2.6055502097958434,
+        "world_accuracy": 0.271484375
+      }
+    },
+    "test_id/oracle": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.08564568758474089,
+        "world_nll_observed": 1.3374406802706675,
+        "world_accuracy": 0.5615234375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.18293985611446392,
+        "world_nll_observed": 2.823906697330532,
+        "world_accuracy": 0.24242424242424243
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.13752078676858603,
+        "world_nll_observed": 1.9533410419532988,
+        "world_accuracy": 0.41089108910891087
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.09639350104225695,
+        "world_nll_observed": 1.451473168443849,
+        "world_accuracy": 0.4713114754098361
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.04751550859698238,
+        "world_nll_observed": 0.848490373043912,
+        "world_accuracy": 0.705078125
+      }
+    },
+    "test_id/oracle_factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.39539355670713183,
+        "unary_probability_mse": 9.945617928195953e-17,
+        "compound_probability_mse": 0.001510453776584812,
+        "event_brier_observed": 0.0864418264485245,
+        "world_nll_observed": 1.6988671758918437,
+        "world_accuracy": 0.546875
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.429173626339813,
+        "unary_probability_mse": 2.833909885828583e-17,
+        "compound_probability_mse": 0.013358564987882928,
+        "event_brier_observed": 0.186519166481206,
+        "world_nll_observed": 3.8224636723242535,
+        "world_accuracy": 0.15151515151515152
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.7306876099540988,
+        "unary_probability_mse": 6.980539467207974e-17,
+        "compound_probability_mse": 0.002296168133525783,
+        "event_brier_observed": 0.13904875741721928,
+        "world_nll_observed": 2.7307897876727734,
+        "world_accuracy": 0.37623762376237624
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.3975090145051541,
+        "unary_probability_mse": 8.806182867131774e-17,
+        "compound_probability_mse": 0.000623388947679229,
+        "event_brier_observed": 0.09720757446727193,
+        "world_nll_observed": 1.8347329501883725,
+        "world_accuracy": 0.46311475409836067
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.12884071480408163,
+        "unary_probability_mse": 1.257518967588243e-16,
+        "compound_probability_mse": 9.591115589186327e-05,
+        "event_brier_observed": 0.04765560181100946,
+        "world_nll_observed": 0.953248064031219,
+        "world_accuracy": 0.705078125
+      }
+    },
+    "test_id/joint-17/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.07911554792852632,
+        "unary_probability_mse": 0.007410352589453846,
+        "compound_probability_mse": 0.005089640388037644,
+        "event_brier_observed": 0.09276178111973112,
+        "world_nll_observed": 1.4406215721209592,
+        "world_accuracy": 0.5224609375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 0.12333794153280815,
+        "unary_probability_mse": 0.020974314729941455,
+        "compound_probability_mse": 0.0059252833004887475,
+        "event_brier_observed": 0.19636169759061342,
+        "world_nll_observed": 2.9864110808451727,
+        "world_accuracy": 0.13636363636363635
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.10246111206304012,
+        "unary_probability_mse": 0.011809505431953799,
+        "compound_probability_mse": 0.006835287784352064,
+        "event_brier_observed": 0.14809381992525184,
+        "world_nll_observed": 2.082302092633909,
+        "world_accuracy": 0.36633663366336633
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.08351644232004712,
+        "unary_probability_mse": 0.0076178673892845624,
+        "compound_probability_mse": 0.006331543759267169,
+        "event_brier_observed": 0.10413702202656638,
+        "world_nll_observed": 1.5479367798295995,
+        "world_accuracy": 0.4262295081967213
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.062107149169570317,
+        "unary_probability_mse": 0.0038273760530947304,
+        "compound_probability_mse": 0.00370136376917575,
+        "event_brier_observed": 0.05215587270750215,
+        "world_nll_observed": 0.9370542217297047,
+        "world_accuracy": 0.6796875
+      }
+    },
+    "test_id/joint-17/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.07910610963688061,
+        "unary_probability_mse": 0.0074083845140403394,
+        "compound_probability_mse": 0.005088335314966753,
+        "event_brier_observed": 0.0927590307399014,
+        "world_nll_observed": 1.4405534810682488,
+        "world_accuracy": 0.5224609375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 0.1232869442382932,
+        "unary_probability_mse": 0.0209660170689278,
+        "compound_probability_mse": 0.005921594684253594,
+        "event_brier_observed": 0.19635125485826155,
+        "world_nll_observed": 2.9860831648051303,
+        "world_accuracy": 0.13636363636363635
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.10243117369915514,
+        "unary_probability_mse": 0.011805588240713736,
+        "compound_probability_mse": 0.006832295027052172,
+        "event_brier_observed": 0.14808567084548876,
+        "world_nll_observed": 2.0821846796025145,
+        "world_accuracy": 0.36633663366336633
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.08351687551236094,
+        "unary_probability_mse": 0.007616752022316195,
+        "compound_probability_mse": 0.006330867133451645,
+        "event_brier_observed": 0.10413467803424088,
+        "world_nll_observed": 1.5478609526292282,
+        "world_accuracy": 0.4262295081967213
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.06210645163318943,
+        "unary_probability_mse": 0.00382658651906005,
+        "compound_probability_mse": 0.0037007322994892134,
+        "event_brier_observed": 0.05215605020677784,
+        "world_nll_observed": 0.9370427695615403,
+        "world_accuracy": 0.6796875
+      }
+    },
+    "test_id/joint-17/factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5123575753899082,
+        "unary_probability_mse": 0.007408384008855861,
+        "compound_probability_mse": 0.006840753465425392,
+        "event_brier_observed": 0.09368670576802346,
+        "world_nll_observed": 1.8525945904874481,
+        "world_accuracy": 0.5107421875
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.6879678695172677,
+        "unary_probability_mse": 0.020966016469827615,
+        "compound_probability_mse": 0.021576422670238262,
+        "event_brier_observed": 0.20072217817439483,
+        "world_nll_observed": 4.1519333290979565,
+        "world_accuracy": 0.07575757575757576
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.9029081822291182,
+        "unary_probability_mse": 0.011805587486389617,
+        "compound_probability_mse": 0.009484676945343027,
+        "event_brier_observed": 0.14971618856214639,
+        "world_nll_observed": 2.9517347422571802,
+        "world_accuracy": 0.35148514851485146
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.5191262205121911,
+        "unary_probability_mse": 0.007616751317570967,
+        "compound_probability_mse": 0.007125964174801806,
+        "event_brier_observed": 0.10520703295779976,
+        "world_nll_observed": 1.9782262448671224,
+        "world_accuracy": 0.4098360655737705
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.20350395936693325,
+        "unary_probability_mse": 0.0038265862193784376,
+        "compound_probability_mse": 0.003762202442869032,
+        "event_brier_observed": 0.0522936265931431,
+        "world_nll_observed": 1.0626789829202217,
+        "world_accuracy": 0.677734375
+      }
+    },
+    "test_id/independent-17/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.531173522755909,
+        "unary_probability_mse": 0.008464382807783792,
+        "compound_probability_mse": 0.00876703565231432,
+        "event_brier_observed": 0.09427793347007513,
+        "world_nll_observed": 1.8561968704843517,
+        "world_accuracy": 0.494140625
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.6276057575971186,
+        "unary_probability_mse": 0.015992088494827344,
+        "compound_probability_mse": 0.02083995607036468,
+        "event_brier_observed": 0.19925052699191903,
+        "world_nll_observed": 4.120158262515302,
+        "world_accuracy": 0.15151515151515152
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.9731618130606342,
+        "unary_probability_mse": 0.017066701566021813,
+        "compound_probability_mse": 0.017000750910229855,
+        "event_brier_observed": 0.15167656219611728,
+        "world_nll_observed": 2.9228614513486812,
+        "world_accuracy": 0.26732673267326734
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.5402012559999055,
+        "unary_probability_mse": 0.008685254441947695,
+        "compound_probability_mse": 0.008448867970250322,
+        "event_brier_observed": 0.10588056256715744,
+        "world_nll_observed": 2.016038782328752,
+        "world_accuracy": 0.38524590163934425
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.21115608320003115,
+        "unary_probability_mse": 0.003994871785821009,
+        "compound_probability_mse": 0.004113929567809153,
+        "event_brier_observed": 0.052571379417750363,
+        "world_nll_observed": 1.0673509257603853,
+        "world_accuracy": 0.6796875
+      }
+    },
+    "test_id/independent-17/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5309365540410068,
+        "unary_probability_mse": 0.00849046475794372,
+        "compound_probability_mse": 0.008757659957548887,
+        "event_brier_observed": 0.09427843442027396,
+        "world_nll_observed": 1.8575297716995545,
+        "world_accuracy": 0.494140625
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.629113475471663,
+        "unary_probability_mse": 0.016109057508663375,
+        "compound_probability_mse": 0.02082634549564531,
+        "event_brier_observed": 0.19926898294986128,
+        "world_nll_observed": 4.120890324400293,
+        "world_accuracy": 0.15151515151515152
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.971512440801051,
+        "unary_probability_mse": 0.01701084613413395,
+        "compound_probability_mse": 0.016905577668076103,
+        "event_brier_observed": 0.15163605619974932,
+        "world_nll_observed": 2.924554989244185,
+        "world_accuracy": 0.26732673267326734
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.5404782805843527,
+        "unary_probability_mse": 0.00873193629802252,
+        "compound_probability_mse": 0.008423455507858687,
+        "event_brier_observed": 0.10596441564589788,
+        "world_nll_observed": 2.0207871865886493,
+        "world_accuracy": 0.38524590163934425
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.21100650088372438,
+        "unary_probability_mse": 0.004031747540527409,
+        "compound_probability_mse": 0.004146592111227686,
+        "event_brier_observed": 0.052546021878361805,
+        "world_nll_observed": 1.0669912958104861,
+        "world_accuracy": 0.6796875
+      }
+    },
+    "test_id/evidence-17/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.001570386951603017,
+        "unary_probability_mse": 0.00011573213470200759,
+        "compound_probability_mse": 0.0001021062658878459,
+        "event_brier_observed": 0.08584719408524606,
+        "world_nll_observed": 1.341129710695369,
+        "world_accuracy": 0.560546875
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 9.808666134763693e-15,
+        "unary_probability_mse": 2.1383560230291362e-16,
+        "compound_probability_mse": 1.7480426034916285e-16,
+        "event_brier_observed": 0.18293985556054765,
+        "world_nll_observed": 2.823906692672895,
+        "world_accuracy": 0.24242424242424243
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.0007551806728459402,
+        "unary_probability_mse": 5.6867948543621174e-05,
+        "compound_probability_mse": 2.069096744024543e-05,
+        "event_brier_observed": 0.13755370653971685,
+        "world_nll_observed": 1.9560061530538557,
+        "world_accuracy": 0.40594059405940597
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.0013792027186093265,
+        "unary_probability_mse": 0.00012287244635962667,
+        "compound_probability_mse": 9.047450756105373e-05,
+        "event_brier_observed": 0.09657822324791122,
+        "world_nll_observed": 1.4523850500658066,
+        "world_accuracy": 0.4713114754098361
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.002185555232783763,
+        "unary_probability_mse": 0.00015047168636187752,
+        "compound_probability_mse": 0.00015293254101819527,
+        "event_brier_observed": 0.04781750211480992,
+        "world_nll_observed": 0.8543823962943571,
+        "world_accuracy": 0.705078125
+      }
+    },
+    "test_id/evidence-17/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.001570386951603017,
+        "unary_probability_mse": 0.00011573213470200759,
+        "compound_probability_mse": 0.0001021062658878459,
+        "event_brier_observed": 0.08584719408524606,
+        "world_nll_observed": 1.341129710695369,
+        "world_accuracy": 0.560546875
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 9.808666134763693e-15,
+        "unary_probability_mse": 2.1383560230291362e-16,
+        "compound_probability_mse": 1.7480426034916285e-16,
+        "event_brier_observed": 0.18293985556054765,
+        "world_nll_observed": 2.823906692672895,
+        "world_accuracy": 0.24242424242424243
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.0007551806728459402,
+        "unary_probability_mse": 5.6867948543621174e-05,
+        "compound_probability_mse": 2.069096744024543e-05,
+        "event_brier_observed": 0.13755370653971685,
+        "world_nll_observed": 1.9560061530538557,
+        "world_accuracy": 0.40594059405940597
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.0013792027186093265,
+        "unary_probability_mse": 0.00012287244635962667,
+        "compound_probability_mse": 9.047450756105373e-05,
+        "event_brier_observed": 0.09657822324791122,
+        "world_nll_observed": 1.4523850500658066,
+        "world_accuracy": 0.4713114754098361
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.002185555232783763,
+        "unary_probability_mse": 0.00015047168636187752,
+        "compound_probability_mse": 0.00015293254101819527,
+        "event_brier_observed": 0.04781750211480992,
+        "world_nll_observed": 0.8543823962943571,
+        "world_accuracy": 0.705078125
+      }
+    },
+    "test_id/joint-23/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.06829608243237159,
+        "unary_probability_mse": 0.006246449178540146,
+        "compound_probability_mse": 0.004257806117888464,
+        "event_brier_observed": 0.09070110995677942,
+        "world_nll_observed": 1.4241689397801802,
+        "world_accuracy": 0.537109375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 0.1094184688707044,
+        "unary_probability_mse": 0.017924112338958673,
+        "compound_probability_mse": 0.004852668092360799,
+        "event_brier_observed": 0.18975717319844498,
+        "world_nll_observed": 2.9266097489011558,
+        "world_accuracy": 0.25757575757575757
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.08786043664980335,
+        "unary_probability_mse": 0.010347535627972996,
+        "compound_probability_mse": 0.005612158554429726,
+        "event_brier_observed": 0.14620590689476307,
+        "world_nll_observed": 2.0582098264828703,
+        "world_accuracy": 0.35148514851485146
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.07103141855630003,
+        "unary_probability_mse": 0.006064225148956807,
+        "compound_probability_mse": 0.005306612519126251,
+        "event_brier_observed": 0.10144221369406867,
+        "world_nll_observed": 1.5315500145118113,
+        "world_accuracy": 0.4426229508196721
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.053972842059149456,
+        "unary_probability_mse": 0.0032099597876129506,
+        "compound_probability_mse": 0.0031469685311725864,
+        "event_brier_observed": 0.050914980137792706,
+        "world_nll_observed": 0.9291721922207159,
+        "world_accuracy": 0.69140625
+      }
+    },
+    "test_id/joint-23/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0682642410130274,
+        "unary_probability_mse": 0.006241105307420068,
+        "compound_probability_mse": 0.004253516741330904,
+        "event_brier_observed": 0.09069446233271834,
+        "world_nll_observed": 1.4239584758838975,
+        "world_accuracy": 0.537109375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 0.10932227050097401,
+        "unary_probability_mse": 0.017914085840502837,
+        "compound_probability_mse": 0.004849283153228466,
+        "event_brier_observed": 0.18974852769535078,
+        "world_nll_observed": 2.925720280668746,
+        "world_accuracy": 0.25757575757575757
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.0878463160038381,
+        "unary_probability_mse": 0.010338714396906918,
+        "compound_probability_mse": 0.00560817254810004,
+        "event_brier_observed": 0.14618355214217044,
+        "world_nll_observed": 2.0579321687485916,
+        "world_accuracy": 0.35148514851485146
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.07101097841237135,
+        "unary_probability_mse": 0.006058843754229146,
+        "compound_probability_mse": 0.0053017403314748945,
+        "event_brier_observed": 0.10143738403615443,
+        "world_nll_observed": 1.5312884241983704,
+        "world_accuracy": 0.4426229508196721
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.05393687183375365,
+        "unary_probability_mse": 0.0032066093459333085,
+        "compound_probability_mse": 0.003142720623854855,
+        "event_brier_observed": 0.05091392063138736,
+        "world_nll_observed": 0.9291001312292103,
+        "world_accuracy": 0.69140625
+      }
+    },
+    "test_id/joint-23/factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.49304576143686485,
+        "unary_probability_mse": 0.006241105519592271,
+        "compound_probability_mse": 0.005960910186541278,
+        "event_brier_observed": 0.09153290169686362,
+        "world_nll_observed": 1.826551985577808,
+        "world_accuracy": 0.5322265625
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.650628724755941,
+        "unary_probability_mse": 0.017914086858767615,
+        "compound_probability_mse": 0.0210297002128386,
+        "event_brier_observed": 0.19503524238112,
+        "world_nll_observed": 4.028210651759664,
+        "world_accuracy": 0.22727272727272727
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.8807518073755201,
+        "unary_probability_mse": 0.010338714434340856,
+        "compound_probability_mse": 0.008160856440751898,
+        "event_brier_observed": 0.14743840922801774,
+        "world_nll_observed": 2.913467996744162,
+        "world_accuracy": 0.3613861386138614
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.4935860596520394,
+        "unary_probability_mse": 0.006058844044335003,
+        "compound_probability_mse": 0.0058944139185742,
+        "event_brier_observed": 0.10236817777965111,
+        "world_nll_observed": 1.9680371310374292,
+        "world_accuracy": 0.4262295081967213
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.19060644576661095,
+        "unary_probability_mse": 0.0032066094859945896,
+        "compound_probability_mse": 0.0031821910543104143,
+        "event_brier_observed": 0.05097064706667966,
+        "world_nll_observed": 1.0464955759767267,
+        "world_accuracy": 0.689453125
+      }
+    },
+    "test_id/independent-23/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5257013889200042,
+        "unary_probability_mse": 0.008049443219544783,
+        "compound_probability_mse": 0.008569267735373087,
+        "event_brier_observed": 0.0937836927954365,
+        "world_nll_observed": 1.8536011596566286,
+        "world_accuracy": 0.484375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.6296725431935577,
+        "unary_probability_mse": 0.016166496567131258,
+        "compound_probability_mse": 0.020976386330727684,
+        "event_brier_observed": 0.19654685217661957,
+        "world_nll_observed": 4.05170443766745,
+        "world_accuracy": 0.09090909090909091
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.9564179615923748,
+        "unary_probability_mse": 0.015824922832569796,
+        "compound_probability_mse": 0.016271372600650244,
+        "event_brier_observed": 0.15083394091089972,
+        "world_nll_observed": 2.923633420871273,
+        "world_accuracy": 0.24752475247524752
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.527446125563032,
+        "unary_probability_mse": 0.0077879239436875886,
+        "compound_probability_mse": 0.007865344331076827,
+        "event_brier_observed": 0.10465011705550638,
+        "world_nll_observed": 2.015167982263813,
+        "world_accuracy": 0.38114754098360654
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.21262998344583964,
+        "unary_probability_mse": 0.004060064900281884,
+        "compound_probability_mse": 0.004266655041171715,
+        "event_brier_observed": 0.052850243268212437,
+        "world_nll_observed": 1.0710940545194696,
+        "world_accuracy": 0.677734375
+      }
+    },
+    "test_id/independent-23/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5254162034705152,
+        "unary_probability_mse": 0.008046805222519122,
+        "compound_probability_mse": 0.00855209854626727,
+        "event_brier_observed": 0.09375960542067441,
+        "world_nll_observed": 1.8540799561606343,
+        "world_accuracy": 0.484375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.6300991351939447,
+        "unary_probability_mse": 0.01619933869002838,
+        "compound_probability_mse": 0.02096985638370655,
+        "event_brier_observed": 0.19649952442077495,
+        "world_nll_observed": 4.050462781650059,
+        "world_accuracy": 0.09090909090909091
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.9554518965042713,
+        "unary_probability_mse": 0.015775634149965422,
+        "compound_probability_mse": 0.01620854997222931,
+        "event_brier_observed": 0.15078532264738803,
+        "world_nll_observed": 2.924506992952596,
+        "world_accuracy": 0.24752475247524752
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.5272178791514182,
+        "unary_probability_mse": 0.007788621654650432,
+        "compound_probability_mse": 0.007833254613690624,
+        "event_brier_observed": 0.1046450752513121,
+        "world_nll_observed": 2.017184680634843,
+        "world_accuracy": 0.38114754098360654
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.21249453871913765,
+        "unary_probability_mse": 0.004069668774003882,
+        "compound_probability_mse": 0.004273236660004337,
+        "event_brier_observed": 0.052829753521302564,
+        "world_nll_observed": 1.0709059704458197,
+        "world_accuracy": 0.677734375
+      }
+    },
+    "test_id/evidence-23/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0008117360355164157,
+        "unary_probability_mse": 6.80449391764802e-05,
+        "compound_probability_mse": 5.997854805016202e-05,
+        "event_brier_observed": 0.08586913227669024,
+        "world_nll_observed": 1.3406215579682146,
+        "world_accuracy": 0.560546875
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 8.729379946667035e-10,
+        "unary_probability_mse": 1.4866592699320274e-10,
+        "compound_probability_mse": 4.943943661117258e-11,
+        "event_brier_observed": 0.1829399524733365,
+        "world_nll_observed": 2.8239114100038467,
+        "world_accuracy": 0.24242424242424243
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.00022161643431646154,
+        "unary_probability_mse": 3.297617007776706e-05,
+        "compound_probability_mse": 9.064155762358449e-06,
+        "event_brier_observed": 0.13768170852961034,
+        "world_nll_observed": 1.9550140130440838,
+        "world_accuracy": 0.40594059405940597
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.0006578223724407015,
+        "unary_probability_mse": 5.8813446036414076e-05,
+        "compound_probability_mse": 5.985553101386317e-05,
+        "event_brier_observed": 0.0966364268590494,
+        "world_nll_observed": 1.4542119973892267,
+        "world_accuracy": 0.4713114754098361
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.00122254387528798,
+        "unary_probability_mse": 9.505144671127064e-05,
+        "compound_probability_mse": 8.785609552535952e-05,
+        "event_brier_observed": 0.047783127561525904,
+        "world_nll_observed": 0.852886258401019,
+        "world_accuracy": 0.705078125
+      }
+    },
+    "test_id/evidence-23/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0008117360355164157,
+        "unary_probability_mse": 6.80449391764802e-05,
+        "compound_probability_mse": 5.997854805016202e-05,
+        "event_brier_observed": 0.08586913227669024,
+        "world_nll_observed": 1.3406215579682146,
+        "world_accuracy": 0.560546875
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 8.729379946667035e-10,
+        "unary_probability_mse": 1.4866592699320274e-10,
+        "compound_probability_mse": 4.943943661117258e-11,
+        "event_brier_observed": 0.1829399524733365,
+        "world_nll_observed": 2.8239114100038467,
+        "world_accuracy": 0.24242424242424243
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.00022161643431646154,
+        "unary_probability_mse": 3.297617007776706e-05,
+        "compound_probability_mse": 9.064155762358449e-06,
+        "event_brier_observed": 0.13768170852961034,
+        "world_nll_observed": 1.9550140130440838,
+        "world_accuracy": 0.40594059405940597
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.0006578223724407015,
+        "unary_probability_mse": 5.8813446036414076e-05,
+        "compound_probability_mse": 5.985553101386317e-05,
+        "event_brier_observed": 0.0966364268590494,
+        "world_nll_observed": 1.4542119973892267,
+        "world_accuracy": 0.4713114754098361
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.00122254387528798,
+        "unary_probability_mse": 9.505144671127064e-05,
+        "compound_probability_mse": 8.785609552535952e-05,
+        "event_brier_observed": 0.047783127561525904,
+        "world_nll_observed": 0.852886258401019,
+        "world_accuracy": 0.705078125
+      }
+    },
+    "test_id/joint-42/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.07258163775605561,
+        "unary_probability_mse": 0.006607111261365479,
+        "compound_probability_mse": 0.004687567837010909,
+        "event_brier_observed": 0.09068086638108704,
+        "world_nll_observed": 1.423503582976209,
+        "world_accuracy": 0.5361328125
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 0.11692921595462047,
+        "unary_probability_mse": 0.019305542968930712,
+        "compound_probability_mse": 0.005346360838668999,
+        "event_brier_observed": 0.19245816748846428,
+        "world_nll_observed": 2.953036315235418,
+        "world_accuracy": 0.19696969696969696
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.0898929613525154,
+        "unary_probability_mse": 0.010278204298826475,
+        "compound_probability_mse": 0.005756293360271375,
+        "event_brier_observed": 0.14462139112463548,
+        "world_nll_observed": 2.048896021812597,
+        "world_accuracy": 0.3564356435643564
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.07831380906695394,
+        "unary_probability_mse": 0.006985055872720056,
+        "compound_probability_mse": 0.00629513090090154,
+        "event_brier_observed": 0.10024235708889072,
+        "world_nll_observed": 1.5176967931043983,
+        "world_accuracy": 0.48770491803278687
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.05730336172588107,
+        "unary_probability_mse": 0.0033417288952776996,
+        "compound_probability_mse": 0.0034148954124066846,
+        "event_brier_observed": 0.051723265592048415,
+        "world_nll_observed": 0.9347114418720364,
+        "world_accuracy": 0.673828125
+      }
+    },
+    "test_id/joint-42/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.07236887009225292,
+        "unary_probability_mse": 0.0065773332228582304,
+        "compound_probability_mse": 0.004660436439249234,
+        "event_brier_observed": 0.09065033169700874,
+        "world_nll_observed": 1.4225466404429508,
+        "world_accuracy": 0.5361328125
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 0.11608498248303671,
+        "unary_probability_mse": 0.019228689190628003,
+        "compound_probability_mse": 0.0053127046278953665,
+        "event_brier_observed": 0.19235948462252261,
+        "world_nll_observed": 2.9484109402189342,
+        "world_accuracy": 0.19696969696969696
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.08953157381477242,
+        "unary_probability_mse": 0.01023081950165659,
+        "compound_probability_mse": 0.005724238492153377,
+        "event_brier_observed": 0.14451085855826185,
+        "world_nll_observed": 2.0474837231778955,
+        "world_accuracy": 0.3564356435643564
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.07808908964053395,
+        "unary_probability_mse": 0.006949947825093982,
+        "compound_probability_mse": 0.006255315016054958,
+        "event_brier_observed": 0.10024086538937435,
+        "world_nll_observed": 1.5166357220273563,
+        "world_accuracy": 0.48770491803278687
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.05723632489787549,
+        "unary_probability_mse": 0.00332750571282777,
+        "compound_probability_mse": 0.0033965925176127516,
+        "event_brier_observed": 0.051719236501707476,
+        "world_nll_observed": 0.9344566591846137,
+        "world_accuracy": 0.673828125
+      }
+    },
+    "test_id/joint-42/factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.4981697180514628,
+        "unary_probability_mse": 0.006577333397712104,
+        "compound_probability_mse": 0.00638363360573773,
+        "event_brier_observed": 0.09165852011510983,
+        "world_nll_observed": 1.8335494736496036,
+        "world_accuracy": 0.521484375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.6663596468309037,
+        "unary_probability_mse": 0.01922869097465597,
+        "compound_probability_mse": 0.021723172960668,
+        "event_brier_observed": 0.1972086210344498,
+        "world_nll_observed": 4.0813829942320545,
+        "world_accuracy": 0.12121212121212122
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.8783089003727951,
+        "unary_probability_mse": 0.010230820048943942,
+        "compound_probability_mse": 0.00822931742030191,
+        "event_brier_observed": 0.14604982758130525,
+        "world_nll_observed": 2.8761179644279644,
+        "world_accuracy": 0.3316831683168317
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.5060488216272581,
+        "unary_probability_mse": 0.006949947753387802,
+        "compound_probability_mse": 0.006906894508799158,
+        "event_brier_observed": 0.1014423286668344,
+        "world_nll_observed": 1.9620832385685991,
+        "world_accuracy": 0.46311475409836067
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.19385106297168503,
+        "unary_probability_mse": 0.0033275056508136718,
+        "compound_probability_mse": 0.003428724644186263,
+        "event_brier_observed": 0.051930785631772496,
+        "world_nll_observed": 1.071209461665413,
+        "world_accuracy": 0.67578125
+      }
+    },
+    "test_id/independent-42/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5470877295903911,
+        "unary_probability_mse": 0.009223602399846702,
+        "compound_probability_mse": 0.009421714904277142,
+        "event_brier_observed": 0.09446772659499819,
+        "world_nll_observed": 1.865714315737116,
+        "world_accuracy": 0.49609375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.6292627727522735,
+        "unary_probability_mse": 0.016156654253507888,
+        "compound_probability_mse": 0.021332376079485287,
+        "event_brier_observed": 0.19631165252233845,
+        "world_nll_observed": 4.04524787906304,
+        "world_accuracy": 0.13636363636363635
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.977256841986692,
+        "unary_probability_mse": 0.017073940651736584,
+        "compound_probability_mse": 0.01656582337084138,
+        "event_brier_observed": 0.15036876503468277,
+        "world_nll_observed": 2.9101763816867434,
+        "world_accuracy": 0.2722772277227723
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.5601228129222183,
+        "unary_probability_mse": 0.009744275593646837,
+        "compound_probability_mse": 0.009423891790457982,
+        "event_brier_observed": 0.10706634815862247,
+        "world_nll_observed": 2.048759119753543,
+        "world_accuracy": 0.3975409836065574
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.23166141340737773,
+        "unary_probability_mse": 0.0049845516019743795,
+        "compound_probability_mse": 0.00506674477139074,
+        "event_brier_observed": 0.053280670857605475,
+        "world_nll_observed": 1.0854536034688662,
+        "world_accuracy": 0.677734375
+      }
+    },
+    "test_id/independent-42/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.546539401557969,
+        "unary_probability_mse": 0.009228374805643131,
+        "compound_probability_mse": 0.009398188184111806,
+        "event_brier_observed": 0.09443267124019851,
+        "world_nll_observed": 1.866260674384725,
+        "world_accuracy": 0.49609375
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 1.6301661757474437,
+        "unary_probability_mse": 0.01622956163317124,
+        "compound_probability_mse": 0.021341542815182645,
+        "event_brier_observed": 0.19622395708718157,
+        "world_nll_observed": 4.042850580177811,
+        "world_accuracy": 0.13636363636363635
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.9751984405439774,
+        "unary_probability_mse": 0.016980020477591576,
+        "compound_probability_mse": 0.01643630702762589,
+        "event_brier_observed": 0.1502523284591409,
+        "world_nll_observed": 2.9103396561677286,
+        "world_accuracy": 0.2722772277227723
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.5598713028435476,
+        "unary_probability_mse": 0.009765549066042505,
+        "compound_probability_mse": 0.009383274338062715,
+        "event_brier_observed": 0.10710338330229528,
+        "world_nll_observed": 2.0526992738308,
+        "world_accuracy": 0.3975409836065574
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.23138026701624986,
+        "unary_probability_mse": 0.0050116145011746,
+        "compound_probability_mse": 0.005088964680977938,
+        "event_brier_observed": 0.05325015294473195,
+        "world_nll_observed": 1.084913201010989,
+        "world_accuracy": 0.677734375
+      }
+    },
+    "test_id/evidence-42/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0008516532498438892,
+        "unary_probability_mse": 5.59950079140357e-05,
+        "compound_probability_mse": 4.9584934714524644e-05,
+        "event_brier_observed": 0.08571308288759462,
+        "world_nll_observed": 1.3398549234522235,
+        "world_accuracy": 0.556640625
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 8.966631019115563e-09,
+        "unary_probability_mse": 1.5594979319562566e-09,
+        "compound_probability_mse": 5.119170485881736e-10,
+        "event_brier_observed": 0.1829393627888919,
+        "world_nll_observed": 2.8238945554047263,
+        "world_accuracy": 0.24242424242424243
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.00035092505429387504,
+        "unary_probability_mse": 2.6419321849544902e-05,
+        "compound_probability_mse": 8.064911923415256e-06,
+        "event_brier_observed": 0.13762944884700118,
+        "world_nll_observed": 1.9549820069655433,
+        "world_accuracy": 0.400990099009901
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.0005468054656120018,
+        "unary_probability_mse": 2.754295168815841e-05,
+        "compound_probability_mse": 2.010911056395798e-05,
+        "event_brier_observed": 0.09632983740624167,
+        "world_nll_observed": 1.4517403011667884,
+        "world_accuracy": 0.4713114754098361
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0013042674638003985,
+        "unary_probability_mse": 8.844062881169987e-05,
+        "compound_probability_mse": 8.640469565432109e-05,
+        "event_brier_observed": 0.04763783191135315,
+        "world_nll_observed": 0.8525457071613843,
+        "world_accuracy": 0.69921875
+      }
+    },
+    "test_id/evidence-42/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0008516532498438892,
+        "unary_probability_mse": 5.59950079140357e-05,
+        "compound_probability_mse": 4.9584934714524644e-05,
+        "event_brier_observed": 0.08571308288759462,
+        "world_nll_observed": 1.3398549234522235,
+        "world_accuracy": 0.556640625
+      },
+      "visible_0": {
+        "n": 66,
+        "posterior_kl": 8.966631019115563e-09,
+        "unary_probability_mse": 1.5594979319562566e-09,
+        "compound_probability_mse": 5.119170485881736e-10,
+        "event_brier_observed": 0.1829393627888919,
+        "world_nll_observed": 2.8238945554047263,
+        "world_accuracy": 0.24242424242424243
+      },
+      "visible_1": {
+        "n": 202,
+        "posterior_kl": 0.00035092505429387504,
+        "unary_probability_mse": 2.6419321849544902e-05,
+        "compound_probability_mse": 8.064911923415256e-06,
+        "event_brier_observed": 0.13762944884700118,
+        "world_nll_observed": 1.9549820069655433,
+        "world_accuracy": 0.400990099009901
+      },
+      "visible_2": {
+        "n": 244,
+        "posterior_kl": 0.0005468054656120018,
+        "unary_probability_mse": 2.754295168815841e-05,
+        "compound_probability_mse": 2.010911056395798e-05,
+        "event_brier_observed": 0.09632983740624167,
+        "world_nll_observed": 1.4517403011667884,
+        "world_accuracy": 0.4713114754098361
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0013042674638003985,
+        "unary_probability_mse": 8.844062881169987e-05,
+        "compound_probability_mse": 8.640469565432109e-05,
+        "event_brier_observed": 0.04763783191135315,
+        "world_nll_observed": 0.8525457071613843,
+        "world_accuracy": 0.69921875
+      }
+    },
+    "test_topology/prior_only": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.3047791969849643,
+        "unary_probability_mse": 0.15600678718191313,
+        "compound_probability_mse": 0.07668190396064851,
+        "event_brier_observed": 0.17439732280619888,
+        "world_nll_observed": 2.6193956422202467,
+        "world_accuracy": 0.240234375
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.18167235847462435,
+        "world_nll_observed": 2.817192376231189,
+        "world_accuracy": 0.20689655172413793
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 0.7781430981747111,
+        "unary_probability_mse": 0.11437315020086686,
+        "compound_probability_mse": 0.04847624944440967,
+        "event_brier_observed": 0.17406857988207322,
+        "world_nll_observed": 2.67104854820645,
+        "world_accuracy": 0.2413793103448276
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.2859617003256354,
+        "unary_probability_mse": 0.1602220924163191,
+        "compound_probability_mse": 0.07663446301057555,
+        "event_brier_observed": 0.1729821146182659,
+        "world_nll_observed": 2.5319145645794747,
+        "world_accuracy": 0.24701195219123506
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 1.6706141835964896,
+        "unary_probability_mse": 0.18812003005274802,
+        "compound_probability_mse": 0.09657488438053606,
+        "event_brier_observed": 0.17439732280619888,
+        "world_nll_observed": 2.6193956422202467,
+        "world_accuracy": 0.240234375
+      }
+    },
+    "test_topology/oracle": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.06732307871258038,
+        "world_nll_observed": 1.2135447739583556,
+        "world_accuracy": 0.6357421875
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.18167235847462435,
+        "world_nll_observed": 2.817192376231189,
+        "world_accuracy": 0.20689655172413793
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.09677218201535703,
+        "world_nll_observed": 1.7724679167573958,
+        "world_accuracy": 0.5665024630541872
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.06930478087187206,
+        "world_nll_observed": 1.2411696101862257,
+        "world_accuracy": 0.6095617529880478
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.041721841527727996,
+        "world_nll_observed": 0.7967346317450259,
+        "world_accuracy": 0.724609375
+      }
+    },
+    "test_topology/oracle_factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.3338375771311862,
+        "unary_probability_mse": 1.126707494571081e-16,
+        "compound_probability_mse": 0.003739674139492113,
+        "event_brier_observed": 0.06940363299849042,
+        "world_nll_observed": 1.4605768943990096,
+        "world_accuracy": 0.6259765625
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.4170856704611237,
+        "unary_probability_mse": 1.9973312962994584e-17,
+        "compound_probability_mse": 0.02611836592021956,
+        "event_brier_observed": 0.19509928422243067,
+        "world_nll_observed": 4.091186539087821,
+        "world_accuracy": 0.13793103448275862
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 0.6042244198169775,
+        "unary_probability_mse": 1.0052184286668481e-16,
+        "compound_probability_mse": 0.0052256467879014295,
+        "event_brier_observed": 0.09928108906081856,
+        "world_nll_observed": 2.174228649104223,
+        "world_accuracy": 0.5665024630541872
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 0.27970950717482873,
+        "unary_probability_mse": 1.093904816226062e-16,
+        "compound_probability_mse": 0.0031428299126546426,
+        "event_brier_observed": 0.07160160342379751,
+        "world_nll_observed": 1.4867020591994073,
+        "world_accuracy": 0.5856573705179283
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.13045716127316612,
+        "unary_probability_mse": 1.2959658262307386e-16,
+        "compound_probability_mse": 0.0009080165809509452,
+        "event_brier_observed": 0.042241207357097375,
+        "world_nll_observed": 0.8668189218169606,
+        "world_accuracy": 0.724609375
+      }
+    },
+    "test_topology/joint-17/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.2099322757802493,
+        "unary_probability_mse": 0.045217586460535815,
+        "compound_probability_mse": 0.05017097356245262,
+        "event_brier_observed": 0.11387185766394284,
+        "world_nll_observed": 2.330876908502286,
+        "world_accuracy": 0.3603515625
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6611762124017884,
+        "unary_probability_mse": 0.016086759946148353,
+        "compound_probability_mse": 0.03626845332536127,
+        "event_brier_observed": 0.20238513070489042,
+        "world_nll_observed": 4.279470908409739,
+        "world_accuracy": 0.0
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.6460397809235199,
+        "unary_probability_mse": 0.0744555931729311,
+        "compound_probability_mse": 0.06855551752809891,
+        "event_brier_observed": 0.16717130555153845,
+        "world_nll_observed": 3.238633652481354,
+        "world_accuracy": 0.029556650246305417
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.3450710631859402,
+        "unary_probability_mse": 0.059889387586306096,
+        "compound_probability_mse": 0.0674054655922717,
+        "event_brier_observed": 0.13448207930243364,
+        "world_nll_observed": 2.5804276139954045,
+        "world_accuracy": 0.17928286852589642
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.919655307993215,
+        "unary_probability_mse": 0.02973252882899262,
+        "compound_probability_mse": 0.03600774358050048,
+        "event_brier_observed": 0.07260872604515756,
+        "world_nll_observed": 1.6278880450234665,
+        "world_accuracy": 0.62109375
+      }
+    },
+    "test_topology/joint-17/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.2098086686337908,
+        "unary_probability_mse": 0.04521692151965092,
+        "compound_probability_mse": 0.050169089165237345,
+        "event_brier_observed": 0.11387241236832793,
+        "world_nll_observed": 2.330829119843524,
+        "world_accuracy": 0.3603515625
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6611105928933745,
+        "unary_probability_mse": 0.016086358193209048,
+        "compound_probability_mse": 0.03626789023448849,
+        "event_brier_observed": 0.20238394360101775,
+        "world_nll_observed": 4.279339420988753,
+        "world_accuracy": 0.0
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.6459255555539434,
+        "unary_probability_mse": 0.07445263544948807,
+        "compound_probability_mse": 0.06855321982108475,
+        "event_brier_observed": 0.16717016723630185,
+        "world_nll_observed": 3.238631688280507,
+        "world_accuracy": 0.029556650246305417
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.344962944441688,
+        "unary_probability_mse": 0.05988836242138603,
+        "compound_probability_mse": 0.06740343445112272,
+        "event_brier_observed": 0.1344801145584965,
+        "world_nll_observed": 2.580312482833629,
+        "world_accuracy": 0.17928286852589642
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.9195138192595149,
+        "unary_probability_mse": 0.02973291972051259,
+        "compound_probability_mse": 0.036005945313849014,
+        "event_brier_observed": 0.07261138443975954,
+        "world_nll_observed": 1.6278645827934326,
+        "world_accuracy": 0.62109375
+      }
+    },
+    "test_topology/joint-17/factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.1899887790742365,
+        "unary_probability_mse": 0.04521692117722497,
+        "compound_probability_mse": 0.05004602074451759,
+        "event_brier_observed": 0.11378216334823084,
+        "world_nll_observed": 2.3075009716548927,
+        "world_accuracy": 0.361328125
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6163133902127342,
+        "unary_probability_mse": 0.016086355319538014,
+        "compound_probability_mse": 0.035846628088572426,
+        "event_brier_observed": 0.20200775324724887,
+        "world_nll_observed": 4.163239389548024,
+        "world_accuracy": 0.017241379310344827
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.6235515543500854,
+        "unary_probability_mse": 0.07445263541455556,
+        "compound_probability_mse": 0.06833363869972767,
+        "event_brier_observed": 0.16702853142917284,
+        "world_nll_observed": 3.226170775740018,
+        "world_accuracy": 0.059113300492610835
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.320217585179891,
+        "unary_probability_mse": 0.05988836129436252,
+        "compound_probability_mse": 0.06726343032212477,
+        "event_brier_observed": 0.13437009516710105,
+        "world_nll_observed": 2.556641434727109,
+        "world_accuracy": 0.1553784860557769
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.9059506908719916,
+        "unary_probability_mse": 0.02973291992754959,
+        "compound_probability_mse": 0.03596322489521636,
+        "event_brier_observed": 0.07258359338512402,
+        "world_nll_observed": 1.6109051616974541,
+        "world_accuracy": 0.62109375
+      }
+    },
+    "test_topology/independent-17/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.3586501958744728,
+        "unary_probability_mse": 0.054258471874335336,
+        "compound_probability_mse": 0.055991506968812686,
+        "event_brier_observed": 0.12170033996988885,
+        "world_nll_observed": 2.5107550416022155,
+        "world_accuracy": 0.376953125
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6260302434047695,
+        "unary_probability_mse": 0.016892680979613838,
+        "compound_probability_mse": 0.03606368959366182,
+        "event_brier_observed": 0.2021614054466298,
+        "world_nll_observed": 4.175295130638408,
+        "world_accuracy": 0.017241379310344827
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.8220142405665967,
+        "unary_probability_mse": 0.08564009490922884,
+        "compound_probability_mse": 0.0703846916217816,
+        "event_brier_observed": 0.17359206841244873,
+        "world_nll_observed": 3.5067169145097075,
+        "world_accuracy": 0.054187192118226604
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.5443725353750777,
+        "unary_probability_mse": 0.07212024684650452,
+        "compound_probability_mse": 0.07437316011921047,
+        "event_brier_observed": 0.14331837822807156,
+        "world_nll_observed": 2.7872793570231083,
+        "world_accuracy": 0.22310756972111553
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 1.0535969711793358,
+        "unary_probability_mse": 0.03729253608878066,
+        "compound_probability_mse": 0.043530963965797476,
+        "event_brier_observed": 0.08141344490290742,
+        "world_nll_observed": 1.7917488139948639,
+        "world_accuracy": 0.62109375
+      }
+    },
+    "test_topology/independent-17/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.3387028695589325,
+        "unary_probability_mse": 0.05322846015563317,
+        "compound_probability_mse": 0.0551395140885912,
+        "event_brier_observed": 0.12068081189314185,
+        "world_nll_observed": 2.4881181090344104,
+        "world_accuracy": 0.376953125
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.626785702347409,
+        "unary_probability_mse": 0.016954854391326768,
+        "compound_probability_mse": 0.036070059446525284,
+        "event_brier_observed": 0.2021995820689639,
+        "world_nll_observed": 4.176653999183225,
+        "world_accuracy": 0.017241379310344827
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.8106226171151627,
+        "unary_probability_mse": 0.08496786630844182,
+        "compound_probability_mse": 0.07022858778528408,
+        "event_brier_observed": 0.17319778526775453,
+        "world_nll_observed": 3.493241149073767,
+        "world_accuracy": 0.054187192118226604
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.5230754058602394,
+        "unary_probability_mse": 0.07096792688645584,
+        "compound_probability_mse": 0.07371273534187224,
+        "event_brier_observed": 0.1425130404271393,
+        "world_nll_observed": 2.7666624154166657,
+        "world_accuracy": 0.22310756972111553
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 1.0285739248962873,
+        "unary_probability_mse": 0.03605690456163536,
+        "compound_probability_mse": 0.04221191228046158,
+        "event_brier_observed": 0.07992119543361569,
+        "world_nll_observed": 1.7617710784512723,
+        "world_accuracy": 0.62109375
+      }
+    },
+    "test_topology/evidence-17/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.001819657816289562,
+        "unary_probability_mse": 0.00017813670367963178,
+        "compound_probability_mse": 0.00012025567096639961,
+        "event_brier_observed": 0.06766306678335406,
+        "world_nll_observed": 1.2189954188282126,
+        "world_accuracy": 0.634765625
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 9.488629068271494e-15,
+        "unary_probability_mse": 1.9500049151983958e-16,
+        "compound_probability_mse": 1.1792647127932245e-16,
+        "event_brier_observed": 0.18167235751433813,
+        "world_nll_observed": 2.817192381534515,
+        "world_accuracy": 0.20689655172413793
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 0.0024112748454950686,
+        "unary_probability_mse": 0.0003668114973053319,
+        "compound_probability_mse": 0.00017285995072389255,
+        "event_brier_observed": 0.09750050394263363,
+        "world_nll_observed": 1.7796520247774448,
+        "world_accuracy": 0.5615763546798029
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 0.0011633163019547936,
+        "unary_probability_mse": 7.927870305494757e-05,
+        "compound_probability_mse": 4.6180248432663806e-05,
+        "event_brier_observed": 0.06955172046064582,
+        "world_nll_observed": 1.2457511420232261,
+        "world_accuracy": 0.6055776892430279
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.002112985192292596,
+        "unary_probability_mse": 0.00017197323466436993,
+        "compound_probability_mse": 0.00014933592717976082,
+        "event_brier_observed": 0.04199199123895744,
+        "world_nll_observed": 0.8025415099090563,
+        "world_accuracy": 0.7265625
+      }
+    },
+    "test_topology/evidence-17/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.001819657816289562,
+        "unary_probability_mse": 0.00017813670367963178,
+        "compound_probability_mse": 0.00012025567096639961,
+        "event_brier_observed": 0.06766306678335406,
+        "world_nll_observed": 1.2189954188282126,
+        "world_accuracy": 0.634765625
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 9.488629068271494e-15,
+        "unary_probability_mse": 1.9500049151983958e-16,
+        "compound_probability_mse": 1.1792647127932245e-16,
+        "event_brier_observed": 0.18167235751433813,
+        "world_nll_observed": 2.817192381534515,
+        "world_accuracy": 0.20689655172413793
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 0.0024112748454950686,
+        "unary_probability_mse": 0.0003668114973053319,
+        "compound_probability_mse": 0.00017285995072389255,
+        "event_brier_observed": 0.09750050394263363,
+        "world_nll_observed": 1.7796520247774448,
+        "world_accuracy": 0.5615763546798029
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 0.0011633163019547936,
+        "unary_probability_mse": 7.927870305494757e-05,
+        "compound_probability_mse": 4.6180248432663806e-05,
+        "event_brier_observed": 0.06955172046064582,
+        "world_nll_observed": 1.2457511420232261,
+        "world_accuracy": 0.6055776892430279
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.002112985192292596,
+        "unary_probability_mse": 0.00017197323466436993,
+        "compound_probability_mse": 0.00014933592717976082,
+        "event_brier_observed": 0.04199199123895744,
+        "world_nll_observed": 0.8025415099090563,
+        "world_accuracy": 0.7265625
+      }
+    },
+    "test_topology/joint-23/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.1942068774720664,
+        "unary_probability_mse": 0.044720824297214336,
+        "compound_probability_mse": 0.04981310072167894,
+        "event_brier_observed": 0.11323310784460815,
+        "world_nll_observed": 2.29592046697958,
+        "world_accuracy": 0.3720703125
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.667525260037269,
+        "unary_probability_mse": 0.016700220484419555,
+        "compound_probability_mse": 0.036351152688097146,
+        "event_brier_observed": 0.20214745236436146,
+        "world_nll_observed": 4.18500608753072,
+        "world_accuracy": 0.0
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.6335951653663068,
+        "unary_probability_mse": 0.07340231160845438,
+        "compound_probability_mse": 0.0680006114241027,
+        "event_brier_observed": 0.16682260808674443,
+        "world_nll_observed": 3.205233172457326,
+        "world_accuracy": 0.09852216748768473
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.331062333034306,
+        "unary_probability_mse": 0.06006037250379443,
+        "compound_probability_mse": 0.06782740420076741,
+        "event_brier_observed": 0.13438530224776343,
+        "world_nll_observed": 2.5559011344833458,
+        "world_accuracy": 0.16334661354581673
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.8992869400161392,
+        "unary_probability_mse": 0.029003297924379876,
+        "compound_probability_mse": 0.035295792401570554,
+        "event_brier_observed": 0.07154384744130472,
+        "world_nll_observed": 1.5939427467698266,
+        "world_accuracy": 0.625
+      }
+    },
+    "test_topology/joint-23/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.1938670934026305,
+        "unary_probability_mse": 0.04471869326352964,
+        "compound_probability_mse": 0.04980675265340647,
+        "event_brier_observed": 0.11323373850333379,
+        "world_nll_observed": 2.295880332215216,
+        "world_accuracy": 0.3720703125
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6673332928948283,
+        "unary_probability_mse": 0.016698898706831746,
+        "compound_probability_mse": 0.03635035956246564,
+        "event_brier_observed": 0.20214565203325816,
+        "world_nll_observed": 4.184858674570565,
+        "world_accuracy": 0.0
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.6333262353682951,
+        "unary_probability_mse": 0.07339811087348282,
+        "compound_probability_mse": 0.0679970514658767,
+        "event_brier_observed": 0.16682182996789377,
+        "world_nll_observed": 3.205388414975988,
+        "world_accuracy": 0.09852216748768473
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.3307498794964008,
+        "unary_probability_mse": 0.06005476003775217,
+        "compound_probability_mse": 0.06781761947238456,
+        "event_brier_observed": 0.13437472292410943,
+        "world_nll_observed": 2.5555928071820415,
+        "world_accuracy": 0.16334661354581673
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.8988889201621737,
+        "unary_probability_mse": 0.02900360253919004,
+        "compound_probability_mse": 0.03528939438930413,
+        "event_brier_observed": 0.07155080756259946,
+        "world_nll_observed": 1.5939687777743563,
+        "world_accuracy": 0.625
+      }
+    },
+    "test_topology/joint-23/factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.1792686028573884,
+        "unary_probability_mse": 0.04471869403519959,
+        "compound_probability_mse": 0.04972449670003337,
+        "event_brier_observed": 0.11316580809583843,
+        "world_nll_observed": 2.2861613684013515,
+        "world_accuracy": 0.36328125
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6236785726009326,
+        "unary_probability_mse": 0.016698901524523174,
+        "compound_probability_mse": 0.03620322239368188,
+        "event_brier_observed": 0.20200348137249974,
+        "world_nll_observed": 4.162116654996845,
+        "world_accuracy": 0.0
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.6084405489746454,
+        "unary_probability_mse": 0.07339811255214874,
+        "compound_probability_mse": 0.06792331443899331,
+        "event_brier_observed": 0.1668296034325829,
+        "world_nll_observed": 3.221341605501971,
+        "world_accuracy": 0.06896551724137931
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.3174572328290794,
+        "unary_probability_mse": 0.06005476166969827,
+        "compound_probability_mse": 0.06766705301195465,
+        "event_brier_observed": 0.1342079151909411,
+        "world_nll_observed": 2.5343821949783445,
+        "world_accuracy": 0.15139442231075698
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.891020498502265,
+        "unary_probability_mse": 0.029003602297737453,
+        "compound_probability_mse": 0.03524459879860227,
+        "event_brier_observed": 0.07150974484529884,
+        "world_nll_observed": 1.5811800749935596,
+        "world_accuracy": 0.625
+      }
+    },
+    "test_topology/independent-23/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.394130357291528,
+        "unary_probability_mse": 0.056567134118152805,
+        "compound_probability_mse": 0.05724412270416848,
+        "event_brier_observed": 0.12354877761572124,
+        "world_nll_observed": 2.5549435110693697,
+        "world_accuracy": 0.361328125
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6486248094638625,
+        "unary_probability_mse": 0.018744822385059045,
+        "compound_probability_mse": 0.036593048201376134,
+        "event_brier_observed": 0.2034684216080456,
+        "world_nll_observed": 4.199896385249971,
+        "world_accuracy": 0.017241379310344827
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.8668576216468589,
+        "unary_probability_mse": 0.08902499292457139,
+        "compound_probability_mse": 0.07099426079054336,
+        "event_brier_observed": 0.17635224310144615,
+        "world_nll_observed": 3.5783152070850393,
+        "world_accuracy": 0.029556650246305417
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.5881246032258487,
+        "unary_probability_mse": 0.07533715735774221,
+        "compound_probability_mse": 0.07591746983652427,
+        "event_brier_observed": 0.14449843050803815,
+        "world_nll_observed": 2.8232789507311633,
+        "world_accuracy": 0.18326693227091634
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 1.0827692857687894,
+        "unary_probability_mse": 0.03878094839487063,
+        "compound_probability_mse": 0.04497747067175942,
+        "event_brier_observed": 0.0832893914416421,
+        "world_nll_observed": 1.8313030494506857,
+        "world_accuracy": 0.619140625
+      }
+    },
+    "test_topology/independent-23/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.384991507590188,
+        "unary_probability_mse": 0.056079388126258074,
+        "compound_probability_mse": 0.05684746858516517,
+        "event_brier_observed": 0.12307181772232709,
+        "world_nll_observed": 2.54475050298467,
+        "world_accuracy": 0.361328125
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6495620677918286,
+        "unary_probability_mse": 0.018820316827700186,
+        "compound_probability_mse": 0.036607496032523675,
+        "event_brier_observed": 0.20351563785909174,
+        "world_nll_observed": 4.20114411156198,
+        "world_accuracy": 0.017241379310344827
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.8620475586179905,
+        "unary_probability_mse": 0.08874036554513479,
+        "compound_probability_mse": 0.07093183799326508,
+        "event_brier_observed": 0.17621276667914243,
+        "world_nll_observed": 3.573062026764349,
+        "world_accuracy": 0.029556650246305417
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.578288386118073,
+        "unary_probability_mse": 0.0747968265590632,
+        "compound_probability_mse": 0.0756238712292834,
+        "event_brier_observed": 0.14410482361799704,
+        "world_nll_observed": 2.8136056444800572,
+        "world_accuracy": 0.18326693227091634
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 1.0711145791510508,
+        "unary_probability_mse": 0.03817464334627819,
+        "compound_probability_mse": 0.044351207558866824,
+        "event_brier_observed": 0.08257838278877433,
+        "world_nll_observed": 1.8176006804454103,
+        "world_accuracy": 0.619140625
+      }
+    },
+    "test_topology/evidence-23/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0007643278846567312,
+        "unary_probability_mse": 7.428593200077981e-05,
+        "compound_probability_mse": 5.0246680705552485e-05,
+        "event_brier_observed": 0.06742991783696554,
+        "world_nll_observed": 1.2159132073189518,
+        "world_accuracy": 0.6337890625
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 9.48431199332998e-10,
+        "unary_probability_mse": 1.5664089196975669e-10,
+        "compound_probability_mse": 5.680553770376091e-11,
+        "event_brier_observed": 0.18167140821653682,
+        "world_nll_observed": 2.8171831573985973,
+        "world_accuracy": 0.20689655172413793
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 0.0011327241085056872,
+        "unary_probability_mse": 0.0001748459074229996,
+        "compound_probability_mse": 8.109870362053238e-05,
+        "event_brier_observed": 0.09689905662381812,
+        "world_nll_observed": 1.7751233212161455,
+        "world_accuracy": 0.5615763546798029
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 0.0005648823537482204,
+        "unary_probability_mse": 3.438403433004266e-05,
+        "compound_probability_mse": 2.3561826891305096e-05,
+        "event_brier_observed": 0.06933990473770996,
+        "world_nll_observed": 1.24287201588985,
+        "world_accuracy": 0.6095617529880478
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0008026235040273931,
+        "unary_probability_mse": 6.23919403514007e-05,
+        "compound_probability_mse": 5.6788168677888476e-05,
+        "event_brier_observed": 0.04186810469666661,
+        "world_nll_observed": 0.7995851386137852,
+        "world_accuracy": 0.72265625
+      }
+    },
+    "test_topology/evidence-23/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0007643278846567312,
+        "unary_probability_mse": 7.428593200077981e-05,
+        "compound_probability_mse": 5.0246680705552485e-05,
+        "event_brier_observed": 0.06742991783696554,
+        "world_nll_observed": 1.2159132073189518,
+        "world_accuracy": 0.6337890625
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 9.48431199332998e-10,
+        "unary_probability_mse": 1.5664089196975669e-10,
+        "compound_probability_mse": 5.680553770376091e-11,
+        "event_brier_observed": 0.18167140821653682,
+        "world_nll_observed": 2.8171831573985973,
+        "world_accuracy": 0.20689655172413793
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 0.0011327241085056872,
+        "unary_probability_mse": 0.0001748459074229996,
+        "compound_probability_mse": 8.109870362053238e-05,
+        "event_brier_observed": 0.09689905662381812,
+        "world_nll_observed": 1.7751233212161455,
+        "world_accuracy": 0.5615763546798029
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 0.0005648823537482204,
+        "unary_probability_mse": 3.438403433004266e-05,
+        "compound_probability_mse": 2.3561826891305096e-05,
+        "event_brier_observed": 0.06933990473770996,
+        "world_nll_observed": 1.24287201588985,
+        "world_accuracy": 0.6095617529880478
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0008026235040273931,
+        "unary_probability_mse": 6.23919403514007e-05,
+        "compound_probability_mse": 5.6788168677888476e-05,
+        "event_brier_observed": 0.04186810469666661,
+        "world_nll_observed": 0.7995851386137852,
+        "world_accuracy": 0.72265625
+      }
+    },
+    "test_topology/joint-42/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.202109261032642,
+        "unary_probability_mse": 0.04515718479403474,
+        "compound_probability_mse": 0.05026604419912633,
+        "event_brier_observed": 0.11378782581003238,
+        "world_nll_observed": 2.319636891302371,
+        "world_accuracy": 0.3623046875
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.640466024695058,
+        "unary_probability_mse": 0.01791798344309294,
+        "compound_probability_mse": 0.03724699886715942,
+        "event_brier_observed": 0.202242600584632,
+        "world_nll_observed": 4.202896902690022,
+        "world_accuracy": 0.017241379310344827
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.6198949512929675,
+        "unary_probability_mse": 0.07367179554776117,
+        "compound_probability_mse": 0.06835616260489236,
+        "event_brier_observed": 0.16716740524841375,
+        "world_nll_observed": 3.2102872770284874,
+        "world_accuracy": 0.07881773399014778
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.347006872208738,
+        "unary_probability_mse": 0.06070788408294825,
+        "compound_probability_mse": 0.06898283270438954,
+        "event_brier_observed": 0.13565326093016106,
+        "world_nll_observed": 2.593500118711536,
+        "world_accuracy": 0.13545816733067728
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.9157723707582941,
+        "unary_probability_mse": 0.029313790602298134,
+        "compound_probability_mse": 0.03539279552346716,
+        "event_brier_observed": 0.07188420124348845,
+        "world_nll_observed": 1.6189127134848205,
+        "world_accuracy": 0.625
+      }
+    },
+    "test_topology/joint-42/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.2004509949445932,
+        "unary_probability_mse": 0.04514588847728759,
+        "compound_probability_mse": 0.05023306258823792,
+        "event_brier_observed": 0.11379331052015133,
+        "world_nll_observed": 2.319139569806155,
+        "world_accuracy": 0.3623046875
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6397314805146406,
+        "unary_probability_mse": 0.017883752402387505,
+        "compound_probability_mse": 0.03722374509921106,
+        "event_brier_observed": 0.20222571575327744,
+        "world_nll_observed": 4.2018389703407895,
+        "world_accuracy": 0.017241379310344827
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.6185205276136265,
+        "unary_probability_mse": 0.07364237250837329,
+        "compound_probability_mse": 0.06832919583893123,
+        "event_brier_observed": 0.16715618068377466,
+        "world_nll_observed": 3.2105985028107638,
+        "world_accuracy": 0.07881773399014778
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.3452676654095495,
+        "unary_probability_mse": 0.06067290268592703,
+        "compound_probability_mse": 0.06891859521166013,
+        "event_brier_observed": 0.13559833490806014,
+        "world_nll_observed": 2.591527378416141,
+        "world_accuracy": 0.13545816733067728
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.9139366051368187,
+        "unary_probability_mse": 0.029323890562571408,
+        "compound_probability_mse": 0.03537164984603836,
+        "event_brier_observed": 0.07192846038713967,
+        "world_nll_observed": 1.618881623337305,
+        "world_accuracy": 0.625
+      }
+    },
+    "test_topology/joint-42/factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.1880306985685916,
+        "unary_probability_mse": 0.045145889265150035,
+        "compound_probability_mse": 0.05013084516377011,
+        "event_brier_observed": 0.11373527586405767,
+        "world_nll_observed": 2.3091114762205285,
+        "world_accuracy": 0.361328125
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.63801754498621,
+        "unary_probability_mse": 0.017883756904098738,
+        "compound_probability_mse": 0.03711027783159911,
+        "event_brier_observed": 0.20220652770117623,
+        "world_nll_observed": 4.1602222905281225,
+        "world_accuracy": 0.0
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.6140176283456125,
+        "unary_probability_mse": 0.07364237455124586,
+        "compound_probability_mse": 0.06828035208411125,
+        "event_brier_observed": 0.16710374241119713,
+        "world_nll_observed": 3.22839313990514,
+        "world_accuracy": 0.07881773399014778
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.324698687220474,
+        "unary_probability_mse": 0.06067290325474298,
+        "compound_probability_mse": 0.06873014960551999,
+        "event_brier_observed": 0.13550778581622785,
+        "world_nll_observed": 2.5730345726637434,
+        "world_accuracy": 0.13545816733067728
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.9011591185127722,
+        "unary_probability_mse": 0.02932389053951664,
+        "compound_probability_mse": 0.035291817010562006,
+        "event_brier_observed": 0.07187974595464967,
+        "world_nll_observed": 1.605550339179388,
+        "world_accuracy": 0.625
+      }
+    },
+    "test_topology/independent-42/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.3712652386682127,
+        "unary_probability_mse": 0.05544437918848044,
+        "compound_probability_mse": 0.05620200613295337,
+        "event_brier_observed": 0.12264354345487954,
+        "world_nll_observed": 2.5303220652168275,
+        "world_accuracy": 0.37109375
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.6373595072975606,
+        "unary_probability_mse": 0.017834990177588942,
+        "compound_probability_mse": 0.03667226402788692,
+        "event_brier_observed": 0.20208799443961717,
+        "world_nll_observed": 4.1571890577887425,
+        "world_accuracy": 0.017241379310344827
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.8613573874067355,
+        "unary_probability_mse": 0.08873673055461866,
+        "compound_probability_mse": 0.07158909300415003,
+        "event_brier_observed": 0.17662719059267915,
+        "world_nll_observed": 3.5705225431710366,
+        "world_accuracy": 0.024630541871921183
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.5557797566898288,
+        "unary_probability_mse": 0.07312534271896824,
+        "compound_probability_mse": 0.0745222026349874,
+        "event_brier_observed": 0.14331976842095948,
+        "world_nll_observed": 2.7984816121387617,
+        "world_accuracy": 0.21912350597609562
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 1.0563525085942906,
+        "unary_probability_mse": 0.03783710455792031,
+        "compound_probability_mse": 0.043332430127543974,
+        "event_brier_observed": 0.08210410792250815,
+        "world_nll_observed": 1.8021442744526066,
+        "world_accuracy": 0.623046875
+      }
+    },
+    "test_topology/independent-42/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.3557091376541646,
+        "unary_probability_mse": 0.05462064372073561,
+        "compound_probability_mse": 0.05556048779763059,
+        "event_brier_observed": 0.12185229907244875,
+        "world_nll_observed": 2.5127517629494864,
+        "world_accuracy": 0.37109375
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 1.638230972891021,
+        "unary_probability_mse": 0.01790704880885158,
+        "compound_probability_mse": 0.03669460317386886,
+        "event_brier_observed": 0.2021125021032619,
+        "world_nll_observed": 4.157547429966046,
+        "world_accuracy": 0.017241379310344827
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 1.8528469315631348,
+        "unary_probability_mse": 0.0882404062998206,
+        "compound_probability_mse": 0.07151234352865168,
+        "event_brier_observed": 0.1764023155691334,
+        "world_nll_observed": 3.561111626933762,
+        "world_accuracy": 0.024630541871921183
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 1.53894544152664,
+        "unary_probability_mse": 0.07219593831354104,
+        "compound_probability_mse": 0.0740332468495649,
+        "event_brier_observed": 0.14265910576807764,
+        "world_nll_observed": 2.7822104337281774,
+        "world_accuracy": 0.21912350597609562
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 1.0367686085931294,
+        "unary_probability_mse": 0.03683388153038572,
+        "compound_probability_mse": 0.04231699575221141,
+        "event_brier_observed": 0.08093188187475933,
+        "world_nll_observed": 1.778671045290854,
+        "world_accuracy": 0.623046875
+      }
+    },
+    "test_topology/evidence-42/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.000751346722608561,
+        "unary_probability_mse": 5.141825350021701e-05,
+        "compound_probability_mse": 3.639534983093226e-05,
+        "event_brier_observed": 0.06729209465282739,
+        "world_nll_observed": 1.2142507226597474,
+        "world_accuracy": 0.634765625
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 8.655069757610557e-09,
+        "unary_probability_mse": 1.4599388822013077e-09,
+        "compound_probability_mse": 5.460066325194537e-10,
+        "event_brier_observed": 0.18166813800579262,
+        "world_nll_observed": 2.8171546775324874,
+        "world_accuracy": 0.20689655172413793
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 0.000996670492597781,
+        "unary_probability_mse": 0.00011104534540302213,
+        "compound_probability_mse": 7.110977789069529e-05,
+        "event_brier_observed": 0.09642339104396747,
+        "world_nll_observed": 1.7708903736699781,
+        "world_accuracy": 0.5665024630541872
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 0.0004915694830606547,
+        "unary_probability_mse": 2.5887164731148784e-05,
+        "compound_probability_mse": 1.7431857344759354e-05,
+        "event_brier_observed": 0.06947361094055965,
+        "world_nll_observed": 1.2437285862824838,
+        "world_accuracy": 0.6095617529880478
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0008665439291241149,
+        "unary_probability_mse": 4.6117819225459394e-05,
+        "compound_probability_mse": 3.605102627567229e-05,
+        "event_brier_observed": 0.041715875375299596,
+        "world_nll_observed": 0.7975217728413828,
+        "world_accuracy": 0.72265625
+      }
+    },
+    "test_topology/evidence-42/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.000751346722608561,
+        "unary_probability_mse": 5.141825350021701e-05,
+        "compound_probability_mse": 3.639534983093226e-05,
+        "event_brier_observed": 0.06729209465282739,
+        "world_nll_observed": 1.2142507226597474,
+        "world_accuracy": 0.634765625
+      },
+      "visible_0": {
+        "n": 58,
+        "posterior_kl": 8.655069757610557e-09,
+        "unary_probability_mse": 1.4599388822013077e-09,
+        "compound_probability_mse": 5.460066325194537e-10,
+        "event_brier_observed": 0.18166813800579262,
+        "world_nll_observed": 2.8171546775324874,
+        "world_accuracy": 0.20689655172413793
+      },
+      "visible_1": {
+        "n": 203,
+        "posterior_kl": 0.000996670492597781,
+        "unary_probability_mse": 0.00011104534540302213,
+        "compound_probability_mse": 7.110977789069529e-05,
+        "event_brier_observed": 0.09642339104396747,
+        "world_nll_observed": 1.7708903736699781,
+        "world_accuracy": 0.5665024630541872
+      },
+      "visible_2": {
+        "n": 251,
+        "posterior_kl": 0.0004915694830606547,
+        "unary_probability_mse": 2.5887164731148784e-05,
+        "compound_probability_mse": 1.7431857344759354e-05,
+        "event_brier_observed": 0.06947361094055965,
+        "world_nll_observed": 1.2437285862824838,
+        "world_accuracy": 0.6095617529880478
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0008665439291241149,
+        "unary_probability_mse": 4.6117819225459394e-05,
+        "compound_probability_mse": 3.605102627567229e-05,
+        "event_brier_observed": 0.041715875375299596,
+        "world_nll_observed": 0.7975217728413828,
+        "world_accuracy": 0.72265625
+      }
+    },
+    "test_appearance/prior_only": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 1.2470264901317425,
+        "unary_probability_mse": 0.1425790127474868,
+        "compound_probability_mse": 0.0743764848315427,
+        "event_brier_observed": 0.1799936619014476,
+        "world_nll_observed": 2.4787661040786473,
+        "world_accuracy": 0.287109375
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.18297365025504495,
+        "world_nll_observed": 2.4610892678577345,
+        "world_accuracy": 0.2542372881355932
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.6227628487276221,
+        "unary_probability_mse": 0.08063629945649983,
+        "compound_probability_mse": 0.02501893469831333,
+        "event_brier_observed": 0.18254383640633493,
+        "world_nll_observed": 2.629065011681519,
+        "world_accuracy": 0.25824175824175827
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 1.1422505817969917,
+        "unary_probability_mse": 0.13656130971658118,
+        "compound_probability_mse": 0.06266874968709435,
+        "event_brier_observed": 0.177632218828563,
+        "world_nll_observed": 2.3816758168214935,
+        "world_accuracy": 0.31365313653136534
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 1.668090585467759,
+        "unary_probability_mse": 0.1842128664436524,
+        "compound_probability_mse": 0.10668914685000808,
+        "event_brier_observed": 0.1799936619014476,
+        "world_nll_observed": 2.4787661040786473,
+        "world_accuracy": 0.287109375
+      }
+    },
+    "test_appearance/oracle": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.08719488083231394,
+        "world_nll_observed": 1.3006075005236815,
+        "world_accuracy": 0.59375
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.18297365025504495,
+        "world_nll_observed": 2.4610892678577345,
+        "world_accuracy": 0.2542372881355932
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.137111274372067,
+        "world_nll_observed": 1.9523425513730823,
+        "world_accuracy": 0.4175824175824176
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.09397183829959792,
+        "world_nll_observed": 1.3473883364142825,
+        "world_accuracy": 0.5793357933579336
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0,
+        "unary_probability_mse": 0.0,
+        "compound_probability_mse": 0.0,
+        "event_brier_observed": 0.05482713377409104,
+        "world_nll_observed": 0.9104477152626405,
+        "world_accuracy": 0.703125
+      }
+    },
+    "test_appearance/oracle_factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.3814530869643739,
+        "unary_probability_mse": 1.0396628297571136e-16,
+        "compound_probability_mse": 0.0012422083072008115,
+        "event_brier_observed": 0.08826903989372553,
+        "world_nll_observed": 1.7227668368676508,
+        "world_accuracy": 0.564453125
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.3155342387354283,
+        "unary_probability_mse": 2.6211333311680607e-17,
+        "compound_probability_mse": 0.009943609268443317,
+        "event_brier_observed": 0.19174179422224513,
+        "world_nll_observed": 3.9180591287168283,
+        "world_accuracy": 0.1694915254237288
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.7955556737852958,
+        "unary_probability_mse": 6.541079459896751e-17,
+        "compound_probability_mse": 0.0028871250401445235,
+        "event_brier_observed": 0.1396041657036,
+        "world_nll_observed": 2.7540843464074167,
+        "world_accuracy": 0.37362637362637363
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.38403875994544606,
+        "unary_probability_mse": 1.0789823427398511e-16,
+        "compound_probability_mse": 0.0004851200101451618,
+        "event_brier_observed": 0.0943628069840051,
+        "world_nll_observed": 1.7665546956201506,
+        "world_accuracy": 0.5461254612546126
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.12524571170310325,
+        "unary_probability_mse": 1.245504277274946e-16,
+        "compound_probability_mse": 5.551578062467389e-05,
+        "event_brier_observed": 0.05487197683855841,
+        "world_nll_observed": 1.0800157789042395,
+        "world_accuracy": 0.6875
+      }
+    },
+    "test_appearance/joint-17/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0921824434268021,
+        "unary_probability_mse": 0.007585703704143819,
+        "compound_probability_mse": 0.005711954464887835,
+        "event_brier_observed": 0.09304170685408075,
+        "world_nll_observed": 1.3812158329583888,
+        "world_accuracy": 0.560546875
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 0.11927357665755083,
+        "unary_probability_mse": 0.016344107216853775,
+        "compound_probability_mse": 0.005175871232127375,
+        "event_brier_observed": 0.1889448205245455,
+        "world_nll_observed": 2.5162915946972286,
+        "world_accuracy": 0.22033898305084745
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.10764255932429269,
+        "unary_probability_mse": 0.011609150330997456,
+        "compound_probability_mse": 0.00604326922853675,
+        "event_brier_observed": 0.1437223018470998,
+        "world_nll_observed": 2.0352220988532657,
+        "world_accuracy": 0.3956043956043956
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.09051053807868484,
+        "unary_probability_mse": 0.007635333316753708,
+        "compound_probability_mse": 0.006533769059606383,
+        "event_brier_observed": 0.10070159037871113,
+        "world_nll_observed": 1.4351497391625394,
+        "world_accuracy": 0.5313653136531366
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.08444995982403317,
+        "unary_probability_mse": 0.0051199562073576295,
+        "compound_probability_mse": 0.005220973739458224,
+        "event_brier_observed": 0.059920651325835225,
+        "world_nll_observed": 0.9893902491365452,
+        "world_accuracy": 0.673828125
+      }
+    },
+    "test_appearance/joint-17/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.09219406692654877,
+        "unary_probability_mse": 0.007585332447380376,
+        "compound_probability_mse": 0.005711771795831117,
+        "event_brier_observed": 0.09304052405469863,
+        "world_nll_observed": 1.3812021456819856,
+        "world_accuracy": 0.560546875
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 0.11922081596713,
+        "unary_probability_mse": 0.016343480543302268,
+        "compound_probability_mse": 0.005174189119437248,
+        "event_brier_observed": 0.18894767819310962,
+        "world_nll_observed": 2.516404248127088,
+        "world_accuracy": 0.22033898305084745
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.10764207434274678,
+        "unary_probability_mse": 0.01160815503491293,
+        "compound_probability_mse": 0.006042751445989996,
+        "event_brier_observed": 0.14372529805635106,
+        "world_nll_observed": 2.0352333600200696,
+        "world_accuracy": 0.3956043956043956
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.09052407893365665,
+        "unary_probability_mse": 0.0076346129619408115,
+        "compound_probability_mse": 0.00653330096421403,
+        "event_brier_observed": 0.10069845278005947,
+        "world_nll_observed": 1.4351167412277317,
+        "world_accuracy": 0.5313653136531366
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.08447229193227426,
+        "unary_probability_mse": 0.005120020986372183,
+        "compound_probability_mse": 0.005221234055492353,
+        "event_brier_observed": 0.05991855208782407,
+        "world_nll_observed": 0.989363355747045,
+        "world_accuracy": 0.673828125
+      }
+    },
+    "test_appearance/joint-17/factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5108217549463387,
+        "unary_probability_mse": 0.0075853320195750145,
+        "compound_probability_mse": 0.007196285253713228,
+        "event_brier_observed": 0.0942637084743552,
+        "world_nll_observed": 1.8323244255043805,
+        "world_accuracy": 0.548828125
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.520503963948838,
+        "unary_probability_mse": 0.01634347967582769,
+        "compound_probability_mse": 0.01671539193223252,
+        "event_brier_observed": 0.19912843704101246,
+        "world_nll_observed": 4.102261901356226,
+        "world_accuracy": 0.2033898305084746
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.9687401820076424,
+        "unary_probability_mse": 0.011608154343833383,
+        "compound_probability_mse": 0.009593014399154479,
+        "event_brier_observed": 0.1468642003964843,
+        "world_nll_observed": 2.8945034021233016,
+        "world_accuracy": 0.3791208791208791
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.5138703729941442,
+        "unary_probability_mse": 0.007634612576804511,
+        "compound_probability_mse": 0.007269617774993598,
+        "event_brier_observed": 0.10111635365856717,
+        "world_nll_observed": 1.873086865674111,
+        "world_accuracy": 0.5129151291512916
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.2300823417680968,
+        "unary_probability_mse": 0.005120020680232973,
+        "compound_probability_mse": 0.005208579957287592,
+        "event_brier_observed": 0.05985477222400028,
+        "world_nll_observed": 1.171602733891295,
+        "world_accuracy": 0.66796875
+      }
+    },
+    "test_appearance/independent-17/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5293782835301293,
+        "unary_probability_mse": 0.008742005688718251,
+        "compound_probability_mse": 0.00905745629321224,
+        "event_brier_observed": 0.09791467237120109,
+        "world_nll_observed": 1.890018186744077,
+        "world_accuracy": 0.4931640625
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.493678725355816,
+        "unary_probability_mse": 0.014149416118153214,
+        "compound_probability_mse": 0.01686860893211491,
+        "event_brier_observed": 0.20035201881633133,
+        "world_nll_observed": 4.105948828052856,
+        "world_accuracy": 0.0847457627118644
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 1.0431214223340108,
+        "unary_probability_mse": 0.0173280838498063,
+        "compound_probability_mse": 0.017801290530524715,
+        "event_brier_observed": 0.15651032103184878,
+        "world_nll_observed": 2.992992390410201,
+        "world_accuracy": 0.23076923076923078
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.5362431496969404,
+        "unary_probability_mse": 0.008606798488858317,
+        "compound_probability_mse": 0.00925494874176635,
+        "event_brier_observed": 0.10422443705189874,
+        "world_nll_observed": 1.9305025106544444,
+        "world_accuracy": 0.44280442804428044
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.2320045412230439,
+        "unary_probability_mse": 0.005138368404552929,
+        "compound_probability_mse": 0.004944651038438231,
+        "event_brier_observed": 0.06194170806461977,
+        "world_nll_observed": 1.2211657166578227,
+        "world_accuracy": 0.66015625
+      }
+    },
+    "test_appearance/independent-17/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5268814387628689,
+        "unary_probability_mse": 0.008713015698442782,
+        "compound_probability_mse": 0.00898122256173515,
+        "event_brier_observed": 0.09798189138650613,
+        "world_nll_observed": 1.8918054472259855,
+        "world_accuracy": 0.4931640625
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.4935685759248212,
+        "unary_probability_mse": 0.014140962821395538,
+        "compound_probability_mse": 0.01683272065058629,
+        "event_brier_observed": 0.20034198503741502,
+        "world_nll_observed": 4.106052429816289,
+        "world_accuracy": 0.0847457627118644
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 1.0410218946029544,
+        "unary_probability_mse": 0.017283018957511852,
+        "compound_probability_mse": 0.017680347514140708,
+        "event_brier_observed": 0.1563996167664179,
+        "world_nll_observed": 2.991197642534357,
+        "world_accuracy": 0.23076923076923078
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.5329014804835447,
+        "unary_probability_mse": 0.008534698986201763,
+        "compound_probability_mse": 0.009124146587018177,
+        "event_brier_observed": 0.10426124871969879,
+        "world_nll_observed": 1.9316501140765265,
+        "world_accuracy": 0.44280442804428044
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.22953859625944334,
+        "unary_probability_mse": 0.005135543736748511,
+        "compound_probability_mse": 0.004908543773782557,
+        "event_brier_observed": 0.06209716993759445,
+        "world_nll_observed": 1.2247588530161257,
+        "world_accuracy": 0.66015625
+      }
+    },
+    "test_appearance/evidence-17/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.024631923881608158,
+        "unary_probability_mse": 0.0016422865437451552,
+        "compound_probability_mse": 0.001475937295867825,
+        "event_brier_observed": 0.08921347355108637,
+        "world_nll_observed": 1.3285636205008198,
+        "world_accuracy": 0.58984375
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 9.774046453185421e-15,
+        "unary_probability_mse": 2.384684434625386e-16,
+        "compound_probability_mse": 1.7640790497879337e-16,
+        "event_brier_observed": 0.18297365073682365,
+        "world_nll_observed": 2.4610892906273554,
+        "world_accuracy": 0.2542372881355932
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.020387801712641276,
+        "unary_probability_mse": 0.0018727778853929124,
+        "compound_probability_mse": 0.0005565534288434968,
+        "event_brier_observed": 0.13853700185528775,
+        "world_nll_observed": 1.9759351491896,
+        "world_accuracy": 0.41208791208791207
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.0160385422020462,
+        "unary_probability_mse": 0.0010449755066698901,
+        "compound_probability_mse": 0.0006753997974805993,
+        "event_brier_observed": 0.09546572136409227,
+        "world_nll_observed": 1.3772667649770807,
+        "world_accuracy": 0.5756457564575646
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.03352747110607606,
+        "unary_probability_mse": 0.0020657568034101064,
+        "compound_probability_mse": 0.0023965502378943035,
+        "event_brier_observed": 0.05756680995216498,
+        "world_nll_observed": 0.9421589624697839,
+        "world_accuracy": 0.69921875
+      }
+    },
+    "test_appearance/evidence-17/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.024631923881608158,
+        "unary_probability_mse": 0.0016422865437451552,
+        "compound_probability_mse": 0.001475937295867825,
+        "event_brier_observed": 0.08921347355108637,
+        "world_nll_observed": 1.3285636205008198,
+        "world_accuracy": 0.58984375
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 9.774046453185421e-15,
+        "unary_probability_mse": 2.384684434625386e-16,
+        "compound_probability_mse": 1.7640790497879337e-16,
+        "event_brier_observed": 0.18297365073682365,
+        "world_nll_observed": 2.4610892906273554,
+        "world_accuracy": 0.2542372881355932
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.020387801712641276,
+        "unary_probability_mse": 0.0018727778853929124,
+        "compound_probability_mse": 0.0005565534288434968,
+        "event_brier_observed": 0.13853700185528775,
+        "world_nll_observed": 1.9759351491896,
+        "world_accuracy": 0.41208791208791207
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.0160385422020462,
+        "unary_probability_mse": 0.0010449755066698901,
+        "compound_probability_mse": 0.0006753997974805993,
+        "event_brier_observed": 0.09546572136409227,
+        "world_nll_observed": 1.3772667649770807,
+        "world_accuracy": 0.5756457564575646
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.03352747110607606,
+        "unary_probability_mse": 0.0020657568034101064,
+        "compound_probability_mse": 0.0023965502378943035,
+        "event_brier_observed": 0.05756680995216498,
+        "world_nll_observed": 0.9421589624697839,
+        "world_accuracy": 0.69921875
+      }
+    },
+    "test_appearance/joint-23/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.08554721176163152,
+        "unary_probability_mse": 0.007294838430406503,
+        "compound_probability_mse": 0.005436065155858913,
+        "event_brier_observed": 0.09367189818478779,
+        "world_nll_observed": 1.3848046345362104,
+        "world_accuracy": 0.5400390625
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 0.12159360653421974,
+        "unary_probability_mse": 0.02015151597767938,
+        "compound_probability_mse": 0.006365613961527667,
+        "event_brier_observed": 0.19208764076341764,
+        "world_nll_observed": 2.5387227835404205,
+        "world_accuracy": 0.23728813559322035
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.10872676828546397,
+        "unary_probability_mse": 0.011878840561806865,
+        "compound_probability_mse": 0.006227888682476292,
+        "event_brier_observed": 0.14452659126870981,
+        "world_nll_observed": 2.0398444123913726,
+        "world_accuracy": 0.36813186813186816
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.08578667616450653,
+        "unary_probability_mse": 0.007272326399040729,
+        "compound_probability_mse": 0.006434335031159165,
+        "event_brier_observed": 0.10109287395976042,
+        "world_nll_observed": 1.4440475470394627,
+        "world_accuracy": 0.5055350553505535
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.07302707224581251,
+        "unary_probability_mse": 0.004195753268875563,
+        "compound_probability_mse": 0.004519099535575344,
+        "event_brier_observed": 0.06032586812925938,
+        "world_nll_observed": 0.9876303383462313,
+        "world_accuracy": 0.654296875
+      }
+    },
+    "test_appearance/joint-23/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.08566883993818859,
+        "unary_probability_mse": 0.007293640072541054,
+        "compound_probability_mse": 0.005436600964614798,
+        "event_brier_observed": 0.09366578509354749,
+        "world_nll_observed": 1.3848163645807081,
+        "world_accuracy": 0.5400390625
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 0.12145705182456212,
+        "unary_probability_mse": 0.020134924690015953,
+        "compound_probability_mse": 0.006356542569659171,
+        "event_brier_observed": 0.19208746770908908,
+        "world_nll_observed": 2.539078937713031,
+        "world_accuracy": 0.23728813559322035
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.10876878420188092,
+        "unary_probability_mse": 0.011872864974630967,
+        "compound_probability_mse": 0.006224638225372133,
+        "event_brier_observed": 0.14452826663132323,
+        "world_nll_observed": 2.0399159217061507,
+        "world_accuracy": 0.36813186813186816
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.08592944016084751,
+        "unary_probability_mse": 0.007272591072256785,
+        "compound_probability_mse": 0.006434810446040471,
+        "event_brier_observed": 0.10108590107525053,
+        "world_nll_observed": 1.4440016786045453,
+        "world_accuracy": 0.5055350553505535
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.07319556451313272,
+        "unary_probability_mse": 0.004197252483606786,
+        "compound_probability_mse": 0.004522120289572201,
+        "event_brier_observed": 0.06031675707551298,
+        "world_nll_observed": 0.987611615924268,
+        "world_accuracy": 0.654296875
+      }
+    },
+    "test_appearance/joint-23/factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.503241657748365,
+        "unary_probability_mse": 0.007293640068946121,
+        "compound_probability_mse": 0.006829782775258714,
+        "event_brier_observed": 0.09475951494735108,
+        "world_nll_observed": 1.8470603899653715,
+        "world_accuracy": 0.5361328125
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.5665300654950125,
+        "unary_probability_mse": 0.02013492569121117,
+        "compound_probability_mse": 0.01818016726349702,
+        "event_brier_observed": 0.20224374251588256,
+        "world_nll_observed": 4.171396161154046,
+        "world_accuracy": 0.1694915254237288
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.9737471109792454,
+        "unary_probability_mse": 0.011872865138094192,
+        "compound_probability_mse": 0.009610469479646269,
+        "event_brier_observed": 0.147197404381287,
+        "world_nll_observed": 2.88981505147318,
+        "world_accuracy": 0.3516483516483517
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.5057146221103455,
+        "unary_probability_mse": 0.007272591088202153,
+        "compound_probability_mse": 0.0069921831221671305,
+        "event_brier_observed": 0.1013603714620172,
+        "world_nll_observed": 1.9073260130394847,
+        "world_accuracy": 0.4981549815498155
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.21215536499998805,
+        "unary_probability_mse": 0.0041972522944989125,
+        "compound_probability_mse": 0.004447423089679073,
+        "event_brier_observed": 0.060239793425877965,
+        "world_nll_observed": 1.176651908036392,
+        "world_accuracy": 0.6640625
+      }
+    },
+    "test_appearance/independent-23/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5411381625926043,
+        "unary_probability_mse": 0.009256950371224025,
+        "compound_probability_mse": 0.00952640668296475,
+        "event_brier_observed": 0.09834998561746307,
+        "world_nll_observed": 1.9032931654047505,
+        "world_accuracy": 0.4990234375
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.5048031136272109,
+        "unary_probability_mse": 0.015043279659511119,
+        "compound_probability_mse": 0.017119422237046936,
+        "event_brier_observed": 0.20166002895786236,
+        "world_nll_observed": 4.149208331894229,
+        "world_accuracy": 0.1016949152542373
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 1.038274724557292,
+        "unary_probability_mse": 0.016768156549638577,
+        "compound_probability_mse": 0.017374939966629043,
+        "event_brier_observed": 0.15694086216411887,
+        "world_nll_observed": 3.004241595991533,
+        "world_accuracy": 0.24175824175824176
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.5429603992875566,
+        "unary_probability_mse": 0.00876775758403428,
+        "compound_probability_mse": 0.009152830593638313,
+        "event_brier_observed": 0.10336676550934393,
+        "world_nll_observed": 1.93057805354346,
+        "world_accuracy": 0.46494464944649444
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.252409817801692,
+        "unary_probability_mse": 0.006179095474442839,
+        "compound_probability_mse": 0.006059254622202469,
+        "event_brier_observed": 0.0629625257751298,
+        "world_nll_observed": 1.238691966429625,
+        "world_accuracy": 0.654296875
+      }
+    },
+    "test_appearance/independent-23/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5398963675112618,
+        "unary_probability_mse": 0.009238308506619558,
+        "compound_probability_mse": 0.009485999635042442,
+        "event_brier_observed": 0.09837214729503757,
+        "world_nll_observed": 1.9040178813858013,
+        "world_accuracy": 0.4990234375
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.5046084454031463,
+        "unary_probability_mse": 0.015026834049654896,
+        "compound_probability_mse": 0.01709843385687594,
+        "event_brier_observed": 0.2016621254499818,
+        "world_nll_observed": 4.149710705546404,
+        "world_accuracy": 0.1016949152542373
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 1.037067953520459,
+        "unary_probability_mse": 0.01673261682579834,
+        "compound_probability_mse": 0.017306824150569444,
+        "event_brier_observed": 0.15689991910485554,
+        "world_nll_observed": 3.0034733867151373,
+        "world_accuracy": 0.24175824175824176
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.541181460385686,
+        "unary_probability_mse": 0.00872526605300243,
+        "compound_probability_mse": 0.00907990143491429,
+        "event_brier_observed": 0.10335647919823074,
+        "world_nll_observed": 1.930706060658862,
+        "world_accuracy": 0.46494464944649444
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.251319216303715,
+        "unary_probability_mse": 0.00617883074060514,
+        "compound_probability_mse": 0.0060436733290280655,
+        "event_brier_observed": 0.06302660603274478,
+        "world_nll_observed": 1.2402888283029616,
+        "world_accuracy": 0.654296875
+      }
+    },
+    "test_appearance/evidence-23/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.001267762843591167,
+        "unary_probability_mse": 6.387688772699776e-05,
+        "compound_probability_mse": 8.33418823104202e-05,
+        "event_brier_observed": 0.08725461289096974,
+        "world_nll_observed": 1.3011891340845265,
+        "world_accuracy": 0.5947265625
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.0937696506583718e-09,
+        "unary_probability_mse": 1.9436147087390688e-10,
+        "compound_probability_mse": 6.840296250597512e-11,
+        "event_brier_observed": 0.18297354370256066,
+        "world_nll_observed": 2.4610891398882986,
+        "world_accuracy": 0.2542372881355932
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.0005559671719617032,
+        "unary_probability_mse": 2.5038571058056114e-05,
+        "compound_probability_mse": 9.250866627719958e-06,
+        "event_brier_observed": 0.13724913790759735,
+        "world_nll_observed": 1.9555258923157626,
+        "world_accuracy": 0.4175824175824176
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.0008131644521877718,
+        "unary_probability_mse": 3.342649464255858e-05,
+        "compound_probability_mse": 2.9264371666943746e-05,
+        "event_brier_observed": 0.09395727393313516,
+        "world_nll_observed": 1.347700699789018,
+        "world_accuracy": 0.5793357933579336
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0019074912020801357,
+        "unary_probability_mse": 0.00010116078434456903,
+        "compound_probability_mse": 0.00014790582226974357,
+        "event_brier_observed": 0.05490531286492105,
+        "world_nll_observed": 0.9103140859469785,
+        "world_accuracy": 0.705078125
+      }
+    },
+    "test_appearance/evidence-23/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.001267762843591167,
+        "unary_probability_mse": 6.387688772699776e-05,
+        "compound_probability_mse": 8.33418823104202e-05,
+        "event_brier_observed": 0.08725461289096974,
+        "world_nll_observed": 1.3011891340845265,
+        "world_accuracy": 0.5947265625
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.0937696506583718e-09,
+        "unary_probability_mse": 1.9436147087390688e-10,
+        "compound_probability_mse": 6.840296250597512e-11,
+        "event_brier_observed": 0.18297354370256066,
+        "world_nll_observed": 2.4610891398882986,
+        "world_accuracy": 0.2542372881355932
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.0005559671719617032,
+        "unary_probability_mse": 2.5038571058056114e-05,
+        "compound_probability_mse": 9.250866627719958e-06,
+        "event_brier_observed": 0.13724913790759735,
+        "world_nll_observed": 1.9555258923157626,
+        "world_accuracy": 0.4175824175824176
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.0008131644521877718,
+        "unary_probability_mse": 3.342649464255858e-05,
+        "compound_probability_mse": 2.9264371666943746e-05,
+        "event_brier_observed": 0.09395727393313516,
+        "world_nll_observed": 1.347700699789018,
+        "world_accuracy": 0.5793357933579336
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0019074912020801357,
+        "unary_probability_mse": 0.00010116078434456903,
+        "compound_probability_mse": 0.00014790582226974357,
+        "event_brier_observed": 0.05490531286492105,
+        "world_nll_observed": 0.9103140859469785,
+        "world_accuracy": 0.705078125
+      }
+    },
+    "test_appearance/joint-42/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.08746495385531391,
+        "unary_probability_mse": 0.007532124223617099,
+        "compound_probability_mse": 0.0053899463472177785,
+        "event_brier_observed": 0.09352608363623117,
+        "world_nll_observed": 1.3833276170017752,
+        "world_accuracy": 0.5439453125
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 0.12596356391521532,
+        "unary_probability_mse": 0.021601893902555992,
+        "compound_probability_mse": 0.007112692088166877,
+        "event_brier_observed": 0.1932590171730225,
+        "world_nll_observed": 2.558032462206825,
+        "world_accuracy": 0.2033898305084746
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.1116712288859318,
+        "unary_probability_mse": 0.012661036772275175,
+        "compound_probability_mse": 0.006648865262320126,
+        "event_brier_observed": 0.1444528460015066,
+        "world_nll_observed": 2.04608905184436,
+        "world_accuracy": 0.37362637362637363
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.08375766252774296,
+        "unary_probability_mse": 0.006987893115455982,
+        "compound_probability_mse": 0.005764891368048779,
+        "event_brier_observed": 0.10058397746276992,
+        "world_nll_observed": 1.4268434744596195,
+        "world_accuracy": 0.5202952029520295
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0763862739738004,
+        "unary_probability_mse": 0.004375694800567293,
+        "compound_probability_mse": 0.004545463257550152,
+        "event_brier_observed": 0.06019482766720224,
+        "world_nll_observed": 0.9893374521980169,
+        "world_accuracy": 0.65625
+      }
+    },
+    "test_appearance/joint-42/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.08798434101748903,
+        "unary_probability_mse": 0.007520566402438516,
+        "compound_probability_mse": 0.005388222998899142,
+        "event_brier_observed": 0.0934925826270095,
+        "world_nll_observed": 1.383393207102369,
+        "world_accuracy": 0.5439453125
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 0.1249217975923236,
+        "unary_probability_mse": 0.02145465744875021,
+        "compound_probability_mse": 0.0070336310121433135,
+        "event_brier_observed": 0.19321206988594455,
+        "world_nll_observed": 2.559028410865486,
+        "world_accuracy": 0.2033898305084746
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.11153490125472791,
+        "unary_probability_mse": 0.012614295451945508,
+        "compound_probability_mse": 0.0066152743216291165,
+        "event_brier_observed": 0.14445653857965346,
+        "world_nll_observed": 2.0460467033487544,
+        "world_accuracy": 0.37362637362637363
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.08437830272312889,
+        "unary_probability_mse": 0.006991828266936969,
+        "compound_probability_mse": 0.005770969911742191,
+        "event_brier_observed": 0.10054491517349735,
+        "world_nll_observed": 1.4267940965579116,
+        "world_accuracy": 0.5202952029520295
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.07726505288600247,
+        "unary_probability_mse": 0.004384078074271049,
+        "compound_probability_mse": 0.004559850290112566,
+        "event_brier_observed": 0.060152598541547454,
+        "world_nll_observed": 0.9893950540138574,
+        "world_accuracy": 0.65625
+      }
+    },
+    "test_appearance/joint-42/factorized": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5089510916434559,
+        "unary_probability_mse": 0.007520566348768079,
+        "compound_probability_mse": 0.006788906230950122,
+        "event_brier_observed": 0.09465935842605513,
+        "world_nll_observed": 1.8407149776627614,
+        "world_accuracy": 0.5458984375
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.5835618027803793,
+        "unary_probability_mse": 0.021454658406267535,
+        "compound_probability_mse": 0.018165804423671397,
+        "event_brier_observed": 0.20302697585449223,
+        "world_nll_observed": 4.188192190862246,
+        "world_accuracy": 0.22033898305084745
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.9831991618240334,
+        "unary_probability_mse": 0.012614295879290296,
+        "compound_probability_mse": 0.010090773545911275,
+        "event_brier_observed": 0.14732365299607264,
+        "world_nll_observed": 2.8820858115653687,
+        "world_accuracy": 0.3516483516483517
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.5060077422006416,
+        "unary_probability_mse": 0.006991827942550348,
+        "compound_probability_mse": 0.0063715444008776954,
+        "event_brier_observed": 0.10102639295518552,
+        "world_nll_observed": 1.8918313335147376,
+        "world_accuracy": 0.5166051660516605
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.21809653494239933,
+        "unary_probability_mse": 0.00438407787638037,
+        "compound_probability_mse": 0.0045250941435597755,
+        "event_brier_observed": 0.060081121321728354,
+        "world_nll_observed": 1.1729743921453202,
+        "world_accuracy": 0.66796875
+      }
+    },
+    "test_appearance/independent-42/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5792936997475778,
+        "unary_probability_mse": 0.011341367958346072,
+        "compound_probability_mse": 0.011281332869102524,
+        "event_brier_observed": 0.09924315194534482,
+        "world_nll_observed": 1.9242703847709126,
+        "world_accuracy": 0.486328125
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.5201540165934093,
+        "unary_probability_mse": 0.01633182963230915,
+        "compound_probability_mse": 0.017815136949189344,
+        "event_brier_observed": 0.2011715874076262,
+        "world_nll_observed": 4.124720028767474,
+        "world_accuracy": 0.1694915254237288
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 1.0863247452464273,
+        "unary_probability_mse": 0.019995675556124262,
+        "compound_probability_mse": 0.019397308500127105,
+        "event_brier_observed": 0.15733652426929873,
+        "world_nll_observed": 3.0280549357759297,
+        "world_accuracy": 0.2087912087912088
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.5841374900687499,
+        "unary_probability_mse": 0.011025089476092825,
+        "compound_probability_mse": 0.011042137404249426,
+        "event_brier_observed": 0.10568512311507428,
+        "world_nll_observed": 1.9691014531634996,
+        "world_accuracy": 0.4280442804428044
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.28807675413872574,
+        "unary_probability_mse": 0.007857364534774152,
+        "compound_probability_mse": 0.007770043739031418,
+        "event_brier_observed": 0.06343739873786261,
+        "world_nll_observed": 1.2546130863078242,
+        "world_accuracy": 0.65234375
+      }
+    },
+    "test_appearance/independent-42/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.5769284490905757,
+        "unary_probability_mse": 0.01131716474169793,
+        "compound_probability_mse": 0.011223805425298222,
+        "event_brier_observed": 0.09927165621679697,
+        "world_nll_observed": 1.9249545327269442,
+        "world_accuracy": 0.486328125
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 1.5205499935152362,
+        "unary_probability_mse": 0.016365459039206026,
+        "compound_probability_mse": 0.017809127205265812,
+        "event_brier_observed": 0.20117032462225817,
+        "world_nll_observed": 4.125028471140823,
+        "world_accuracy": 0.1694915254237288
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 1.0847516135392257,
+        "unary_probability_mse": 0.01997506917438708,
+        "compound_probability_mse": 0.01932070065461425,
+        "event_brier_observed": 0.15722656922567438,
+        "world_nll_observed": 3.026455522473647,
+        "world_accuracy": 0.2087912087912088
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.5808665414626247,
+        "unary_probability_mse": 0.010959110848230464,
+        "compound_probability_mse": 0.01093876323756085,
+        "event_brier_observed": 0.10569720079584888,
+        "world_nll_observed": 1.9692723397716134,
+        "world_accuracy": 0.4280442804428044
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.2855911247086722,
+        "unary_probability_mse": 0.007847330044094962,
+        "compound_probability_mse": 0.00773762869897639,
+        "event_brier_observed": 0.06352724570027167,
+        "world_nll_observed": 1.2564239307554126,
+        "world_accuracy": 0.65234375
+      }
+    },
+    "test_appearance/evidence-42/raw": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0026004938626719874,
+        "unary_probability_mse": 0.00014051351606601616,
+        "compound_probability_mse": 0.0001241405814137651,
+        "event_brier_observed": 0.08759354438217443,
+        "world_nll_observed": 1.3065443564805963,
+        "world_accuracy": 0.5947265625
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 8.072307339920548e-09,
+        "unary_probability_mse": 1.5268588847355979e-09,
+        "compound_probability_mse": 5.663472587619061e-10,
+        "event_brier_observed": 0.1829755616168419,
+        "world_nll_observed": 2.461125213780034,
+        "world_accuracy": 0.2542372881355932
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.0014660840743602945,
+        "unary_probability_mse": 7.199253348457176e-05,
+        "compound_probability_mse": 2.3135563623212014e-05,
+        "event_brier_observed": 0.1372296696007068,
+        "world_nll_observed": 1.9578074844179352,
+        "world_accuracy": 0.4175824175824176
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.002524398461807439,
+        "unary_probability_mse": 0.00013597935735641824,
+        "compound_probability_mse": 8.314962784563488e-05,
+        "event_brier_observed": 0.09436211222184097,
+        "world_nll_observed": 1.353378759467503,
+        "world_accuracy": 0.5793357933579336
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0033436835047394396,
+        "unary_probability_mse": 0.00018346231138504875,
+        "compound_probability_mse": 0.00019604628950706165,
+        "event_brier_observed": 0.05537558404786216,
+        "world_nll_observed": 0.917203959850295,
+        "world_accuracy": 0.705078125
+      }
+    },
+    "test_appearance/evidence-42/calibrated": {
+      "all": {
+        "n": 1024,
+        "posterior_kl": 0.0026004938626719874,
+        "unary_probability_mse": 0.00014051351606601616,
+        "compound_probability_mse": 0.0001241405814137651,
+        "event_brier_observed": 0.08759354438217443,
+        "world_nll_observed": 1.3065443564805963,
+        "world_accuracy": 0.5947265625
+      },
+      "visible_0": {
+        "n": 59,
+        "posterior_kl": 8.072307339920548e-09,
+        "unary_probability_mse": 1.5268588847355979e-09,
+        "compound_probability_mse": 5.663472587619061e-10,
+        "event_brier_observed": 0.1829755616168419,
+        "world_nll_observed": 2.461125213780034,
+        "world_accuracy": 0.2542372881355932
+      },
+      "visible_1": {
+        "n": 182,
+        "posterior_kl": 0.0014660840743602945,
+        "unary_probability_mse": 7.199253348457176e-05,
+        "compound_probability_mse": 2.3135563623212014e-05,
+        "event_brier_observed": 0.1372296696007068,
+        "world_nll_observed": 1.9578074844179352,
+        "world_accuracy": 0.4175824175824176
+      },
+      "visible_2": {
+        "n": 271,
+        "posterior_kl": 0.002524398461807439,
+        "unary_probability_mse": 0.00013597935735641824,
+        "compound_probability_mse": 8.314962784563488e-05,
+        "event_brier_observed": 0.09436211222184097,
+        "world_nll_observed": 1.353378759467503,
+        "world_accuracy": 0.5793357933579336
+      },
+      "visible_3": {
+        "n": 512,
+        "posterior_kl": 0.0033436835047394396,
+        "unary_probability_mse": 0.00018346231138504875,
+        "compound_probability_mse": 0.00019604628950706165,
+        "event_brier_observed": 0.05537558404786216,
+        "world_nll_observed": 0.917203959850295,
+        "world_accuracy": 0.705078125
+      }
+    }
+  },
+  "matched_ablation": {
+    "test_id/seed-17": {
+      "episodes": 512,
+      "difference": 0.0017524181504586392,
+      "bootstrap_95": [
+        0.0013743326940958062,
+        0.002169206383036373
+      ],
+      "direction": "factorized minus joint probability MSE; positive favors joint",
+      "note": "Resampling episodes, retaining their views and queries; not seed uncertainty."
+    },
+    "test_id/seed-23": {
+      "episodes": 512,
+      "difference": 0.0017073934452103724,
+      "bootstrap_95": [
+        0.0013278217934053972,
+        0.002126599249728364
+      ],
+      "direction": "factorized minus joint probability MSE; positive favors joint",
+      "note": "Resampling episodes, retaining their views and queries; not seed uncertainty."
+    },
+    "test_id/seed-42": {
+      "episodes": 512,
+      "difference": 0.0017231971664884967,
+      "bootstrap_95": [
+        0.0013402307300065587,
+        0.0021433733390264515
+      ],
+      "direction": "factorized minus joint probability MSE; positive favors joint",
+      "note": "Resampling episodes, retaining their views and queries; not seed uncertainty."
+    },
+    "test_topology/seed-17": {
+      "episodes": 512,
+      "difference": -0.00012306842071974636,
+      "bootstrap_95": [
+        -0.00019037670812453576,
+        -5.7084589954872895e-05
+      ],
+      "direction": "factorized minus joint probability MSE; positive favors joint",
+      "note": "Resampling episodes, retaining their views and queries; not seed uncertainty."
+    },
+    "test_topology/seed-23": {
+      "episodes": 512,
+      "difference": -8.225595337309254e-05,
+      "bootstrap_95": [
+        -0.0001374204208047875,
+        -2.9805480718574922e-05
+      ],
+      "direction": "factorized minus joint probability MSE; positive favors joint",
+      "note": "Resampling episodes, retaining their views and queries; not seed uncertainty."
+    },
+    "test_topology/seed-42": {
+      "episodes": 512,
+      "difference": -0.0001022174244677957,
+      "bootstrap_95": [
+        -0.00015835165139054213,
+        -4.8995091655878966e-05
+      ],
+      "direction": "factorized minus joint probability MSE; positive favors joint",
+      "note": "Resampling episodes, retaining their views and queries; not seed uncertainty."
+    },
+    "test_appearance/seed-17": {
+      "episodes": 512,
+      "difference": 0.001484513457882111,
+      "bootstrap_95": [
+        0.0011411125956296497,
+        0.001837813847447218
+      ],
+      "direction": "factorized minus joint probability MSE; positive favors joint",
+      "note": "Resampling episodes, retaining their views and queries; not seed uncertainty."
+    },
+    "test_appearance/seed-23": {
+      "episodes": 512,
+      "difference": 0.0013931818106439153,
+      "bootstrap_95": [
+        0.0010415466177816672,
+        0.0017285914904174716
+      ],
+      "direction": "factorized minus joint probability MSE; positive favors joint",
+      "note": "Resampling episodes, retaining their views and queries; not seed uncertainty."
+    },
+    "test_appearance/seed-42": {
+      "episodes": 512,
+      "difference": 0.0014006832320509793,
+      "bootstrap_95": [
+        0.0010669482443932433,
+        0.0017336464527699035
+      ],
+      "direction": "factorized minus joint probability MSE; positive favors joint",
+      "note": "Resampling episodes, retaining their views and queries; not seed uncertainty."
+    }
+  },
+  "limitations": [
+    "Controlled six-bit scenes, fixed slots and exact supplied priors.",
+    "Query semantics are symbolic; no general language understanding.",
+    "Coherence is exact finite probability arithmetic, not learned factual correctness.",
+    "Evidence model receives observation labels during training.",
+    "This study does not establish performance on natural images or Jev."
+  ]
+}

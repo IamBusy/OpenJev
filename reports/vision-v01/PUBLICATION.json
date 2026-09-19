@@ -1,0 +1,32 @@
+{
+  "dataset": {
+    "repo": "IamBusy/OpenJev-Vision-Research-v0.1",
+    "revision": "43e4918445d82ae780e65b0ad08b9d4345547004",
+    "parquet_files_verified": 14,
+    "images": 12832,
+    "verification": "Anonymous metadata, every Parquet SHA256/size, downloaded export manifest",
+    "anonymous_streaming_decode": [
+      "synthetic",
+      "pets",
+      "clevr4"
+    ]
+  },
+  "models": {
+    "repo": "IamBusy/OpenJev-Vision",
+    "revision": "8cf6cbd39a7dc72840c9b52810a3f672786566b0",
+    "models_verified": 7,
+    "download_reload_probability_max_error": 0.0,
+    "verification": "Downloaded public bundle, verified every file SHA256 and prediction equality",
+    "public_image_reload_checks": {
+      "pets": {
+        "source_id": "Abyssinian_201",
+        "downloaded_model_vs_cached_evaluation_max_error": 1.6763806343078613e-07
+      },
+      "clevr4": {
+        "source_id": "CLEVR_new_008443",
+        "downloaded_model_vs_cached_evaluation_max_error": 5.960464477539063e-08
+      }
+    },
+    "canonical_repo_verified": "IamBusy/OpenJev-Vision"
+  }
+}
