@@ -1,10 +1,44 @@
-# OpenJev
+# OpenJev-Vision
 
-**New: [multimodal visual-posterior research](docs/VISION.md)** —
-public images, original synthetic uncertainty data, trained baselines and
-[measured failures on unseen compositions](reports/vision-v01/RESULTS.md).
+**Encode an image once. Answer several questions from a shared probability distribution.**
 
-[![Checks](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml/badge.svg)](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml)
+OpenJev-Vision is an open research toolkit for visual probabilistic decisions.
+It includes original synthetic scenes, public-image experiments, downloadable
+trained readouts, and reproducible evaluations. The original OpenJev text-decision
+experiments remain available in this repository.
+
+[Vision guide](docs/VISION.md) · [Vision weights](https://huggingface.co/IamBusy/OpenJev-Vision) · [Dataset](https://huggingface.co/datasets/IamBusy/OpenJev-Vision-Research-v0.1) · [Vision results](reports/vision-v01/RESULTS.md) · [中文](README.zh-CN.md)
+
+![One visual posterior, several questions](reports/vision-v01/demo.png)
+
+## Start with vision
+
+The release contains 8,192 original synthetic images, a 2,960-image Oxford-IIIT
+Pet subset, and 1,680 CLEVR-4 images. Synthetic scenes use a small CNN plus a
+supplied prior; public images use frozen DINOv2 features and trained readouts.
+These are separate experiments with fixed event vocabularies, not a general
+visual assistant. Queries use declared event semantics and a limited English parser.
+
+```bash
+git clone https://github.com/IamBusy/OpenJev-Vision.git
+cd OpenJev-Vision
+uv sync --frozen --extra vision --extra dev
+uv run --no-sync openjev-vision download
+uv run --no-sync openjev-vision predict \
+  --checkpoint artifacts/openjev-vision-v0.1/synthetic-joint \
+  --image examples/vision/scene-0.png \
+  --prior examples/vision/scene-0-prior.json \
+  --questions examples/vision/questions.json
+```
+
+Three-seed results include independent calibration and negative findings:
+the direct joint predictor degrades on new dependency structures, and independent
+attributes beat the tested joint and binding heads on unseen CLEVR-4 combinations.
+See the [vision guide](docs/VISION.md) for public-image inference and reproduction.
+
+## Text-decision experiments
+
+[![Checks](https://github.com/IamBusy/OpenJev-Vision/actions/workflows/ci.yml/badge.svg)](https://github.com/IamBusy/OpenJev-Vision/actions/workflows/ci.yml)
 
 [Hugging Face model](https://huggingface.co/IamBusy/OpenJev-0.6B) · [中文](README.zh-CN.md) · [Results](reports/v03/RESULTS.md) · [Reproduce](docs/REPRODUCING.md) · [Model card](docs/MODEL_CARD.md)
 
@@ -51,8 +85,8 @@ CUDA acceleration is not implemented in this release. Allow several GB of disk
 space and RAM; the separately downloaded base weights are about 1.2 GB.
 
 ```bash
-git clone https://github.com/IamBusy/OpenJev.git
-cd OpenJev
+git clone https://github.com/IamBusy/OpenJev-Vision.git
+cd OpenJev-Vision
 uv sync --frozen --extra qwen --extra dev
 uv run --no-sync openjev-model download
 uv run --no-sync openjev-model predict --input examples/refund.json
@@ -61,7 +95,7 @@ uv run --no-sync openjev-model predict --input examples/refund.json
 `download` fetches a pinned Qwen base from Hugging Face and the small OpenJev
 adapter/head bundle from this repository's release. It checks the release archive
 and model file hashes. No model-service key is needed for inference or data
-reconstruction. Run commands from the checkout, or supply `--root /path/to/OpenJev`
+reconstruction. Run commands from the checkout, or supply `--root /path/to/OpenJev-Vision`
 before the subcommand. Existing model files are verified rather than replaced.
 
 ```python

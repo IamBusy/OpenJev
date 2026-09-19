@@ -1,6 +1,6 @@
 # Release process
 
-The public project is `IamBusy/OpenJev` on GitHub and the model is
+The public project is `IamBusy/OpenJev-Vision` on GitHub and the model is
 `IamBusy/OpenJev-0.6B` on Hugging Face. The current software release v0.3.2 includes
 Python packages and a canonically named `OpenJev-0.6B.zip` adapter/head bundle.
 Qwen base weights download separately at the pinned revision. The original v0.3.0

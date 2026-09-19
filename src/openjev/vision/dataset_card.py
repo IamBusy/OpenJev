@@ -41,7 +41,7 @@ def write_card(output, apache_license):
 and programmatically derived decision questions.**
 
 This is an experimental research dataset for visual posterior learning and
-compositional decisions, released with [OpenJev](https://github.com/IamBusy/OpenJev).
+compositional decisions, released with [OpenJev](https://github.com/IamBusy/OpenJev-Vision).
 It is not a reproduction of TypeSafe's proprietary Jev model or training method.
 
 ## Three separate configurations

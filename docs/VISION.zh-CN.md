@@ -1,4 +1,4 @@
-# OpenJev 多模态视觉后验研究
+# OpenJev-Vision 多模态视觉后验研究
 
 [数据集](https://huggingface.co/datasets/IamBusy/OpenJev-Vision-Research-v0.1) ·
 [实验权重](https://huggingface.co/IamBusy/OpenJev-Vision) ·

@@ -1,12 +1,42 @@
-# OpenJev
+# OpenJev-Vision
 
-**新增：[多模态视觉后验研究方向](docs/VISION.zh-CN.md)**：
-公开图像、原创合成概率数据、可下载的训练权重，以及
-[未见组合上的完整结果和失败案例](reports/vision-v01/RESULTS.md)。
+**一张图编码一次，多个问题共享同一个概率分布。**
+
+OpenJev-Vision 是一个研究视觉概率判断的开源项目，提供原创合成数据、公开图像实验、
+可下载的训练权重和完整复现流程。原 OpenJev 文本概率决策实验也保留在本仓库中。
+
+[视觉项目说明](docs/VISION.zh-CN.md) · [视觉模型权重](https://huggingface.co/IamBusy/OpenJev-Vision) · [数据集](https://huggingface.co/datasets/IamBusy/OpenJev-Vision-Research-v0.1) · [视觉实验结果](reports/vision-v01/RESULTS.md) · [English](README.md)
+
+![多个视觉判断共享同一个概率分布](reports/vision-v01/demo.png)
+
+## 快速体验视觉模型
+
+当前版本包含 8,192 张原创合成图像、2,960 张 Oxford-IIIT Pet 照片子集和
+1,680 张 CLEVR-4 图像。合成场景使用小型 CNN 和额外提供的先验；公开图像实验
+使用冻结的 DINOv2 特征和训练后的预测头。两类实验各有固定的事件与类别范围，
+查询使用声明好的事件语义和有限英语模板，尚不支持任意图片与自由问答。
+
+```bash
+git clone https://github.com/IamBusy/OpenJev-Vision.git
+cd OpenJev-Vision
+uv sync --frozen --extra vision --extra dev
+uv run --no-sync openjev-vision download
+uv run --no-sync openjev-vision predict \
+  --checkpoint artifacts/openjev-vision-v0.1/synthetic-joint \
+  --image examples/vision/scene-0.png \
+  --prior examples/vision/scene-0-prior.json \
+  --questions examples/vision/questions.json
+```
+
+三组训练种子的结果、独立校准和失败案例均已公开：整体后验预测在新依赖结构上
+退步；在 CLEVR-4 未见组合上，独立属性基线优于本次整体类别头和低秩交互头。
+公开照片推理与完整复现见[视觉项目说明](docs/VISION.zh-CN.md)。
+
+## 文本概率决策实验
 
 [Hugging Face 模型](https://huggingface.co/IamBusy/OpenJev-0.6B) · [English](README.md) · [实验结果](reports/v03/RESULTS.md) · [复现说明](docs/REPRODUCING.md)
 
-项目名称为 **OpenJev**，公开模型名称为 **OpenJev-0.6B**。训练版本和软件版本
+仓库名称为 **OpenJev-Vision**，公开文本模型名称为 **OpenJev-0.6B**。训练版本和软件版本
 单独管理，详见[命名与版本规则](docs/NAMING.md)。
 
 OpenJev 是一个研究型开源项目：输入状态、问题和候选描述，直接得到结构化概率，
@@ -23,8 +53,8 @@ OpenJev 是一个研究型开源项目：输入状态、问题和候选描述，
 基础模型约 1.2 GB，安装和运行需预留数 GB 磁盘及内存空间。
 
 ```bash
-git clone https://github.com/IamBusy/OpenJev.git
-cd OpenJev
+git clone https://github.com/IamBusy/OpenJev-Vision.git
+cd OpenJev-Vision
 uv sync --frozen --extra qwen --extra dev
 uv run --no-sync openjev-model download
 uv run --no-sync openjev-model predict --input examples/refund.json

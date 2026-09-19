@@ -3,14 +3,19 @@
 Keep the project, model, software version and training revision distinct.
 
 The multimodal research bundle uses the stable name **OpenJev-Vision**
-and repository **IamBusy/OpenJev-Vision**. It contains several small experimental
+and Hugging Face repository **IamBusy/OpenJev-Vision**. It contains several small experimental
 readouts, not one fixed-size foundation model. Its initial trained revision is
 0.1.0; the download pins the exact Hub commit and verifies component hashes.
-The original version-suffixed repository redirects to this canonical name.
+The original version-suffixed Hugging Face repository redirects to this canonical name.
+
+The GitHub source repository is also named **IamBusy/OpenJev-Vision** (formerly
+**IamBusy/OpenJev**). It includes both visual research and the original OpenJev
+text-decision experiments. The Python package and text-model identifiers are
+unchanged; adding Vision to the source repository name does not retrain models.
 
 | Item | Public name / example | Meaning |
 | --- | --- | --- |
-| Project and GitHub repository | OpenJev | Research toolkit and source code |
+| Project and GitHub repository | OpenJev-Vision | Visual research toolkit and original text-decision experiments |
 | Model | OpenJev-0.6B | Model family and nominal backbone parameter size |
 | Hugging Face repository | IamBusy/OpenJev-0.6B | Stable model download address |
 | Python package | openjev | Installable software |

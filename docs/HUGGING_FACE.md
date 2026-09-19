@@ -8,7 +8,7 @@ GitHub v0.3.0 release. OpenJev package v0.3.2 provides the stable public name an
 ## Load the trained decision model
 
 ```bash
-pip install 'openjev[qwen] @ git+https://github.com/IamBusy/OpenJev.git@v0.3.2'
+pip install 'openjev[qwen] @ git+https://github.com/IamBusy/OpenJev-Vision.git@v0.3.2'
 ```
 
 ```python

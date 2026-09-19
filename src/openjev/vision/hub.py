@@ -86,7 +86,7 @@ datasets:
 ---
 # OpenJev Vision v0.1 — experimental research weights
 
-Small trained readouts for [OpenJev's visual research track](https://github.com/IamBusy/OpenJev).
+Small trained readouts for [OpenJev's visual research track](https://github.com/IamBusy/OpenJev-Vision).
 The [dataset](https://huggingface.co/datasets/IamBusy/OpenJev-Vision-Research-v0.1)
 contains original synthetic scenes and attributed public-image subsets.
 

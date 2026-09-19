@@ -1,4 +1,4 @@
-# OpenJev visual posterior research
+# OpenJev-Vision: visual posterior research
 
 [中文](VISION.zh-CN.md) ·
 [Data](https://huggingface.co/datasets/IamBusy/OpenJev-Vision-Research-v0.1) ·
@@ -27,11 +27,11 @@ documented convenience parser, not learned general language understanding.
 
 ## Quick start
 
-Use a fresh checkout of the visual research branch until it is merged:
+The visual research track is included in the default branch:
 
 ~~~bash
-git clone --branch research/vision-posterior https://github.com/IamBusy/OpenJev.git
-cd OpenJev
+git clone https://github.com/IamBusy/OpenJev-Vision.git
+cd OpenJev-Vision
 uv sync --frozen --extra vision --extra dev
 uv run --no-sync openjev-vision download
 uv run --no-sync openjev-vision predict \

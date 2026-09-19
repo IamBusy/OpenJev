@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Rename the GitHub source repository to `OpenJev-Vision`, matching the visual
+  model bundle name. Update repository links and both README entry points.
+- Document the vision quick start on the default branch and add a Chinese
+  launch-post draft. Python package and trained model identifiers are unchanged.
+
 ## 0.3.2 — 2026-09-19
 
 - Standardize the public model name as `OpenJev-0.6B`; track training and software

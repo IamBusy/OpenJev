@@ -1,8 +1,8 @@
 # OpenJev-0.6B model card
 
 **Status:** experimental research checkpoint, released 2026-09-19.
-[Code](https://github.com/IamBusy/OpenJev) ·
-[Release](https://github.com/IamBusy/OpenJev/releases/tag/v0.3.0)
+[Code](https://github.com/IamBusy/OpenJev-Vision) ·
+[Release](https://github.com/IamBusy/OpenJev-Vision/releases/tag/v0.3.0)
 
 ## Model and use
 

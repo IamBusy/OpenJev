@@ -5,11 +5,11 @@ build-backend = "hatchling.build"
 [project]
 name = "openjev"
 version = "0.3.2"
-description = "An independent, reproducible experiment in typed probabilistic decisions"
+description = "Reproducible visual and typed probabilistic decision experiments"
 readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE", "THIRD_PARTY.md"]
-keywords = ["machine-learning", "probabilistic-decisions", "qwen", "classification"]
+keywords = ["machine-learning", "computer-vision", "probabilistic-decisions", "qwen", "classification"]
 requires-python = ">=3.11,<3.14"
 dependencies = [
   "torch>=2.6,<3",
@@ -32,9 +32,9 @@ qwen = ["peft>=0.17,<0.19", "accelerate>=1.5,<2"]
 vision = ["Pillow>=10,<13", "scipy>=1.15,<2"]
 
 [project.urls]
-Homepage = "https://github.com/IamBusy/OpenJev"
-Repository = "https://github.com/IamBusy/OpenJev"
-Issues = "https://github.com/IamBusy/OpenJev/issues"
+Homepage = "https://github.com/IamBusy/OpenJev-Vision"
+Repository = "https://github.com/IamBusy/OpenJev-Vision"
+Issues = "https://github.com/IamBusy/OpenJev-Vision/issues"
 
 [project.scripts]
 openjev = "openjev.cli:main"
