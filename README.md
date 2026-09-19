@@ -1,5 +1,7 @@
 # OpenJev
 
+[![Checks](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml/badge.svg)](https://github.com/IamBusy/OpenJev/actions/workflows/ci.yml)
+
 [中文](README.zh-CN.md) · [Results](reports/v03/RESULTS.md) · [Reproduce](docs/REPRODUCING.md) · [Model card](docs/MODEL_CARD.md)
 
 **Small, local models for typed probabilistic decisions.** Give OpenJev a state,

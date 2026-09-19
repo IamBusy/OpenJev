@@ -20,4 +20,6 @@ packaging and documentation changes do not change the trained weights.
   inventories exclude credentials, caches and training runs.
 - Lint, formatting, local documentation links and package builds passed.
 
-Public CI and release download checks are recorded with the release on GitHub.
+Public Linux CPU CI passed on the initial source commit:
+[Checks run 35434980378](https://github.com/IamBusy/OpenJev/actions/runs/35434980378).
+Release download checks are recorded with the release on GitHub.
