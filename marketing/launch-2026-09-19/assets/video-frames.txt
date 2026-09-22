@@ -1,0 +1,13 @@
+file 'cover-en.png'
+duration 7
+file 'how-it-works.png'
+duration 7
+file 'evidence-0-en.png'
+duration 7
+file 'evidence-1-en.png'
+duration 7
+file 'research-result.png'
+duration 7
+file 'try-it.png'
+duration 7
+file 'try-it.png'

@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "view": "Occluded view",
+      "max_difference_from_published": 6.849636370251377e-09,
+      "posterior_sum": 1.000000126782652,
+      "query_reuses_distribution": true
+    },
+    {
+      "view": "More evidence",
+      "max_difference_from_published": 2.166053952173952e-08,
+      "posterior_sum": 1.0000000326717498,
+      "query_reuses_distribution": true
+    }
+  ],
+  "torch": "2.8.0",
+  "gradio": "5.49.1"
+}

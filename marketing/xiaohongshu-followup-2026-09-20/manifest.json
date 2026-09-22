@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-20",
+  "title": "Jev热潮下，我为什么做视觉版",
+  "body_characters": 885,
+  "images": [
+    {
+      "name": "01-cover.png",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "sha256": "18d8afb96accb26299e99ed767a2a54130b87cb575fbde87afa432dac8e4e691"
+    },
+    {
+      "name": "02-three-projects.png",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "sha256": "e761723dcaeeab87737780821bc1b2271cc60598198f1be79114694f1fc60ea7"
+    },
+    {
+      "name": "03-one-image-many-questions.png",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "sha256": "a7b1aa4a96801e360b347ebfb8366aeaf12125d2484611f9b580723259b1040c"
+    },
+    {
+      "name": "04-more-visual-evidence.png",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "sha256": "7a0aa90c34ce3415f2f9091fe54f2902a8764bc896f730cafbc1e5aab7b92846"
+    },
+    {
+      "name": "05-what-is-actually-built.png",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "sha256": "e962b39e24b9e153a5eeebfa191f70e2bc72e7558502bc8fc1490d50049a54d6"
+    },
+    {
+      "name": "06-publish-the-failures.png",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "sha256": "e444a979bcdc4ce338deb103756ee95ad153422add4f3439e49316970b0b2340"
+    },
+    {
+      "name": "07-the-open-materials.png",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "sha256": "ace4035529cb6bb9d955c434cff46445485cff65a131b3bdc9665e4488358cbd"
+    },
+    {
+      "name": "08-join-the-experiment.png",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "sha256": "62ab972fa999313992b3c148313105a0842fe3e801f167f14270603786d35545"
+    }
+  ],
+  "published": false
+}

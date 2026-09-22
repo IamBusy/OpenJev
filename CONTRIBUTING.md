@@ -8,8 +8,8 @@ Do not include API keys, private data or full model-service traces.
 Install with `uv sync --frozen --extra dev --extra qwen`. Before a pull request:
 
 ```bash
-uv run --no-sync ruff check src tests scripts
-uv run --no-sync ruff format --check src tests scripts
+uv run --no-sync ruff check src tests scripts marketing
+uv run --no-sync ruff format --check src tests scripts marketing
 uv run --no-sync pytest -q
 uv run --no-sync python scripts/check_repository.py
 uv build

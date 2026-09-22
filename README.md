@@ -184,8 +184,8 @@ not a drop-in replacement for TypeSafe's API.
 
 ```bash
 uv run --no-sync pytest -q
-uv run --no-sync ruff check src tests scripts
-uv run --no-sync ruff format --check src tests scripts
+uv run --no-sync ruff check src tests scripts marketing
+uv run --no-sync ruff format --check src tests scripts marketing
 uv build
 ```
 
@@ -204,3 +204,5 @@ retain their source-specific licenses. Full corpora are fetched from pinned upst
 sources; the repository includes a few attributed schema examples. Model weights and research limitations are
 documented in the [model card](docs/MODEL_CARD.md). Credentials, raw provider
 traces, model caches and training runs are excluded from the source distribution.
+
+[Demos and publication source](marketing/README.md) · [Local storage and recovery](docs/LOCAL_STORAGE.md)

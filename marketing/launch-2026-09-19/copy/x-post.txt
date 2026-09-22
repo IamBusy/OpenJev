@@ -1,0 +1,5 @@
+OpenJev-Vision: encode an image once, query a shared probability distribution.
+
+Live browser demo, open weights/data, and published failure cases. Fixed scene vocabulary; experimental research.
+
+https://huggingface.co/spaces/IamBusy/OpenJev-Vision-Demo

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="777.6pt" height="1036.8pt" viewBox="0 0 777.6 1036.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-20T18:01:26.365780</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1036.8 
+L 777.6 1036.8 
+L 777.6 0 
+L 0 0 
+z
+" style="fill: #f4f2eb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 67.68 322.56 
+L 360.72 322.56 
+Q 379.44 322.56 379.44 341.28 
+L 379.44 502.56 
+Q 379.44 521.28 360.72 521.28 
+L 67.68 521.28 
+Q 48.96 521.28 48.96 502.56 
+L 48.96 341.28 
+Q 48.96 322.56 67.68 322.56 
+z
+" clip-path="url(#p5dbf1e0a2c)" style="fill: #ffffff; stroke: #d7dbd6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 416.88 322.56 
+L 709.92 322.56 
+Q 728.64 322.56 728.64 341.28 
+L 728.64 502.56 
+Q 728.64 521.28 709.92 521.28 
+L 416.88 521.28 
+Q 398.16 521.28 398.16 502.56 
+L 398.16 341.28 
+Q 398.16 322.56 416.88 322.56 
+z
+" clip-path="url(#p5dbf1e0a2c)" style="fill: #ffffff; stroke: #d7dbd6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 67.68 544.32 
+L 360.72 544.32 
+Q 379.44 544.32 379.44 563.04 
+L 379.44 724.32 
+Q 379.44 743.04 360.72 743.04 
+L 67.68 743.04 
+Q 48.96 743.04 48.96 724.32 
+L 48.96 563.04 
+Q 48.96 544.32 67.68 544.32 
+z
+" clip-path="url(#p5dbf1e0a2c)" style="fill: #ffffff; stroke: #d7dbd6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 416.88 544.32 
+L 709.92 544.32 
+Q 728.64 544.32 728.64 563.04 
+L 728.64 724.32 
+Q 728.64 743.04 709.92 743.04 
+L 416.88 743.04 
+Q 398.16 743.04 398.16 724.32 
+L 398.16 563.04 
+Q 398.16 544.32 416.88 544.32 
+z
+" clip-path="url(#p5dbf1e0a2c)" style="fill: #ffffff; stroke: #d7dbd6; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 48.96 81.36 
+L 728.64 81.36 
+" clip-path="url(#p5dbf1e0a2c)" style="fill: none; stroke: #d7dbd6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 48.96 963.36 
+L 728.64 963.36 
+" clip-path="url(#p5dbf1e0a2c)" style="fill: none; stroke: #d7dbd6; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 18px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192d38" x="48.96" y="59.823281" transform="rotate(-0 48.96 59.823281)">Mr.Ming AI / 实验笔记</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 16.56px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #596973" x="728.64" y="59.7762" transform="rotate(-0 728.64 59.7762)">开源 / 可以直接动手</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 15.84px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #596973" x="48.96" y="997.839337" transform="rotate(-0 48.96 997.839337)">OpenJev-Vision · 独立开源研究</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 16.56px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end; fill: #192d38" x="728.64" y="996.607491" transform="rotate(-0 728.64 996.607491)">07 / 08</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 56.88px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192d38" transform="translate(48.96 175.253738)">代码之外，</text>
+    <text style="font-size: 56.88px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192d38" transform="translate(48.96 243.3942)">把实验也交出来。</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 44.64px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #244ce7" x="69.84" y="382.494431" transform="rotate(-0 69.84 382.494431)">8,192</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 25.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192d38" x="69.84" y="442.159594" transform="rotate(-0 69.84 442.159594)">原创合成图像</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 17.28px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #596973" x="69.84" y="488.30085" transform="rotate(-0 69.84 488.30085)">含训练与各评测划分</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 44.64px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #077f74" x="419.04" y="388.247062" transform="rotate(-0 419.04 388.247062)">3 组</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 25.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192d38" x="419.04" y="442.134" transform="rotate(-0 419.04 442.134)">随机种子评测</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 17.28px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #596973" x="419.04" y="488.232" transform="rotate(-0 419.04 488.232)">成功与失败一起报告</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 44.64px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #077f74" x="69.84" y="609.027075" transform="rotate(-0 69.84 609.027075)">可下载</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 25.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192d38" x="69.84" y="663.994406" transform="rotate(-0 69.84 663.994406)">训练权重</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 17.28px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #596973" x="69.84" y="709.96635" transform="rotate(-0 69.84 709.96635)">先跑示例，再动手训练</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 44.64px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #244ce7" x="419.04" y="608.849213" transform="rotate(-0 419.04 608.849213)">可复现</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 25.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192d38" x="419.04" y="663.931406" transform="rotate(-0 419.04 663.931406)">基线与代码</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 17.28px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #596973" x="419.04" y="709.8786" transform="rotate(-0 419.04 709.8786)">公开数据、配置与教程</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 22.32px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192d38" x="51.84" y="811.830262" transform="rotate(-0 51.84 811.830262)">准备数据 → 训练 → 校准 → 评测 → 推理</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 18.72px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #596973" x="51.84" y="862.578" transform="rotate(-0 51.84 862.578)">当前范围：预定义类别和事件；合成场景需先验。</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 19.44px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #596973" x="51.84" y="901.508456" transform="rotate(-0 51.84 901.508456)">还没有与 Qwen-VL 的同条件对比。</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 17.28px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #596973" x="51.84" y="938.2401" transform="rotate(-0 51.84 938.2401)">研究原型；尚不支持任意图片自由问答。</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5dbf1e0a2c">
+   <rect x="0" y="0" width="777.6" height="1036.8"/>
+  </clipPath>
+ </defs>
+</svg>

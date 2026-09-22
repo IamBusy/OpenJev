@@ -1,0 +1,18 @@
+{
+  "source_commit": "4fa973e5212881d704def6818b0def190b094f12",
+  "model_repository": "IamBusy/OpenJev-Vision",
+  "model_revision": "8cf6cbd39a7dc72840c9b52810a3f672786566b0",
+  "checkpoint": "synthetic-joint seed17, published calibration included",
+  "format": "ONNX opset17, float32, no quantization",
+  "onnx_sha256": "c5f005e9914c4d957cd347fd655fc9b5e682281553ca92b56ca1160d8b4adcc2",
+  "equivalence_checks": [
+    {
+      "view": 0,
+      "max_posterior_difference": 2.8312206268310547e-07
+    },
+    {
+      "view": 1,
+      "max_posterior_difference": 1.1920928955078125e-07
+    }
+  ]
+}

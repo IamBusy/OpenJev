@@ -1,0 +1,66 @@
+[
+  {
+    "file": "01-cover.png",
+    "canvas": [
+      1080,
+      1440
+    ],
+    "text_overflow": []
+  },
+  {
+    "file": "02-three-projects.png",
+    "canvas": [
+      1080,
+      1440
+    ],
+    "text_overflow": []
+  },
+  {
+    "file": "03-one-image-many-questions.png",
+    "canvas": [
+      1080,
+      1440
+    ],
+    "text_overflow": []
+  },
+  {
+    "file": "04-more-visual-evidence.png",
+    "canvas": [
+      1080,
+      1440
+    ],
+    "text_overflow": []
+  },
+  {
+    "file": "05-what-is-actually-built.png",
+    "canvas": [
+      1080,
+      1440
+    ],
+    "text_overflow": []
+  },
+  {
+    "file": "06-publish-the-failures.png",
+    "canvas": [
+      1080,
+      1440
+    ],
+    "text_overflow": []
+  },
+  {
+    "file": "07-the-open-materials.png",
+    "canvas": [
+      1080,
+      1440
+    ],
+    "text_overflow": []
+  },
+  {
+    "file": "08-join-the-experiment.png",
+    "canvas": [
+      1080,
+      1440
+    ],
+    "text_overflow": []
+  }
+]

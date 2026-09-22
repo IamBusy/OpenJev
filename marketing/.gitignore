@@ -1,0 +1,6 @@
+# Keep distributable source and media; exclude local operations and archives.
+*.zip
+*.local.md
+*.local.json
+launch-2026-09-19/publication-status.json
+launch-2026-09-19/v2ex-invite-findings.md

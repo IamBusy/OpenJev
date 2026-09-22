@@ -1,0 +1,9 @@
+{
+  "source_commit": "4fa973e5212881d704def6818b0def190b094f12",
+  "example": "Fixed development episode 0, views 0 and 1",
+  "model": "synthetic-joint seed 17, calibrated",
+  "probabilities_source": "examples/vision/demo-output.json",
+  "benchmark_source": "reports/vision-v01/RESULTS.md",
+  "video": "Graphic explainer with recorded model outputs, not a screen recording",
+  "original_synthetic_images_license": "Apache-2.0"
+}

@@ -104,3 +104,5 @@ model = OpenJevModel.from_pretrained("IamBusy/OpenJev-0.6B")
 会自动下载训练后的 LoRA、独立评分头、校准参数和固定版本基模，无需手动安排
 文件目录。模型参数与原 v0.3 实验一致；当前公开入口由代码版本 v0.3.2 提供，旧接口继续兼容。
 详见[发布形式与加载说明](docs/HUGGING_FACE.md)。
+
+[演示与图文素材源码](marketing/README.md) · [本地清理与环境恢复](docs/LOCAL_STORAGE.md)

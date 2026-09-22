@@ -1,0 +1,5 @@
+.venv/
+space/.model/
+space/__pycache__/
+tools/__pycache__/
+assets/frames/
